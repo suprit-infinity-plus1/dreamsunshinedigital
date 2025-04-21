@@ -989,6 +989,7 @@
                                             <h5 class="pop-up-category-name">anaya dairy product</h5>
                                             <p class="pop-up-category-description mb-0">Lorem ipsum dolor sit amet,
                                                 consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                                            {{-- <a href="#" class="btn btn-outline-primary text-decoration-none px-3 py-1">View Product</a> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -1002,6 +1003,7 @@
                                             <h5 class="pop-up-category-name">anaya rice</h5>
                                             <p class="pop-up-category-description mb-0">Lorem ipsum dolor sit amet,
                                                 consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                                            {{-- <a href="#" class="btn btn-outline-primary text-decoration-none px-3 py-1">View Product</a> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -1015,6 +1017,7 @@
                                             <h5 class="pop-up-category-name">dream sun shine developers</h5>
                                             <p class="pop-up-category-description mb-0">Lorem ipsum dolor sit amet,
                                                 consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                                                {{-- <a href="#" class="btn btn-outline-primary text-decoration-none px-3 py-1">View Product</a> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -1028,6 +1031,7 @@
                                             <h5 class="pop-up-category-name">dream transport</h5>
                                             <p class="pop-up-category-description mb-0">Lorem ipsum dolor sit amet,
                                                 consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                                                {{-- <a href="#" class="btn btn-outline-primary text-decoration-none px-3 py-1">View Product</a> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -1041,6 +1045,7 @@
                                             <h5 class="pop-up-category-name">iram dates</h5>
                                             <p class="pop-up-category-description mb-0">Lorem ipsum dolor sit amet,
                                                 consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                                                {{-- <a href="#" class="btn btn-outline-primary text-decoration-none px-3 py-1">View Product</a> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -1054,6 +1059,7 @@
                                             <h5 class="pop-up-category-name">pure and hygienic suger</h5>
                                             <p class="pop-up-category-description mb-0">Lorem ipsum dolor sit amet,
                                                 consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                                                {{-- <a href="#" class="btn btn-outline-primary text-decoration-none px-3 py-1">View Product</a> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -1067,6 +1073,7 @@
                                             <h5 class="pop-up-category-name">pure cooking oil</h5>
                                             <p class="pop-up-category-description mb-0">Lorem ipsum dolor sit amet,
                                                 consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                                                {{-- <a href="#" class="btn btn-outline-primary text-decoration-none px-3 py-1">View Product</a> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -1080,6 +1087,7 @@
                                             <h5 class="pop-up-category-name">real eggs</h5>
                                             <p class="pop-up-category-description mb-0">Lorem ipsum dolor sit amet,
                                                 consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                                                {{-- <a href="#" class="btn btn-outline-primary text-decoration-none px-3 py-1">View Product</a> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -1093,6 +1101,7 @@
                                             <h5 class="pop-up-category-name">real-oxy</h5>
                                             <p class="pop-up-category-description mb-0">Lorem ipsum dolor sit amet,
                                                 consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                                                {{-- <a href="#" class="btn btn-outline-primary text-decoration-none px-3 py-1">View Product</a> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -1106,6 +1115,7 @@
                                             <h5 class="pop-up-category-name">zhakaas jeera masala</h5>
                                             <p class="pop-up-category-description mb-0">Lorem ipsum dolor sit amet,
                                                 consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                                                {{-- <a href="#" class="btn btn-outline-primary text-decoration-none px-3 py-1">View Product</a> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -1172,7 +1182,7 @@
                         This commitment has helped us build a solid name in the industry. Dreamsunshine Digital stands for consistency, trust, and a no-compromise approach to quality—because delivering the best is what we do best.
                     </p>
 
-                    <ul class="hero_section_counter d-flex align-items-start justify-content-between flex-wrap gap-3 list-unstyled">
+                    {{-- <ul class="hero_section_counter d-flex align-items-start justify-content-between flex-wrap gap-3 list-unstyled">
                       <li class="d-flex flex-column align-items-center text-center gap-3 list-unstyled">
                         <i class="fa-solid fa-trophy fa-3x text-primary"></i>
                         <div class="counter_item">
@@ -1180,7 +1190,6 @@
                             <span class="odometer" data-count="7">7</span>
                             <span>+</span>
                           </div>
-                          {{-- <hr> --}}
                           <p class="counter_description mb-0">
                             The years of our experience
                           </p>
@@ -1193,7 +1202,6 @@
                             <span class="odometer" data-count="20">20</span>
                             <span>+</span>
                           </div>
-                          {{-- <hr> --}}
                           <p class="counter_description mb-0">
                             Number of Products
                           </p>
@@ -1206,14 +1214,15 @@
                             <span class="odometer" data-count="100">100</span>
                             <span>%</span>
                           </div>
-                          {{-- <hr> --}}
                           <p class="counter_description mb-0">
-                            Client satisfaction
+                            Client
+                            <br>
+                            satisfaction
                           </p>
                         </div>
                       </li>
-                    </ul>
-                    <ul class="btns_group gap-3 mb-3 d-flex">
+                    </ul> --}}
+                    <ul class="btns_group gap-3 m-0 mb-3 d-flex">
                         <li>
                             <a class="btn btn-primary rounded-1" href="contact.html">
                                 <span class="btn_text" data-text="Get A Consultation">
@@ -1246,6 +1255,97 @@
           <!-- ==================================================
            About Us Section - End
           ================================================== -->
+
+                  <!-- ==================================================
+         CATEGORIES Section - Start
+        ================================================== -->
+        <section class="categories_section section_space_lg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="section_heading">
+                            <h2 class="section_heading_text">Categories</h2>
+                            <p class="section_heading_description mb-0">
+                                Explore our range of bulk essentials — dairy, rice, sugar, oil, and more. Perfect for businesses, retailers, and food services looking for quality and value.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="owl-carousel owl-theme" id="categoriesSectionCarousel">
+                            <div class="categories_item m-2">
+                                <div class="border rounded-2">
+                                    <div>
+                                        <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+                                    </div>
+                                    <div class="categories_content py-2 px-3">
+                                        <div class="d-flex justify-content-between align-items-center overflow-hidden">
+                                            <div class="categories_details">
+                                                <div>
+                                                    <a href="#" class="fs-6 fw-bolder">Food & Grocery</a>
+                                                </div>
+                                                <span class="mb-0">8 products</span>
+                                            </div>
+                                            <div class="categories_btn_container ">
+                                                <div class="categories_btn rounded-1">
+                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="categories_item m-2">
+                                <div class="border rounded-2">
+                                    <div>
+                                        <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+                                    </div>
+                                    <div class="categories_content py-2 px-3">
+                                        <div class="d-flex justify-content-between align-items-center overflow-hidden">
+                                            <div class="categories_details">
+                                                <div>
+                                                    <a href="#" class="fs-6 fw-bolder">Dairy & Eggs</a>
+                                                </div>
+                                                <span class="mb-0">10 products</span>
+                                            </div>
+                                            <div class="categories_btn_container ">
+                                                <div class="categories_btn rounded-1">
+                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="categories_item m-2">
+                                <div class="border rounded-2">
+                                    <div>
+                                        <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+                                    </div>
+                                    <div class="categories_content py-2 px-3">
+                                        <div class="d-flex justify-content-between align-items-center overflow-hidden">
+                                            <div class="categories_details">
+                                                <div>
+                                                    <a href="#" class="fs-6 fw-bolder">Beverages</a>
+                                                </div>
+                                                <span class="mb-0">12 products</span>
+                                            </div>
+                                            <div class="categories_btn_container">
+                                                <div class="categories_btn rounded-1">
+                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ==================================================
+         CATEGORIES Section - End
+        ================================================== -->
 
           <section class="dram-section">
             <div class="container position-relative overflow-hidden">
@@ -1581,6 +1681,51 @@
         <!-- ==================================================
         Testimonial Section - End
         ================================================== -->
+        <!-- ==================================================
+        Achievements Section - Start
+        ================================================== -->
+        <section class="achievements_section section_space_lg">
+            <div class="section_heading text-center position-relative">
+                <h2 class="section_heading_text text-white z-2">Our Achievements</h2>
+                <p class="section_heading_description mb-0 text-white z-2">
+                    Trusted by businesses for excellence in bulk product distribution and service.
+                </p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 d-flex mb-4">
+                        <div class="achievements_item flex-fill d-flex flex-column align-items-center justify-content-center bg-white p-3 rounded-2">
+                            <div class="stat-icon mb-3">
+                                <i class="fas fa-shipping-fast fa-3x text-primary"></i>
+                            </div>
+                            <h3 class="achievements_number fw-bolder">50+</h3>
+                            <p class="stat-label mb-0 fw-semibold">Product Supply</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 d-flex mb-4">
+                        <div class="achievements_item flex-fill d-flex flex-column align-items-center justify-content-center bg-white p-3 rounded-2">
+                            <div class="stat-icon mb-3">
+                                <i class="fas fa-trophy fa-3x text-warning"></i>
+                            </div>
+                            <h3 class="achievements_number fw-bolder">7+</h3>
+                            <p class="stat-label mb-0 fw-semibold">Years of Expertise</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col d-flex mb-4">
+                        <div class="achievements_item flex-fill d-flex flex-column align-items-center justify-content-center bg-white p-3 rounded-2">
+                            <div class="stat-icon mb-3">
+                                <i class="fas fa-globe fa-3x text-success"></i>
+                            </div>
+                            <h3 class="achievements_number fw-bolder">11250+</h3>
+                            <p class="stat-label mb-0 fw-semibold">Happy Customers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ==================================================
+        Achievements Section - End
+        ================================================== -->
 
           <!-- ==================================================
             FAQ Section - Start
@@ -1700,64 +1845,87 @@
                     Explore smart sourcing, product comparisons, and everything wholesale buyers need to know.
                 </p>
               </div>
-              <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4">
-                  <div class="blog_item">
-                    <a href="#">
-                        <img src="{{ asset('assets/images/about/dairy-product-1.png') }}" alt="blog image">
-                      <div class="blog_item_content">
-                        <h3 class="blog_item_title">Why Buying Dairy Products in Bulk Is a Smart Business Move </h3>
-                        <p class="blog_item_description">Whether you run a bakery, a restaurant, or a grocery store, buying dairy products in bulk can help you save money and keep operations smooth. But how do you ensure quality while maximizing savings?</p>
-                        <a class="btn btn-primary rounded-1" href="contact.html">
-                            <span class="btn_text" data-text="Get A Consultation">
-                                Read More
-                            </span>
-                            <span class="btn_icon">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </span>
-                        </a>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                  <div class="blog_item">
-                    <a href="#">
-                      <img src="{{ asset('assets/images/meta/blog_image_2.png') }}" alt="">
-                      <div class="blog_item_content">
-                        <h3 class="blog_item_title">The Ultimate Guide to Buying Rice in Bulk for Your Business</h3>
-                        <p class="blog_item_description">Rice is a staple in many kitchens — from restaurants to food delivery services. But purchasing rice in bulk isn't just about quantity; it's about choosing the right type, supplier, and packaging to fit your needs.</p>
-                        <a class="btn btn-primary rounded-1" href="contact.html">
-                            <span class="btn_text" data-text="Get A Consultation">
-                                Read More
-                            </span>
-                            <span class="btn_icon">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </span>
-                        </a>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="blog_item">
-                      <a href="#">
-                        <img src="{{ asset('assets/images/meta/blog_image_3.png') }}" alt="">
-                        <div class="blog_item_content">
-                          <h3 class="blog_item_title">Bulk Products Every Food Business Should Always Keep in Stock</h3>
-                          <p class="blog_item_description">Running a food-based business? These five essential items — from cooking oils to sugar — are must-haves for your pantry. Here's why buying them in bulk is the best decision for long-term savings and efficiency.</p>
-                          <a class="btn btn-primary rounded-1" href="contact.html">
-                            <span class="btn_text" data-text="Get A Consultation">
-                                Read More
-                            </span>
-                            <span class="btn_icon">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </span>
-                        </a>
+              <div class="owl-carousel owl-theme" id="blogSectionCarousel">
+                  <div class="blog_item m-2">
+                      <div class="blog_item_img_container">
+                          <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
                         </div>
-                      </a>
-                    </div>
-                </div>
+                        <div class="blog_item_content">
+                            <a href="#">
+                                <h3 class="blog_item_title text-black">Why Buying Dairy Products in Bulk Is a Smart Business Move </h3>
+                            </a>
+                            <p class="blog_item_description text-secondary">Whether you run a bakery, a restaurant, or a grocery store, buying dairy products in bulk can help you save money and keep operations smooth. But how do you ensure quality while maximizing savings?</p>
+                            <hr class="mt-3 mb-4 border border-black border-top-0">
+                            <a class="btn btn-outline-primary text-decoration-none px-3 py-1" href="#">
+                                <span class="btn_text" data-text="Get A Consultation">
+                                    Read More
+                                </span>
+                                <span class="btn_icon">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </span>
+                            </a>
+                      </div>
+                  </div>
+                  <div class="blog_item m-2">
+                      <div class="blog_item_img_container">
+                          <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+                        </div>
+                        <div class="blog_item_content">
+                            <a href="#">
+                                <h3 class="blog_item_title text-black">The Ultimate Guide to Buying Rice in Bulk for Your Business</h3>
+                            </a>
+                            <p class="blog_item_description text-secondary">Rice is a staple in many kitchens — from restaurants to food delivery services. But purchasing rice in bulk isn't just about quantity; it's about choosing the right type, supplier, and packaging to fit your needs.</p>
+                            <hr class="mt-3 mb-4 border border-black border-top-0">
+                            <a class="btn btn-outline-primary text-decoration-none px-3 py-1" href="#">
+                                <span class="btn_text" data-text="Get A Consultation">
+                                    Read More
+                                </span>
+                                <span class="btn_icon">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </span>
+                            </a>
+                      </div>
+                  </div>
+                  <div class="blog_item m-2">
+                      <div class="blog_item_img_container">
+                          <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+                      </div>
+                      <div class="blog_item_content">
+                          <a href="#">
+                              <h3 class="blog_item_title text-black">Bulk Products Every Food Business Should Always Keep in Stock</h3>
+                          </a>
+                          <p class="blog_item_description text-secondary">Running a food-based business? These five essential items — from cooking oils to sugar — are must-haves for your pantry. Here's why buying them in bulk is the best decision for long-term savings and efficiency.</p>
+                          <hr class="mt-3 mb-4 border border-black border-top-0">
+                          <a class="btn btn-outline-primary text-decoration-none px-3 py-1" href="#">
+                              <span class="btn_text" data-text="Get A Consultation">
+                                  Read More
+                              </span>
+                              <span class="btn_icon">
+                                  <i class="fa-solid fa-arrow-right"></i>
+                              </span>
+                          </a>
+                      </div>
+                  </div>
+                  <div class="blog_item m-2">
+                      <div class="blog_item_img_container">
+                          <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+                      </div>
+                      <div class="blog_item_content">
+                          <a href="#">
+                              <h3 class="blog_item_title text-black">Bulk Products Every Food Business Should Always Keep in Stock</h3>
+                          </a>
+                          <p class="blog_item_description text-secondary">Running a food-based business? These five essential items — from cooking oils to sugar — are must-haves for your pantry. Here's why buying them in bulk is the best decision for long-term savings and efficiency.</p>
+                          <hr class="mt-3 mb-4 border border-black border-top-0">
+                          <a class="btn btn-outline-primary text-decoration-none px-3 py-1" href="#">
+                              <span class="btn_text" data-text="Get A Consultation">
+                                  Read More
+                              </span>
+                              <span class="btn_icon">
+                                  <i class="fa-solid fa-arrow-right"></i>
+                              </span>
+                          </a>
+                      </div>
+                  </div>
               </div>
             </div>
         </section>
@@ -2001,7 +2169,7 @@ $(document).ready(function(){
         loop:true,
         margin:10,
         nav:true,
-        autoplay:true,
+        autoplay:false,
         dots:true,
         // animateOut: 'fadeOutRight',
         animateOut: 'fadeOut',
@@ -2033,6 +2201,57 @@ $(document).ready(function(){
             },
             992: {
                 items: 4,
+            },
+        }
+    });
+    $("#blogSectionCarousel").owlCarousel({
+        items: 3,
+        loop: true,
+        // margin: 10,
+        nav: true,
+        autoplay:true,
+        // dots: true,
+        smartSpeed: 600,
+        navText: [
+            '<i class="fas fa-chevron-left"></i>',
+            '<i class="fas fa-chevron-right"></i>',
+        ],
+        responsive: {
+            0: {
+                items: 1,
+            },
+            768: {
+                items: 2,
+            },
+            992: {
+                items: 3,
+            },
+        }
+    });
+    $("#categoriesSectionCarousel").owlCarousel({
+        items: 3,
+        loop: true,
+        // margin: 10,
+        nav: true,
+        autoplay:false,
+        dots: true,
+        smartSpeed: 600,
+        navText: [
+            '<i class="fas fa-chevron-left"></i>',
+            '<i class="fas fa-chevron-right"></i>',
+        ],
+        responsive: {
+            0: {
+                items: 1,
+            },
+            475: {
+                items: 2,
+            },
+            768: {
+                items: 2,
+            },
+            992: {
+                items: 3,
             },
         }
     });
