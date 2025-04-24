@@ -1,0 +1,9 @@
+.quantitybtn-1 {
+    border-color: #d5dae0 !important;
+    color: #d5dae0 !important;
+}
+
+.quantitybtn-1:hover {
+    color: #619cdf !important;    
+    border-color: #619cdf !important;
+}

@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/product.css') }}">
     {{-- bootstrap 5.3.3 css --}}
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/foundation.min.css') }}">
@@ -1573,6 +1574,199 @@
                         submenu.classList.toggle("active");
                     }
                 });
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('#home-banner ').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                autoplay: false,
+                dots: true,
+                // animateOut: 'fadeOutRight',
+                animateOut: 'fadeOut',
+                items: 1,
+                margin: 30,
+                // stagePadding:30,
+                smartSpeed: 40
+            })
+            $("#productSectionCarousel3").owlCarousel({
+                items: 4,
+                loop: true,
+                margin: 20,
+                nav: true,
+                autoplay: false,
+                dots: false,
+                smartSpeed: 600, // Replaces slideSpeed
+                animateIn: "fadeIn",
+                animateOut: "fadeOut",
+                navText: [
+                    '<i class="fas fa-chevron-left"></i>',
+                    '<i class="fas fa-chevron-right"></i>',
+                ],
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    768: {
+                        items: 2,
+                    },
+                    992: {
+                        items: 4,
+                    },
+                }
+            });
+            $("#foodGrocerySectionCarousel").owlCarousel({
+                items: 4,
+                loop: true,
+                margin: 20,
+                nav: true,
+                autoplay: false,
+                dots: false,
+                smartSpeed: 600, // Replaces slideSpeed
+                animateIn: "fadeIn",
+                animateOut: "fadeOut",
+                navText: [
+                    '<i class="fas fa-chevron-left"></i>',
+                    '<i class="fas fa-chevron-right"></i>',
+                ],
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    768: {
+                        items: 2,
+                    },
+                    992: {
+                        items: 4,
+                    },
+                }
+            });
+            $("#dairyEggsSectionCarousel").owlCarousel({
+                items: 4,
+                loop: true,
+                margin: 20,
+                nav: true,
+                autoplay: false,
+                dots: false,
+                smartSpeed: 600, // Replaces slideSpeed
+                animateIn: "fadeIn",
+                animateOut: "fadeOut",
+                navText: [
+                    '<i class="fas fa-chevron-left"></i>',
+                    '<i class="fas fa-chevron-right"></i>',
+                ],
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    768: {
+                        items: 2,
+                    },
+                    992: {
+                        items: 4,
+                    },
+                }
+            });
+            $("#beveragesSectionCarousel").owlCarousel({
+                items: 4,
+                loop: true,
+                margin: 20,
+                nav: true,
+                autoplay: false,
+                dots: false,
+                smartSpeed: 600, // Replaces slideSpeed
+                animateIn: "fadeIn",
+                animateOut: "fadeOut",
+                navText: [
+                    '<i class="fas fa-chevron-left"></i>',
+                    '<i class="fas fa-chevron-right"></i>',
+                ],
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    768: {
+                        items: 2,
+                    },
+                    992: {
+                        items: 4,
+                    },
+                }
+            });
+            $("#blogSectionCarousel").owlCarousel({
+                items: 3,
+                loop: true,
+                // margin: 10,
+                nav: true,
+                autoplay: true,
+                dots: false,
+                smartSpeed: 600,
+                navText: [
+                    '<i class="fas fa-chevron-left"></i>',
+                    '<i class="fas fa-chevron-right"></i>',
+                ],
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    768: {
+                        items: 2,
+                    },
+                    992: {
+                        items: 3,
+                    },
+                }
+            });
+            $("#categoriesSectionCarousel").owlCarousel({
+                items: 3,
+                loop: true,
+                // margin: 10,
+                nav: true,
+                autoplay: false,
+                dots: false,
+                smartSpeed: 600,
+                navText: [
+                    '<i class="fas fa-chevron-left"></i>',
+                    '<i class="fas fa-chevron-right"></i>',
+                ],
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    475: {
+                        items: 2,
+                    },
+                    768: {
+                        items: 2,
+                    },
+                    992: {
+                        items: 3,
+                    },
+                }
+            });
+
+            $('.carousel_2col').slick({
+                dots: true,
+                speed: 1000,
+                arrows: true,
+                infinite: true,
+                autoplay: true,
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                pauseOnHover: true,
+                autoplaySpeed: 5000,
+                prevArrow: ".c2c_arrow_left",
+                nextArrow: ".c2c_arrow_right",
+                responsive: [{
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }]
             });
         });
     </script>
