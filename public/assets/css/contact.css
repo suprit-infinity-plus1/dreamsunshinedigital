@@ -1,0 +1,122 @@
+body{
+    font-family: 'poppins', sans-serif;
+    color: white;
+}
+/* .contact-us-head img{
+    width: 100%;
+    height:300px;
+}
+.contact-us-head h4{
+    display: block;
+
+} */
+.image-wrapper {
+    position: relative;
+    display: inline-block; /* keeps size according to image */
+    width: 100%;
+    margin-bottom: 30px;
+  }
+ 
+  
+  .image-wrapper img {
+    width: 100%; /* or set fixed width if needed */
+    height: 300px;
+    display: block;
+  }
+  @media (max-width: 768px) {
+    .image-wrapper img{
+        height: 160px;
+    }
+  }
+  @media (max-width: 576px) {
+    .image-wrapper img{
+        height: 100px;
+    }
+  }
+  
+  .image-wrapper h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* or white, depending on your image */
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+    background-color: rgba(92, 89, 89, 0.3);     width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  @media (max-width: 768px) {
+    .image-wrapper h4 {
+        font-size: 20px;
+    }
+  }
+  
+
+.contact_us_section {
+    position: relative;
+    /* background: var(--bs-primary) url("../images/meta/Get-in-touch-us.png") no-repeat left center; */
+    background-size: contain;
+    /* background: RGB(196 0 36); */
+    /* background: linear-gradient(54deg, rgba(196, 0, 36, 1) 0%, rgba(0, 47, 117, 1) 25%, rgba(0, 47, 117, 1) 75%, rgba(196, 0, 36, 1) 100%); */
+    /* background-color: #000000; */
+
+    /* background: linear-gradient(to bottom, #9aa3c4 0%, #9aa3c4 20%, #5a648b 100%); */
+        /* background: linear-gradient(to bottom, #bdc5e1 0%, #9aa3c4 20%, #4f5d98 100%); */
+
+        background-color: white;
+
+
+    /* padding: 40px 0; */
+    padding-bottom: 40px;
+}
+
+.contact_us_section span.text-white.bg-danger {
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s ease;
+}
+.map-container{
+  width: 100%;
+  height: 400px;
+  margin-top: 40px;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+}
+.map-container iframe{
+    width: 100%;
+    height: 100%;
+}
+.form_sepration{
+  background-color: #002f753f;
+    padding-right: 3rem;
+    padding-block: 2rem;
+    border-radius: 6px;
+
+}
+@media (max-width: 768px) {
+  .map-container{
+    height: 300px;
+  }
+    
+}
+@media (max-width: 992px) {
+  .form_sepration{
+    padding-right: 1.5rem;
+  }
+    
+}
+@media (max-width: 768px) {
+    .form_sepration{
+        /* border-left: 2px solid #e5e5e5; */
+        border-radius: 0px;
+        margin-top: 20px;
+
+    }
+   
+}
+

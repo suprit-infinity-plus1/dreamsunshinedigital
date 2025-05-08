@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+}
+
+.category-banner {
+    position: relative;
+    width: 100%;
+    /* height: 300px; */
+    overflow: hidden;
+}
+
+.category-banner img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.category-banner-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 600;
+    font-size: 36px;
+    color: white;
+
+    background-color: rgba(92, 89, 89, 0.3);
+    /* covers whole image */
+    text-align: center;
+}
+
+.first-h4 {
+    display: none;
+}
+
+@media (max-width: 500px) {
+    .category-banner {
+        height: 100px;
+    }
+
+    .category-banner-title {
+        font-size: 20px;
+    }
+}
+
+.aboutus-section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    background-color: #f3f3f3;
+    /* padding-bottom: 20px; */
+    padding-block: 60px;
+
+}
+
+.aboutus-section1 .second-h4 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.aboutus-section1 .first-h4 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.aboutus-section1 p {
+    max-width: 600px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #525252;
+}
+
+.aboutus-section1-img {
+    width: 600px;
+    height: 350px;
+    margin-top: 20px;
+
+}
+
+.aboutus-section1-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+.aboutus-section2 {
+    background-color: white;
+}
+
+@media (max-width:1260px) {
+    .aboutus-section1 {
+        padding: 40px;
+    }
+
+    .aboutus-section1 p {
+        font-size: 16px;
+    }
+}
+
+/* Structure the text and image side-by-side */
+.aboutus-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    flex-wrap: wrap;
+}
+
+/* Reverse order on mobile */
+@media (max-width: 768px) {
+    .aboutus-content {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 768px) {
+    .aboutus-section1 {
+        flex-direction: column;
+        padding: 10px;
+        gap: 0px;
+    }
+
+
+    .aboutus-section1-img {
+        width: 100%;
+
+
+    }
+
+    .aboutus-section1-img {
+        width: 80%;
+        height: 150px;
+        margin: 20px 0px;
+
+    }
+
+    .aboutus-section1-img img {
+        border-radius: 10px;
+        
+    }
+
+    .first-h4 {
+        display: block;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
+    .second-h4 {
+        display: none;
+        font-size: 20px;
+    }
+
+    .aboutus-section1 p {
+        font-size: 15px;
+        height: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .aboutus-content{
+        gap: 0px;
+    }
+    .image-wrapper img {
+        height: 160px;
+    }
+    .aboutus-section2-mobile {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+    }
+}
+
+@media (max-width: 576px) {
+    .image-wrapper img {
+        height: 100px;
+    }
+
+    
+}

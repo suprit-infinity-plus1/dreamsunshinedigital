@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.image-wrapper {
+    position: relative;
+    display: inline-block; /* keeps size according to image */
+    width: 100%;
+    /* margin-bottom: 30px; */
+  }
+ 
+  
+  .image-wrapper img {
+    width: 100%; /* or set fixed width if needed */
+    height: 300px;
+    display: block;
+  }
+  @media (max-width: 768px) {
+    .image-wrapper img{
+        height: 160px;
+    }
+  }
+  @media (max-width: 576px) {
+    .image-wrapper img{
+        height: 100px;
+    }
+  }
+  
+  .image-wrapper h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* or white, depending on your image */
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+    background-color: rgba(92, 89, 89, 0.3);     width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  @media (max-width: 768px) {
+    .image-wrapper h4 {
+        font-size: 20px;
+    }
+  }
+.blog_item {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+.blog_item:hover {
+    transform: translateY(-5px);
+}
+.blog_item_img_container img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.blog_item_title {
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    line-height: 1.4;        /* Ensures space between lines */
+    margin: 15px 0 10px;
+    word-wrap: break-word;   /* Allows long words to break */
+    overflow-wrap: break-word;
+}
+.blog_item_title:hover{
+    /* color: #c40024; */
+    color: #002f75;
+}
+.blog_item_content {
+    padding: 15px;
+}
+
+
+.blog_item_description {
+    font-size: 14px;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2;       /* Limit to 2 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 3em;                  /* Adjust based on line-height */
+    line-height: 1.5em;
+}

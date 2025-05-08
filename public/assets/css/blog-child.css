@@ -1,0 +1,203 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+
+/* Main container for the blog */
+.blog-main-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 70px 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Blog image container */
+.blog-image {
+    width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+/* Blog image styling */
+.blog-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Content section styling */
+.blog-content {
+    width: 100%;
+}
+
+/* Title styling (default for larger screens) */
+.blog-title {
+    font-size: 2.5rem; /* Default size for larger screens */
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Subtitle styling */
+.blog-subtitle {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2e2a2a;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.blog-content p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Responsive title styling for smaller screens */
+@media (max-width: 575px) {
+    .blog-title {
+        font-size: 1.8rem;
+    }
+}
+
+/* Intro paragraph */
+.blog-intro {
+    font-size: clamp(1rem, 1vw + 0.8rem, 1.2rem);
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+/* Regular paragraph */
+.blog-content p {
+    font-size: clamp(1rem, 1vw + 0.8rem, 1.2rem);
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Add spacing between paragraphs */
+.blog-content p + p {
+    margin-top: 10px;
+}
+
+/* Last paragraph spacing */
+.blog-content p:last-of-type {
+    margin-bottom: 0;
+}
+
+.blog-main-container p:last-of-type {
+    margin-bottom: 40px;
+}
+
+/* --------------------------- Related Blogs Section CSS ------------------------------------- */
+
+/* Related Blogs - Blog Item */
+.blog_item {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.blog_item:hover {
+    transform: translateY(-5px);
+}
+
+.blog_item_img_container img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.blog_item_title {
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 15px 0 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.blog_item_title:hover {
+    color: #002f75;
+}
+
+.blog_item_content {
+    padding: 15px;
+}
+
+.blog_item_description {
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 3em;
+    line-height: 1.5em;
+}
+
+/* Related Blog Section Responsive Design */
+
+/* Default: Two cards per row with space between */
+.related-blogs .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+/* Each column (card) takes 48% to fit two cards per row */
+.related-blogs .row .col {
+    flex: 0 0 48%;
+    max-width: 48%;
+}
+
+/* On screens smaller than 560px: one card per row, centered */
+@media (max-width: 560px) {
+    .related-blogs .row {
+        justify-content: center;
+    }
+
+    .related-blogs .row .col {
+        flex: 0 0 100%;
+        max-width: 350px; /* Card doesn’t stretch too wide */
+        margin-inline: auto;
+    }
+}
+
+.share-icons{
+    display: flex;
+    border: none;
+    border-block: 2px solid #e3e3e0;
+    padding: 10px;
+    gap: 24px;
+    
+}
+.share-icons svg{
+    cursor: pointer;
+    font-size: 28px;
+}

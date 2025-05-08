@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.category-banner {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.category-banner img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.category-banner-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 600;
+    font-size: 28px;
+    color: white;
+
+    background-color: rgba(92, 89, 89, 0.3); /* covers whole image */
+    text-align: center;
+}
+@media (max-width: 500px) {
+    .category-banner{
+        height: 200px;
+    }
+    .category-banner-title {
+        font-size: 12px;
+    }
+}
+@media (max-width: 768px) {
+    
+    .category-banner-title {
+        font-size: 20px;
+    }
+}
+@media (max-width: 400px) {
+    .category-banner-title {
+        font-size: 10px;
+    }
+}
+
+.card-btn-container {
+    display: block; /* or flex if you need flexibility, but change justify-content */
+    /* position: relative; */
+    bottom: 20px;
+    width: 100%;
+    margin-top: 30px;
+    /* Remove centering */
+    /* justify-content: center;  <-- REMOVE this if using flex */
+}
+
+
+.card-btn-container .view-product-btn {
+    transition: all 0.3s ease-in-out;
+    /* width: auto; */
+    opacity: 1;
+    /* white-space: nowrap; */
+    /* margin-inline: auto;  */
+    /* margin-inline: 0; */
+}
+
+
+ .view-product-btn:hover {
+    scale: 1.10;
+}
+.category-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #002f75;
+}
+.category-container {
+    display: grid;
+    grid-template-columns: repeat((1, 1fr));
+    gap: 10px;
+    justify-content: center;
+    margin-inline: 50px;
+}
+
+
+.category-card {
+    width: 100%;
+    max-width: 325px;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+
+    /* Soft shadow with your color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease-in-out;
+}
+
+.category-card:hover {
+    /* Stronger blue glow, evenly around */
+    box-shadow: 0 0 10px 2px #002f75; 
+    transform: scale(1.02);
+}
+
+
+
+.category-img-container img {
+    width: 95%;
+    height: auto;
+    margin-block: 10px;
+    margin-inline: 16px;
+    border-radius: 8px;
+    display: block;
+}
+.category-img-container img:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+}
+.category-card-body{
+    /* margin-inline: auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.category-card-title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #002f75;
+        
+}
+.category-card-body span{
+    /* margin-block: 10px; */
+}
+
+.category-card-body p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+}
+
+@media (min-width: 600px) {
+    .category-container {
+        grid-template-columns: repeat(2, 1fr); /* Small tablets */
+        margin-inline: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    .category-container {
+        grid-template-columns: repeat(3, 1fr); /* Tablets */
+        margin-inline: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .category-container {
+        grid-template-columns: repeat(4, 1fr); /* Laptops and up */
+        margin-inline: 80px;
+    }
+}
+
+
+
+/* 
+
+.category-main {
+    margin-inline: 200px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+}
+
+.category-img-container {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-footer {
+    padding: 1rem;
+}  */

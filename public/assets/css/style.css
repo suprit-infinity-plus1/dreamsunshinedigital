@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+    font-family: "Poppins", sans-serif;
+}
 body {
     font-family: "Poppins", sans-serif;
     /* font-family: "Urbanist", sans-serif; */
     position: relative;
+    margin: 0;
+    padding: 0;
 }
 
 .main-header-container {
@@ -770,7 +775,7 @@ ul.menu.vertical.large-horizontal.dropdown li:nth-child(3) a:hover {
 }
 
 .submenu-treatment-tab .treatment-tab-holder li {
-    min-width: 25%;
+    min-width: auto;
     padding-left: 10px;
     /* border-left: 2px solid black; */
 }
@@ -1130,6 +1135,11 @@ ul.menu.vertical.large-horizontal.dropdown li:nth-child(3) a:hover {
 .dram-section {
     padding: 40px 0;
 }
+@media screen and (max-width: 767px) {
+    .dram-section {
+        padding: 20px 0;
+    }
+}
 
 .dram-section h2 {
     font-weight: bold;
@@ -1169,6 +1179,7 @@ ul.menu.vertical.large-horizontal.dropdown li:nth-child(3) a:hover {
     top: -100px;
     opacity: 1;
 }
+
 
 .dram-section .owl-carousel .owl-stage-outer {
     overflow: visible;
@@ -1237,6 +1248,12 @@ ul.menu.vertical.large-horizontal.dropdown li:nth-child(3) a:hover {
     justify-content: center;
 }
 
+/* @media (max-width: 768px) {
+    .product-card-img {
+        height: auto;
+    }
+    
+} */
 .dram-section .product-card .product-card-img::before {
     /* content: ""; */
     width: calc(100% - 0px);
@@ -1562,6 +1579,23 @@ Page Hero Section - Start
     background-color: #002f75;
     border-top-left-radius: 280px;
 }
+/* @media (max-width: 400px) {
+    .hero_image_wrap:before{
+        border-bottom-right-radius: 100px;
+    }
+}
+@media (max-width: 768px) {
+   .hero_image_wrap:before{
+       border-bottom-right-radius: 150px;
+
+   } 
+} */
+
+@media (max-width:1400px) {
+    .hero_image_wrap:before {
+        border-bottom-right-radius: 150px;
+    }
+}
 
 .hero_image_wrap:after {
     right: 0;
@@ -1620,6 +1654,22 @@ Page Hero Section - Start
     right: 60px;
     position: absolute;
 }
+
+@media (max-width: 600px) {
+    .star_list{
+    text-align: left;
+    display: unset !important;
+    }
+}
+/* @media (max-width: 600px) {
+    .authorandstar{
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+    }
+    
+} */
 
 ul li {
     list-style: none;
@@ -1747,9 +1797,15 @@ ul li {
     }
 
     .section_space_lg {
-        padding-top: 100px;
-        padding-bottom: 110px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
+}
+@media (max-width: 576px) {
+    /* .section.dairy_eggs_section.section_space_lg {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    } */
 }
 
 @media screen and (max-width: 1199px) {
@@ -1788,7 +1844,7 @@ ul li {
     }
 
     .testimonial_item {
-        padding: 40px 40px 43px;
+        padding: 40px 40px 40px;
     }
 
     .testimonial_item .rating_star li:not(:last-child) {
@@ -1806,9 +1862,16 @@ ul li {
 
     .get_in_touch_section {
         position: relative;
-        background: url("../images/meta/Get-in-touch-us.png") no-repeat left center;
-        background-size: cover;
-        padding: 90px 0;
+        /* background: var(--bs-primary) url("../images/meta/Get-in-touch-us.png") no-repeat left center; */
+        background-size: contain;
+        background: RGB(196 0 36);
+        background: linear-gradient(54deg, rgba(196, 0, 36, 1) 0%, rgba(0, 47, 117, 1) 25%, rgba(0, 47, 117, 1) 75%, rgba(196, 0, 36, 1) 100%);
+        padding: 180px 0;
+    }
+}
+@media (max-width: 576px) {
+    .get_in_touch_section {
+        padding: 30px 0;
     }
 }
 
@@ -1851,7 +1914,7 @@ ul li {
     }
 
     .hero_section {
-        padding: 60px 0 60px;
+        padding: 30px 0 30px;
     }
 }
 
@@ -1878,8 +1941,8 @@ ul li {
     }
 
     .section_space_lg {
-        padding-top: 70px;
-        padding-bottom: 80px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .testimonial_item {
@@ -2053,7 +2116,16 @@ ul li {
     right: -60px;
     transform: translateY(-50%);
 }
-
+@media (max-width: 768px) {
+    .blog_section .owl-nav .owl-prev {
+        left: -17px;
+    }
+    
+    .blog_section .owl-nav .owl-next {
+        right: -17px;
+    }
+    
+}
 /* ==================================================
 blog section End
 ================================================== */
@@ -2070,6 +2142,11 @@ categories section Start
 
 .categories_section .section_heading_description {
     margin-bottom: 70px !important;
+}
+@media (max-width: 768px) {
+    .categories_section .section_heading_description {
+        margin-bottom: 30px !important;
+    }
 }
 
 .categories_item .rounded-2 {
@@ -2212,6 +2289,15 @@ categories section End
     bottom: 20px;
     opacity: 1;
 }
+@media (max-width: 768px) {
+    .product-card .card-btn-container {
+        bottom: 10px;
+        opacity: 1;
+    }
+    .product-card:hover .card-btn-container {
+        bottom: 10px;
+    }
+}
 
 .product-card .product-card-img {
     overflow: hidden;
@@ -2220,6 +2306,12 @@ categories section End
 .product-card .product-card-img img {
     transition: all 0.3s ease-in-out;
 }
+@media (min-width: 360px) and (max-width: 786px) {
+    /* .product-card .product-card-img img {
+        object-fit: none;
+    } */
+}
+
 
 .product-card:hover .product-card-img img {
     scale: 1.05;
@@ -2228,6 +2320,14 @@ categories section End
 .product-carousel .product_item {
     background-color: #fff;
 }
+.truncate-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    width: 100%;
+}
+
 
 .product-carousel .owl-nav .owl-prev {
     position: absolute;
@@ -2251,6 +2351,16 @@ categories section End
     color: #fff !important;
 }
 
+@media (max-width: 768px) {
+    .product-carousel .owl-nav .owl-prev {
+        left: -17px;
+    }
+    
+    .product-carousel .owl-nav .owl-next {
+        right: -17px;
+    }
+    
+}
 .dairy_eggs_section {
     /* background-color: #002f753f; */
 }
@@ -2262,4 +2372,12 @@ categories section End
 
 .footer-col-head a {
     color: #d7d2d2;
+}
+
+@media (max-width: 768px) {
+    
+    .dram-section .product-card .card-btn-container .view-product-btn {
+        top: -100px;
+        opacity: 1;
+    }
 }

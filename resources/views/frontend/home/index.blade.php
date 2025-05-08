@@ -6,12 +6,9 @@
     <div class="owl-carousel" id="home-banner">
         <div>
             <img src="{{ asset('assets/images/home-banner/dairy&egg.jpeg') }}" class="home-banner-image" alt="oil-banner">
-            {{-- <img src="{{ asset('assets/images/home-banner/Dreamsunshinebanner-1.png') }}" class="home-banner-image" alt="oil-banner"> --}}
+
         </div>
-        <div>
-            <img src="{{ asset('assets/images/home-banner/Dreamsunshinebanner-1.png') }}" class="home-banner-image"
-                alt="oil-banner">
-        </div>
+
         <div>
             <img src="{{ asset('assets/images/home-banner/vegetable-oil-banner.png') }}"
                 class="home-banner-image d-none d-md-block" alt="oil-banner">
@@ -22,27 +19,35 @@
                 <h3 class="text-white mb-0 fw-bold fs-2"> Low Fat Cooking Promise Of Quality</h3>
             </div>
         </div>
+        <div>
+            <img src="{{ asset('assets/images/home-banner/Dreamsunshinebanner-1.png') }}" class="home-banner-image"
+                alt="oil-banner">
+        </div>
         {{-- <div>
-                <img src="{{ asset('assets/images/home-banner/dry-fruits-banner.jpg') }}" class="home-banner-image d-none d-md-block" alt="oil-banner">
-                <img src="{{ asset('assets/images/home-banner/mobile-rice-banner1.jpg') }}" class="home-banner-image d-block d-md-none" alt="oil-banner">
-                <div class="banner-text-container">
-                    <h2 class="text-primary mb-3 fw-bold fs-1"> Iram Dates</h2>
-                    <h3 class="text-danger mb-0 fw-bold fs-2"> Iram Kimia Dates, Dry Fruits</h3>
-                </div>
+            <img src="{{ asset('assets/images/home-banner/dry-fruits-banner.jpg') }}"
+                class="home-banner-image d-none d-md-block" alt="oil-banner">
+            <img src="{{ asset('assets/images/home-banner/mobile-rice-banner1.jpg') }}"
+                class="home-banner-image d-block d-md-none" alt="oil-banner">
+            <div class="banner-text-container">
+                <h2 class="text-primary mb-3 fw-bold fs-1"> Iram Dates</h2>
+                <h3 class="text-danger mb-0 fw-bold fs-2"> Iram Kimia Dates, Dry Fruits</h3>
             </div>
-            <div>
-                <img src="{{ asset('assets/images/home-banner/rice-banner.jpg') }}" class="home-banner-image d-none d-md-block" alt="oil-banner">
-                <img src="{{ asset('assets/images/home-banner/mobile-rice-banner1.jpg') }}" class="home-banner-image d-block d-md-none" alt="oil-banner">
-                <div class="banner-text-container">
-                    <h2 class="text-primary mb-3 fw-bold fs-1"> Anaya Rice</h2>
-                    <h3 class="text-danger mb-0 fw-bold fs-2"> The Perfect Partner For Every Meal</h3>
-                </div>
-            </div> --}}
+        </div>
+        <div>
+            <img src="{{ asset('assets/images/home-banner/rice-banner.jpg') }}" class="home-banner-image d-none d-md-block"
+                alt="oil-banner">
+            <img src="{{ asset('assets/images/home-banner/mobile-rice-banner1.jpg') }}"
+                class="home-banner-image d-block d-md-none" alt="oil-banner">
+            <div class="banner-text-container">
+                <h2 class="text-primary mb-3 fw-bold fs-1"> Anaya Rice</h2>
+                <h3 class="text-danger mb-0 fw-bold fs-2"> The Perfect Partner For Every Meal</h3>
+            </div>
+        </div> --}}
     </div>
 
     <!-- ==================================================
-                           About Us Section - Start
-                        ================================================== -->
+                                           About Us Section - Start
+                                        ================================================== -->
     <section class="hero_section decoration_wrapper">
         <div class="container">
             <div class="row align-items-center">
@@ -64,49 +69,50 @@
                             quality—because delivering the best isn’t just a goal, it’s our standard.
                         </p>
 
-                        {{-- <ul class="hero_section_counter d-flex align-items-start justify-content-between flex-wrap gap-3 list-unstyled">
-                      <li class="d-flex flex-column align-items-center text-center gap-3 list-unstyled">
-                        <i class="fa-solid fa-trophy fa-3x text-primary"></i>
-                        <div class="counter_item">
-                          <div class="counter_value mb-3">
-                            <span class="odometer" data-count="7">7</span>
-                            <span>+</span>
-                          </div>
-                          <p class="counter_description mb-0">
-                            The years of our experience
-                          </p>
-                        </div>
-                      </li>
-                      <li class="d-flex flex-column align-items-center text-center gap-3 list-unstyled">
-                        <i class="fa-solid fa-cart-shopping fa-3x text-primary"></i>
-                        <div class="counter_item">
-                          <div class="counter_value mb-3">
-                            <span class="odometer" data-count="20">20</span>
-                            <span>+</span>
-                          </div>
-                          <p class="counter_description mb-0">
-                            Number of Products
-                          </p>
-                        </div>
-                      </li>
-                      <li class="d-flex flex-column align-items-center text-center gap-3 list-unstyled">
-                        <i class="fa-solid fa-face-smile fa-3x text-primary"></i>
-                        <div class="counter_item">
-                          <div class="counter_value mb-3">
-                            <span class="odometer" data-count="100">100</span>
-                            <span>%</span>
-                          </div>
-                          <p class="counter_description mb-0">
-                            Client
-                            <br>
-                            satisfaction
-                          </p>
-                        </div>
-                      </li>
-                    </ul> --}}
+                        {{-- <ul
+                            class="hero_section_counter d-flex align-items-start justify-content-between flex-wrap gap-3 list-unstyled">
+                            <li class="d-flex flex-column align-items-center text-center gap-3 list-unstyled">
+                                <i class="fa-solid fa-trophy fa-3x text-primary"></i>
+                                <div class="counter_item">
+                                    <div class="counter_value mb-3">
+                                        <span class="odometer" data-count="7">7</span>
+                                        <span>+</span>
+                                    </div>
+                                    <p class="counter_description mb-0">
+                                        The years of our experience
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="d-flex flex-column align-items-center text-center gap-3 list-unstyled">
+                                <i class="fa-solid fa-cart-shopping fa-3x text-primary"></i>
+                                <div class="counter_item">
+                                    <div class="counter_value mb-3">
+                                        <span class="odometer" data-count="20">20</span>
+                                        <span>+</span>
+                                    </div>
+                                    <p class="counter_description mb-0">
+                                        Number of Products
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="d-flex flex-column align-items-center text-center gap-3 list-unstyled">
+                                <i class="fa-solid fa-face-smile fa-3x text-primary"></i>
+                                <div class="counter_item">
+                                    <div class="counter_value mb-3">
+                                        <span class="odometer" data-count="100">100</span>
+                                        <span>%</span>
+                                    </div>
+                                    <p class="counter_description mb-0">
+                                        Client
+                                        <br>
+                                        satisfaction
+                                    </p>
+                                </div>
+                            </li>
+                        </ul> --}}
                         <ul class="btns_group gap-3 m-0 mb-3 d-flex">
                             <li>
-                                <a class="btn btn-primary rounded-1" href="contact.html">
+                                <a class="btn btn-primary rounded-1" href="{{ route("contact") }}">
                                     <span class="btn_text" data-text="Get A Consultation">
                                         Contact Now
                                     </span>
@@ -136,12 +142,12 @@
         </div>
     </section>
     <!-- ==================================================
-                           About Us Section - End
-                          ================================================== -->
+                                           About Us Section - End
+                                          ================================================== -->
 
     <!-- ==================================================
-                         CATEGORIES Section - Start
-                        ================================================== -->
+                                         CATEGORIES Section - Start
+                                        ================================================== -->
     <section class="categories_section section_space_lg">
         <div class="container">
             <div class="row">
@@ -159,20 +165,22 @@
                         <div class="categories_item m-2">
                             <div class="border rounded-2">
                                 <div>
-                                    <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+                                    <img src="{{ asset('assets/images/blog/food-grocery.png') }}" style="height: 191px;"
+                                        alt="">
                                 </div>
                                 <div class="categories_content py-2 px-3">
                                     <div class="d-flex justify-content-between align-items-center overflow-hidden">
                                         <div class="categories_details">
                                             <div>
-                                                <a href="#" class="fs-6 fw-bolder">Food & Grocery</a>
+                                                <a href="{{ route("category.foodgrocery") }}" class="fs-6 fw-bolder">Food &
+                                                    Grocery</a>
                                             </div>
                                             <span class="mb-0">8 products</span>
                                         </div>
                                         <div class="categories_btn_container ">
-                                            <div class="categories_btn rounded-1">
+                                            <a href="{{ route("category.foodgrocery") }}" class="categories_btn rounded-1">
                                                 <i class="fa-solid fa-arrow-right"></i>
-                                            </div>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -187,14 +195,15 @@
                                     <div class="d-flex justify-content-between align-items-center overflow-hidden">
                                         <div class="categories_details">
                                             <div>
-                                                <a href="#" class="fs-6 fw-bolder">Dairy & Eggs</a>
+                                                <a href="{{ route("category.dairyeggs") }}" class="fs-6 fw-bolder">Dairy &
+                                                    Eggs</a>
                                             </div>
                                             <span class="mb-0">10 products</span>
                                         </div>
                                         <div class="categories_btn_container ">
-                                            <div class="categories_btn rounded-1">
+                                            <a href="{{ route("category.dairyeggs") }}" class="categories_btn rounded-1">
                                                 <i class="fa-solid fa-arrow-right"></i>
-                                            </div>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -209,14 +218,15 @@
                                     <div class="d-flex justify-content-between align-items-center overflow-hidden">
                                         <div class="categories_details">
                                             <div>
-                                                <a href="#" class="fs-6 fw-bolder">Beverages</a>
+                                                <a href="{{ route("category.beverages") }}"
+                                                    class="fs-6 fw-bolder">Beverages</a>
                                             </div>
                                             <span class="mb-0">12 products</span>
                                         </div>
                                         <div class="categories_btn_container">
-                                            <div class="categories_btn rounded-1">
+                                            <a href="{{ route("category.beverages") }}" class="categories_btn rounded-1">
                                                 <i class="fa-solid fa-arrow-right"></i>
-                                            </div>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -228,8 +238,8 @@
         </div>
     </section>
     <!-- ==================================================
-                         CATEGORIES Section - End
-                        ================================================== -->
+                                         CATEGORIES Section - End
+                                        ================================================== -->
 
     <section class="dram-section">
         <div class="container position-relative overflow-hidden">
@@ -244,63 +254,66 @@
 
                 <div class="item">
                     {{-- <a href="{{ route('product', ['id' => $data->id, 'slug' => $data->slug_url]) }}"> --}}
-                    <a href="#">
-                        <div class="product-card">
-                            <div class="product-card-img position-relative overflow-hidden">
-                                {{-- <img src="{!! asset('storage/images/products/' . $data->image_url) !!}" alt="1200 * 1200" /> --}}
-                                <img src="{!! asset('assets/images/category/iram dates/iram-dates.png') !!}" alt="" />
-                                <span class="new-badge fs-small-heading">New</span>
-                            </div>
-                            <div class="card-body text-center">
-                                <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                    {{-- <a href="{{ route('product', ['id' => $data->id, 'slug' => $data->slug_url]) }}">
+                        <a href="#">
+                            <div class="product-card">
+                                <div class="product-card-img position-relative overflow-hidden">
+                                    {{-- <img src="{!! asset('storage/images/products/' . $data->image_url) !!}"
+                                        alt="1200 * 1200" /> --}}
+                                    <img src="{!! asset('assets/images/productImage/foodgrocery/Dates/Frame 3.png') !!}"
+                                        alt="" />
+                                    <span class="new-badge fs-small-heading">New</span>
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
+                                        {{-- <a
+                                            href="{{ route('product', ['id' => $data->id, 'slug' => $data->slug_url]) }}">
                                             Premium Bufflo Milk
                                         </a> --}}
-                                    <a href="#">
-                                        iram dates
-                                    </a>
-                                </h5>
-                                <div class="rating fxsm-heading color-1">
-                                    <i class="ion-ios-star" aria-hidden="true"></i>
-                                    <i class="ion-ios-star" aria-hidden="true"></i>
-                                    <i class="ion-ios-star" aria-hidden="true"></i>
-                                    <i class="ion-ios-star-half" aria-hidden="true"></i>
-                                    <i class="ion-ios-star de-selected" aria-hidden="true"></i>
-                                    {{-- @if ($data->review_status)
-                                            @for ($i = 1; $i <= (int) $data->rating; $i++)
-                                                <i class="ion-ios-star" aria-hidden="true"></i>
+                                        <a href="{{ route("singleproduct.dates") }}" class="truncate-text">
+                                            iram dates
+                                        </a>
+                                    </h5>
+                                    <div class="rating fxsm-heading color-1">
+                                        <i class="ion-ios-star" aria-hidden="true"></i>
+                                        <i class="ion-ios-star" aria-hidden="true"></i>
+                                        <i class="ion-ios-star" aria-hidden="true"></i>
+                                        <i class="ion-ios-star-half" aria-hidden="true"></i>
+                                        <i class="ion-ios-star de-selected" aria-hidden="true"></i>
+                                        {{-- @if ($data->review_status)
+                                        @for ($i = 1; $i <= (int) $data->rating; $i++)
+                                            <i class="ion-ios-star" aria-hidden="true"></i>
                                             @endfor
                                             @for ($i = 1; $i <= 5 - (int) $data->rating; $i++)
                                                 <i class="ion-ios-star de-selected" aria-hidden="true"></i>
-                                            @endfor
-                                        @else
-                                            @for ($i = 1; $i <= 5; $i++)
-                                                <span class="ion-ios-star"></span>
-                                            @endfor
-                                        @endif --}}
+                                                @endfor
+                                                @else
+                                                @for ($i = 1; $i <= 5; $i++) <span class="ion-ios-star"></span>
+                                                    @endfor
+                                                    @endif --}}
 
-                                </div>
-                                <div class="position-relative card-btn-container">
-                                    <a href="#"
-                                        class="position-absolute btn btn-primary w-100 view-product-btn">View
-                                        Product</a>
+                                    </div>
+                                    <div class="position-relative card-btn-container">
+                                        <a href="{{ route("singleproduct.dates") }}"
+                                            class="position-absolute btn btn-primary w-100 view-product-btn">View
+                                            Product</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
                 </div>
                 {{-- @endforeach --}}
                 <div class="item">
                     <a href="#">
                         <div class="product-card">
                             <div class="product-card-img position-relative overflow-hidden">
-                                <img src="{!! asset('assets/images/category/anaya dairy product/Untitled-4.png') !!}" alt="" />
+                                <img src="{!! asset('assets/images/productImage/dairyeggs/yogurt.png') !!}" alt="" />
+
                                 <span class="new-badge fs-small-heading">New</span>
                             </div>
                             <div class="card-body text-center">
                                 <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                    <a href="#">
-                                        Yogart & Butter
+                                    <a href="{{ route("singleproduct.yogurt") }}" class="truncate-text">
+                                        Yogurt
                                     </a>
                                 </h5>
                                 <div class="rating fxsm-heading color-1">
@@ -311,7 +324,7 @@
                                     <i class="ion-ios-star de-selected" aria-hidden="true"></i>
                                 </div>
                                 <div class="position-relative card-btn-container">
-                                    <a href="#"
+                                    <a href="{{ route("singleproduct.yogurt") }}"
                                         class="position-absolute btn btn-primary w-100 view-product-btn">View
                                         Product</a>
                                 </div>
@@ -323,12 +336,12 @@
                     <a href="#">
                         <div class="product-card">
                             <div class="product-card-img position-relative overflow-hidden">
-                                <img src="{!! asset('assets/images/category/anaya dairy product/Untitled-9.png') !!}" alt="" />
+                                <img src="{!! asset('assets/images/productImage/dairyeggs/cow ghee.png') !!}" alt="" />
                                 <span class="new-badge fs-small-heading">New</span>
                             </div>
                             <div class="card-body text-center">
                                 <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                    <a href="#">
+                                    <a href="{{ route("singleproduct.ghee") }}" class="truncate-text">
                                         Pure Cow Ghee
                                     </a>
                                 </h5>
@@ -340,7 +353,7 @@
                                     <i class="ion-ios-star de-selected" aria-hidden="true"></i>
                                 </div>
                                 <div class="position-relative card-btn-container">
-                                    <a href="#"
+                                    <a href="{{ route("singleproduct.ghee") }}"
                                         class="position-absolute btn btn-primary w-100 view-product-btn">View
                                         Product</a>
                                 </div>
@@ -352,12 +365,13 @@
                     <a href="#">
                         <div class="product-card">
                             <div class="product-card-img position-relative overflow-hidden">
-                                <img src="{!! asset('assets/images/category/anaya dairy product/Untitled-11.png') !!}" alt="" />
+                                <img src="{!! asset('assets/images/productImage/dairyeggs/milk-glass-bottle.png') !!}"
+                                    alt="" />
                                 <span class="new-badge fs-small-heading">New</span>
                             </div>
                             <div class="card-body text-center">
                                 <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                    <a href="#">
+                                    <a href="{{ route("singleproduct.milkbuffalo") }}" class="truncate-text">
                                         Premium Bufflo Milk
                                     </a>
                                 </h5>
@@ -369,7 +383,7 @@
                                     <i class="ion-ios-star de-selected" aria-hidden="true"></i>
                                 </div>
                                 <div class="position-relative card-btn-container">
-                                    <a href="#"
+                                    <a href="{{ route("singleproduct.milkbuffalo") }}"
                                         class="position-absolute btn btn-primary w-100 view-product-btn">View
                                         Product</a>
                                 </div>
@@ -381,12 +395,13 @@
                     <a href="#">
                         <div class="product-card">
                             <div class="product-card-img position-relative overflow-hidden">
-                                <img src="{!! asset('assets/images/category/pure and hygienic suger/Untitled-2-1.png') !!}" alt="" />
+                                <img src="{!! asset('assets/images/productImage/beverages/tealeaves/tea-leave-img.png
+                                        ') !!}" alt="" />
                                 <span class="new-badge fs-small-heading">New</span>
                             </div>
                             <div class="card-body text-center">
                                 <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                    <a href="#">
+                                    <a href="{{ route("singleproduct.anayatealeave") }}" class="truncate-text">
                                         Anaya Tea
                                     </a>
                                 </h5>
@@ -398,7 +413,7 @@
                                     <i class="ion-ios-star de-selected" aria-hidden="true"></i>
                                 </div>
                                 <div class="position-relative card-btn-container">
-                                    <a href="#"
+                                    <a href="{{ route("singleproduct.anayatealeave") }}"
                                         class="position-absolute btn btn-primary w-100 view-product-btn">View
                                         Product</a>
                                 </div>
@@ -411,191 +426,192 @@
     </section>
 
     <!-- ==================================================
-                         Food & Grocery Section - Start
-                        ================================================== -->
+                                         Food & Grocery Section - Start
+                                        ================================================== -->
     {{-- <section class="food_grocery_section section_space_lg">
-            <div class="container">
-              <div class="section_heading text-center">
+        <div class="container">
+            <div class="section_heading text-center">
                 <h2 class="section_heading_text">Food & Grocery</h2>
                 <p class="section_heading_description mb-0">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry
                 </p>
-              </div>
-              <div class="owl-carousel owl-theme product-carousel" id="foodGrocerySectionCarousel">
-                  <div class="product_item border rounded-2">
-                      <div class="product-card">
-                          <div class="product-card-img position-relative overflow-hidden">
-                              <img src="{!! asset('assets/images/category/iram dates/iram-dates.png') !!}" alt="" />
-                              <div class="product-badge d-flex flex-column align-items-start gap-1">
-                                  <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
-                                  <span class="new-badge rounded-1 fs-small-heading">New</span>
-                              </div>
-                              <div class="card-btn-container w-100 px-3">
-                                  <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
-                              </div>
-                          </div>
-                          <div class="card-body text-center border-top p-3">
-                              <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                  <a href="#">
-                                      Iram Dates
-                                  </a>
-                              </h5>
-                              <ul class="rating_star d-flex align-items-center justify-content-center m-0">
-                                  <li><i class="fa-solid fa-star"></i></li>
-                                  <li><i class="fa-solid fa-star"></i></li>
-                                  <li><i class="fa-solid fa-star"></i></li>
-                                  <li><i class="fa-solid fa-star"></i></li>
-                                  <li><i class="fa-solid fa-star"></i></li>
-                              </ul>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="product_item border rounded-2">
-                      <div class="product-card">
-                          <div class="product-card-img position-relative overflow-hidden">
-                              <img src="{!! asset('assets/images/category/iram dates/iram-dates.png') !!}" alt="" />
-                              <div class="product-badge d-flex flex-column align-items-start gap-1">
-                                <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
-                                <span class="new-badge rounded-1 fs-small-heading">New</span>
-                            </div>
-                            <div class="card-btn-container w-100 px-3">
-                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
-                            </div>
-                          </div>
-                          <div class="card-body text-center border-top p-3">
-                            <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                <a href="#">
-                                    Iram Dates
-                                </a>
-                            </h5>
-                            <ul class="rating_star d-flex align-items-center justify-content-center m-0">
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                            </ul>
-                        </div>
-                      </div>
-                  </div>
-                  <div class="product_item border rounded-2">
-                      <div class="product-card">
-                          <div class="product-card-img position-relative overflow-hidden">
-                              <img src="{!! asset('assets/images/category/iram dates/iram-dates.png') !!}" alt="" />
-                              <div class="product-badge d-flex flex-column align-items-start gap-1">
-                                <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
-                                <span class="new-badge rounded-1 fs-small-heading">New</span>
-                            </div>
-                            <div class="card-btn-container w-100 px-3">
-                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
-                            </div>
-                          </div>
-                          <div class="card-body text-center border-top p-3">
-                            <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                <a href="#">
-                                    Iram Dates
-                                </a>
-                            </h5>
-                            <ul class="rating_star d-flex align-items-center justify-content-center m-0">
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                            </ul>
-                        </div>
-                      </div>
-                  </div>
-                  <div class="product_item border rounded-2">
-                      <div class="product-card">
-                          <div class="product-card-img position-relative overflow-hidden">
-                              <img src="{!! asset('assets/images/category/iram dates/iram-dates.png') !!}" alt="" />
-                              <div class="product-badge d-flex flex-column align-items-start gap-1">
-                                <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
-                                <span class="new-badge rounded-1 fs-small-heading">New</span>
-                            </div>
-                            <div class="card-btn-container w-100 px-3">
-                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
-                            </div>
-                          </div>
-                          <div class="card-body text-center border-top p-3">
-                            <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                <a href="#">
-                                    Iram Dates
-                                </a>
-                            </h5>
-                            <ul class="rating_star d-flex align-items-center justify-content-center m-0">
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                            </ul>
-                        </div>
-                      </div>
-                  </div>
-                  <div class="product_item border rounded-2">
-                      <div class="product-card">
-                          <div class="product-card-img position-relative overflow-hidden">
-                              <img src="{!! asset('assets/images/category/iram dates/iram-dates.png') !!}" alt="" />
-                              <div class="product-badge d-flex flex-column align-items-start gap-1">
-                                <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
-                                <span class="new-badge rounded-1 fs-small-heading">New</span>
-                            </div>
-                            <div class="card-btn-container w-100 px-3">
-                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
-                            </div>
-                          </div>
-                          <div class="card-body text-center border-top p-3">
-                            <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                <a href="#">
-                                    Iram Dates
-                                </a>
-                            </h5>
-                            <ul class="rating_star d-flex align-items-center justify-content-center m-0">
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                            </ul>
-                        </div>
-                      </div>
-                  </div>
-              </div>
             </div>
-        </section> --}}
+            <div class="owl-carousel owl-theme product-carousel" id="foodGrocerySectionCarousel">
+                <div class="product_item border rounded-2">
+                    <div class="product-card">
+                        <div class="product-card-img position-relative overflow-hidden">
+                            <img src="{!! asset('assets/images/category/iram dates/iram-dates.png') !!}" alt="" />
+                            <div class="product-badge d-flex flex-column align-items-start gap-1">
+                                <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
+                                <span class="new-badge rounded-1 fs-small-heading">New</span>
+                            </div>
+                            <div class="card-btn-container w-100 px-3">
+                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
+                            </div>
+                        </div>
+                        <div class="card-body text-center border-top p-3">
+                            <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
+                                <a href="#">
+                                    Iram Dates
+                                </a>
+                            </h5>
+                            <ul class="rating_star d-flex align-items-center justify-content-center m-0">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_item border rounded-2">
+                    <div class="product-card">
+                        <div class="product-card-img position-relative overflow-hidden">
+                            <img src="{!! asset('assets/images/category/iram dates/iram-dates.png') !!}" alt="" />
+                            <div class="product-badge d-flex flex-column align-items-start gap-1">
+                                <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
+                                <span class="new-badge rounded-1 fs-small-heading">New</span>
+                            </div>
+                            <div class="card-btn-container w-100 px-3">
+                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
+                            </div>
+                        </div>
+                        <div class="card-body text-center border-top p-3">
+                            <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
+                                <a href="#">
+                                    Iram Dates
+                                </a>
+                            </h5>
+                            <ul class="rating_star d-flex align-items-center justify-content-center m-0">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_item border rounded-2">
+                    <div class="product-card">
+                        <div class="product-card-img position-relative overflow-hidden">
+                            <img src="{!! asset('assets/images/category/iram dates/iram-dates.png') !!}" alt="" />
+                            <div class="product-badge d-flex flex-column align-items-start gap-1">
+                                <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
+                                <span class="new-badge rounded-1 fs-small-heading">New</span>
+                            </div>
+                            <div class="card-btn-container w-100 px-3">
+                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
+                            </div>
+                        </div>
+                        <div class="card-body text-center border-top p-3">
+                            <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
+                                <a href="#">
+                                    Iram Dates
+                                </a>
+                            </h5>
+                            <ul class="rating_star d-flex align-items-center justify-content-center m-0">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_item border rounded-2">
+                    <div class="product-card">
+                        <div class="product-card-img position-relative overflow-hidden">
+                            <img src="{!! asset('assets/images/category/iram dates/iram-dates.png') !!}" alt="" />
+                            <div class="product-badge d-flex flex-column align-items-start gap-1">
+                                <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
+                                <span class="new-badge rounded-1 fs-small-heading">New</span>
+                            </div>
+                            <div class="card-btn-container w-100 px-3">
+                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
+                            </div>
+                        </div>
+                        <div class="card-body text-center border-top p-3">
+                            <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
+                                <a href="#">
+                                    Iram Dates
+                                </a>
+                            </h5>
+                            <ul class="rating_star d-flex align-items-center justify-content-center m-0">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_item border rounded-2">
+                    <div class="product-card">
+                        <div class="product-card-img position-relative overflow-hidden">
+                            <img src="{!! asset('assets/images/category/iram dates/iram-dates.png') !!}" alt="" />
+                            <div class="product-badge d-flex flex-column align-items-start gap-1">
+                                <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
+                                <span class="new-badge rounded-1 fs-small-heading">New</span>
+                            </div>
+                            <div class="card-btn-container w-100 px-3">
+                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
+                            </div>
+                        </div>
+                        <div class="card-body text-center border-top p-3">
+                            <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
+                                <a href="#">
+                                    Iram Dates
+                                </a>
+                            </h5>
+                            <ul class="rating_star d-flex align-items-center justify-content-center m-0">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> --}}
     <!-- ==================================================
-                         Food & Grocery Section - Start
-                        ============================    ====================== -->
+                                         Food & Grocery Section - Start
+                                        ============================    ====================== -->
     <!-- ==================================================
-                         Dairy & Eggs Section - Start
-                        ================================================== -->
+                                         Dairy & Eggs Section - Start
+                                        ================================================== -->
     <section class="dairy_eggs_section section_space_lg">
         <div class="container">
             <div class="section_heading text-center">
                 <h2 class="section_heading_text">Dairy & Eggs</h2>
                 {{-- <p class="section_heading_description mb-0">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry
                 </p> --}}
             </div>
             <div class="owl-carousel owl-theme product-carousel" id="dairyEggsSectionCarousel">
                 <div class="product_item border rounded-2">
                     <div class="product-card">
                         <div class="product-card-img position-relative overflow-hidden">
-                            <img src="{!! asset('assets/images/category/anaya dairy product/Untitled-4.png') !!}" alt="" />
+                            <img src="{!! asset('assets/images/productImage/300img/egg.png ') !!}" alt="" />
                             <div class="product-badge d-flex flex-column align-items-start gap-1">
                                 <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
                                 <span class="new-badge rounded-1 fs-small-heading">New</span>
                             </div>
                             <div class="card-btn-container w-100 px-3">
-                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
+                                <a href="{{ route("singleproduct.realeggs") }}"
+                                    class="btn btn-primary w-100 view-product-btn">View Product</a>
                             </div>
                         </div>
                         <div class="card-body text-center border-top p-3">
                             <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                <a href="#">
-                                    Yogurt
+                                <a href="{{ route("singleproduct.realeggs") }}" class="truncate-text">
+                                    Egg
                                 </a>
                             </h5>
                             <ul class="rating_star d-flex align-items-center justify-content-center m-0">
@@ -611,19 +627,20 @@
                 <div class="product_item border rounded-2">
                     <div class="product-card">
                         <div class="product-card-img position-relative overflow-hidden">
-                            <img src="{!! asset('assets/images/category/anaya dairy product/Untitled-4.png') !!}" alt="" />
+                            <img src="{!! asset('assets/images/productImage/300img/paneer.png') !!}" alt="" />
                             <div class="product-badge d-flex flex-column align-items-start gap-1">
                                 <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
                                 <span class="new-badge rounded-1 fs-small-heading">New</span>
                             </div>
                             <div class="card-btn-container w-100 px-3">
-                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
+                                <a href="{{ route("singleproduct.paneer") }}"
+                                    class="btn btn-primary w-100 view-product-btn">View Product</a>
                             </div>
                         </div>
                         <div class="card-body text-center border-top p-3">
                             <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                <a href="#">
-                                    Yogurt
+                                <a href="{{ route("singleproduct.paneer") }}" class="truncate-text">
+                                    Paneer
                                 </a>
                             </h5>
                             <ul class="rating_star d-flex align-items-center justify-content-center m-0">
@@ -639,19 +656,20 @@
                 <div class="product_item border rounded-2">
                     <div class="product-card">
                         <div class="product-card-img position-relative overflow-hidden">
-                            <img src="{!! asset('assets/images/category/anaya dairy product/Untitled-4.png') !!}" alt="" />
+                            <img src="{!! asset('assets/images/productImage/300img/milk-tetrapack.png') !!}" alt="" />
                             <div class="product-badge d-flex flex-column align-items-start gap-1">
                                 <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
                                 <span class="new-badge rounded-1 fs-small-heading">New</span>
                             </div>
                             <div class="card-btn-container w-100 px-3">
-                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
+                                <a href="{{ route("singleproduct.milk_tetrapack") }}"
+                                    class="btn btn-primary w-100 view-product-btn">View Product</a>
                             </div>
                         </div>
                         <div class="card-body text-center border-top p-3">
                             <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                <a href="#">
-                                    Yogurt
+                                <a href="{{ route("singleproduct.milk_tetrapack") }}" class="truncate-text">
+                                    Tetrapack milk
                                 </a>
                             </h5>
                             <ul class="rating_star d-flex align-items-center justify-content-center m-0">
@@ -667,19 +685,20 @@
                 <div class="product_item border rounded-2">
                     <div class="product-card">
                         <div class="product-card-img position-relative overflow-hidden">
-                            <img src="{!! asset('assets/images/category/anaya dairy product/Untitled-4.png') !!}" alt="" />
+                            <img src="{!! asset('assets/images/productImage/300img/milk.png') !!}" alt="" />
                             <div class="product-badge d-flex flex-column align-items-start gap-1">
                                 <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
                                 <span class="new-badge rounded-1 fs-small-heading">New</span>
                             </div>
                             <div class="card-btn-container w-100 px-3">
-                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
+                                <a href="{{ route("singleproduct.milk") }}"
+                                    class="btn btn-primary w-100 view-product-btn">View Product</a>
                             </div>
                         </div>
                         <div class="card-body text-center border-top p-3">
                             <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                <a href="#">
-                                    Yogurt
+                                <a href="{{ route("singleproduct.milk") }}" class="truncate-text">
+                                    Milk
                                 </a>
                             </h5>
                             <ul class="rating_star d-flex align-items-center justify-content-center m-0">
@@ -695,18 +714,19 @@
                 <div class="product_item border rounded-2">
                     <div class="product-card">
                         <div class="product-card-img position-relative overflow-hidden">
-                            <img src="{!! asset('assets/images/category/anaya dairy product/Untitled-4.png') !!}" alt="" />
+                            <img src="{!! asset('assets/images/category/anaya-dairy-product/yogurt/9.png') !!}" alt="" />
                             <div class="product-badge d-flex flex-column align-items-start gap-1">
                                 <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
                                 <span class="new-badge rounded-1 fs-small-heading">New</span>
                             </div>
                             <div class="card-btn-container w-100 px-3">
-                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
+                                <a href="{{ route("singleproduct.yogurt") }}"
+                                    class="btn btn-primary w-100 view-product-btn">View Product</a>
                             </div>
                         </div>
                         <div class="card-body text-center border-top p-3">
                             <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                <a href="#">
+                                <a href="{{ route("singleproduct.yogurt") }}" class="truncate-text">
                                     Yogurt
                                 </a>
                             </h5>
@@ -724,35 +744,36 @@
         </div>
     </section>
     <!-- ==================================================
-                         Dairy & Eggs Section - Start
-                        ================================================== -->
+                                         Dairy & Eggs Section - Start
+                                        ================================================== -->
     <!-- ==================================================
-                         Beverages Section - Start
-                        ================================================== -->
+                                         Beverages Section - Start
+                                        ================================================== -->
     <section class="beverages_section section_space_lg">
         <div class="container">
             <div class="section_heading text-center">
                 <h2 class="section_heading_text">Beverages</h2>
                 {{-- <p class="section_heading_description mb-0">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry
                 </p> --}}
             </div>
             <div class="owl-carousel owl-theme product-carousel" id="beveragesSectionCarousel">
                 <div class="product_item border rounded-2">
                     <div class="product-card">
                         <div class="product-card-img position-relative overflow-hidden">
-                            <img src="{!! asset('assets/images/category/zhakaas jeera masala/zhakaas-jeera-masala-1.png') !!}" alt="" />
+                            <img src="{!! asset('assets/images/productImage/300img/zhakas-jeera.png') !!}" alt="" />
                             <div class="product-badge d-flex flex-column align-items-start gap-1">
                                 <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
                                 <span class="new-badge rounded-1 fs-small-heading">New</span>
                             </div>
                             <div class="card-btn-container w-100 px-3">
-                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
+                                <a href="{{ route("singleproduct.jeeramasala") }}"
+                                    class="btn btn-primary w-100 view-product-btn">View Product</a>
                             </div>
                         </div>
                         <div class="card-body text-center border-top p-3">
-                            <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                <a href="#">
+                            <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1 ">
+                                <a href="{{ route("singleproduct.jeeramasala") }}" class="truncate-text">
                                     Zhakaas Jeera Masala
                                 </a>
                             </h5>
@@ -769,19 +790,20 @@
                 <div class="product_item border rounded-2">
                     <div class="product-card">
                         <div class="product-card-img position-relative overflow-hidden">
-                            <img src="{!! asset('assets/images/category/zhakaas jeera masala/zhakaas-jeera-masala-1.png') !!}" alt="" />
+                            <img src="{!! asset('assets/images/productImage/300img/bebe-orange.png') !!}" alt="" />
                             <div class="product-badge d-flex flex-column align-items-start gap-1">
                                 <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
                                 <span class="new-badge rounded-1 fs-small-heading">New</span>
                             </div>
                             <div class="card-btn-container w-100 px-3">
-                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
+                                <a href="{{ route("singleproduct.orangejuice") }}"
+                                    class="btn btn-primary w-100 view-product-btn">View Product</a>
                             </div>
                         </div>
                         <div class="card-body text-center border-top p-3">
                             <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                <a href="#">
-                                    Zhakaas Jeera Masala
+                                <a href="{{ route("singleproduct.orangejuice") }}" class="truncate-text">
+                                    Orange Juice
                                 </a>
                             </h5>
                             <ul class="rating_star d-flex align-items-center justify-content-center m-0">
@@ -797,19 +819,20 @@
                 <div class="product_item border rounded-2">
                     <div class="product-card">
                         <div class="product-card-img position-relative overflow-hidden">
-                            <img src="{!! asset('assets/images/category/zhakaas jeera masala/zhakaas-jeera-masala-1.png') !!}" alt="" />
+                            <img src="{!! asset('assets/images/productImage/300img/bebe-apple.png') !!}" alt="" />
                             <div class="product-badge d-flex flex-column align-items-start gap-1">
                                 <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
                                 <span class="new-badge rounded-1 fs-small-heading">New</span>
                             </div>
                             <div class="card-btn-container w-100 px-3">
-                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
+                                <a href="{{ route("singleproduct.applejuice") }}"
+                                    class="btn btn-primary w-100 view-product-btn">View Product</a>
                             </div>
                         </div>
                         <div class="card-body text-center border-top p-3">
                             <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                <a href="#">
-                                    Zhakaas Jeera Masala
+                                <a href="{{ route("singleproduct.applejuice") }}" class="truncate-text">
+                                    Apple Juice
                                 </a>
                             </h5>
                             <ul class="rating_star d-flex align-items-center justify-content-center m-0">
@@ -825,19 +848,20 @@
                 <div class="product_item border rounded-2">
                     <div class="product-card">
                         <div class="product-card-img position-relative overflow-hidden">
-                            <img src="{!! asset('assets/images/category/zhakaas jeera masala/zhakaas-jeera-masala-1.png') !!}" alt="" />
+                            <img src="{!! asset('assets/images/productImage/300img/bebe-mini.png') !!}" alt="" />
                             <div class="product-badge d-flex flex-column align-items-start gap-1">
                                 <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
                                 <span class="new-badge rounded-1 fs-small-heading">New</span>
                             </div>
                             <div class="card-btn-container w-100 px-3">
-                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
+                                <a href="{{ route("singleproduct.minipacks") }}"
+                                    class="btn btn-primary w-100 view-product-btn">View Product</a>
                             </div>
                         </div>
                         <div class="card-body text-center border-top p-3">
                             <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                <a href="#">
-                                    Zhakaas Jeera Masala
+                                <a href="{{ route("singleproduct.minipacks") }}" class="truncate-text">
+                                    mini packs
                                 </a>
                             </h5>
                             <ul class="rating_star d-flex align-items-center justify-content-center m-0">
@@ -850,44 +874,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="product_item border rounded-2">
-                    <div class="product-card">
-                        <div class="product-card-img position-relative overflow-hidden">
-                            <img src="{!! asset('assets/images/category/zhakaas jeera masala/zhakaas-jeera-masala-1.png') !!}" alt="" />
-                            <div class="product-badge d-flex flex-column align-items-start gap-1">
-                                <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
-                                <span class="new-badge rounded-1 fs-small-heading">New</span>
-                            </div>
-                            <div class="card-btn-container w-100 px-3">
-                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
-                            </div>
-                        </div>
-                        <div class="card-body text-center border-top p-3">
-                            <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                <a href="#">
-                                    Zhakaas Jeera Masala
-                                </a>
-                            </h5>
-                            <ul class="rating_star d-flex align-items-center justify-content-center m-0">
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </section>
     <!-- ==================================================
-                         Beverages Section - End
-                        ================================================== -->
+                                         Beverages Section - End
+                                        ================================================== -->
     <!-- ==================================================
-                        Logistics & Transportation Section - Start
-                        ================================================== -->
-    <section class="logistics_transportation_section decoration_wrapper section_space_lg">
+                                        Logistics & Transportation Section - Start
+                                        ================================================== -->
+    <section style="background-color: #002f753f;"
+        class="logistics_transportation_section decoration_wrapper section_space_lg">
         <div class="container">
             <div class="row align-items-start">
                 <div class="col-lg-6">
@@ -903,20 +901,20 @@
                             ensuring that your products reach their destination safely and on time. We partner with
                             industry leaders to provide you with the best solutions available.
                         </p>
-                        <a class="btn btn-primary rounded-1" href="contact.html">
-                            <span class="btn_text" data-text="Get A Consultation">
-                                Read More
-                            </span>
-                            <span class="btn_icon ps-2">
-                                {{-- <i class="fa-solid fa-arrow-up-right"></i> --}}
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </span>
-                        </a>
+                        <!-- <a class="btn btn-primary rounded-1" href="contact.html">
+                                    <span class="btn_text" data-text="Get A Consultation">
+                                        Read More
+                                    </span>
+                                    <span class="btn_icon ps-2">
+                                        {{-- <i class="fa-solid fa-arrow-up-right"></i> --}}
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </span>
+                                </a> -->
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="">
-                        <img src="{{ asset('assets/images/category/dream transport/Untitled-1.png') }}"
+                        <img src="{{ asset('assets/images/category/dream-transport/Untitled-1.png') }}"
                             alt="Talking Minds – Psychotherapist Site Template">
                     </div>
                 </div>
@@ -924,17 +922,17 @@
         </div>
     </section>
     <!-- ==================================================
-                        Logistics & Transportation Section - End
-                        ================================================== -->
+                                        Logistics & Transportation Section - End
+                                        ================================================== -->
     <!-- ==================================================
-                        Real Estate & Construction Section - Start
-                        ================================================== -->
+                                        Real Estate & Construction Section - Start
+                                        ================================================== -->
     <section class="logistics_transportation_section section_space_lg">
         <div class="container">
             <div class="row align-items-start">
                 <div class="col-lg-6">
                     <div class="">
-                        <img src="{{ asset('assets/images/category/dream sun shine developers/Untitled-1.png') }}"
+                        <img src="{{ asset('assets/images/category/dream-sun-shine-developers/Untitled-1.png') }}"
                             alt="Talking Minds – Psychotherapist Site Template">
                     </div>
                 </div>
@@ -953,27 +951,27 @@
                             sustainable building practices, or large-scale infrastructure projects, our features
                             demonstrate what’s possible when expertise meets ambition.
                         </p>
-                        <a class="btn btn-primary rounded-1" href="contact.html">
-                            <span class="btn_text" data-text="Get A Consultation">
-                                Read More
-                            </span>
-                            <span class="btn_icon ps-2">
-                                {{-- <i class="fa-solid fa-arrow-up-right"></i> --}}
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </span>
-                        </a>
+                        <!-- <a class="btn btn-primary rounded-1" href="contact.html">
+                                    <span class="btn_text" data-text="Get A Consultation">
+                                        Read More
+                                    </span>
+                                    <span class="btn_icon ps-2">
+                                        {{-- <i class="fa-solid fa-arrow-up-right"></i> --}}
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </span>
+                                </a> -->
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- ==================================================
-                        Real Estate & Construction Section - End
-                        ================================================== -->
+                                        Real Estate & Construction Section - End
+                                        ================================================== -->
 
     <!-- ==================================================
-                        Achievements Section - Start
-                        ================================================== -->
+                                        Achievements Section - Start
+                                        ================================================== -->
     <section class="achievements_section section_space_lg">
         <div class="section_heading text-center position-relative">
             <h2 class="section_heading_text text-white z-2">Our Achievements</h2>
@@ -1017,40 +1015,41 @@
         </div>
     </section>
     <!-- ==================================================
-                        Achievements Section - End
-                        ================================================== -->
+                                        Achievements Section - End
+                                        ================================================== -->
 
     <!-- ==================================================
-                         Testimonial Section - Start
-                        ================================================== -->
+                                         Testimonial Section - Start
+                                        ================================================== -->
     <section class="testimonial_section section_space_lg">
         <div class="container">
             <div class="section_heading text-center">
                 <h2 class="section_heading_text">What Clients Say</h2>
                 {{-- <p class="section_heading_description mb-0">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry
-              </p> --}}
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                </p> --}}
             </div>
 
             <div class="testimonial_carousel">
                 <div class="carousel_2col row" data-slick='{"arrows":false}'>
-                    <div class="carousel_item col-">
+                    <div class="carousel_item col-2">
                         <div class="testimonial_item">
-                            <ul class="rating_star unordered_list d-flex align-items-center justify-content-center">
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                            </ul>
+
                             <div class="author_box">
                                 <div
                                     class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
                                     <span class="m-0 b-0">N</span>
-                                    {{-- <img src="{{ asset('assets/images/meta/author_image_1.png') }}" alt=""> --}}
+                                    <!-- {{-- <img src="{{ asset('assets/images/meta/author_image_1.png') }}" alt=""> --}} -->
                                 </div>
                                 <div class="author_box_content">
                                     <h3 class="author_box_name">Naziya Ansari</h3>
+                                    <ul class="star_list unordered_list d-flex align-items-center ">
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                    </ul>
                                 </div>
                             </div>
                             <p class="mb-0">
@@ -1060,15 +1059,9 @@
                             </p>
                         </div>
                     </div>
-                    <div class="carousel_item col-">
+                    <div class="carousel_item col-2">
                         <div class="testimonial_item">
-                            <ul class="rating_star unordered_list d-flex align-items-center justify-content-center">
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                            </ul>
+
                             <div class="author_box">
                                 <div
                                     class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
@@ -1077,8 +1070,16 @@
                                 </div>
                                 <div class="author_box_content">
                                     <h3 class="author_box_name">Mohammed Abdullah</h3>
+                                    <ul class="star_list unordered_list d-flex align-items-center ">
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                    </ul>
                                 </div>
                             </div>
+
                             <p class="mb-0">
                                 I live in Hyderabad, Telangana, and I have invested with great results and good
                                 returns. The products are good and running well at reasonable prices. Special
@@ -1086,19 +1087,115 @@
                             </p>
                         </div>
                     </div>
+                    <div class="carousel_item col-2">
+                        <div class="testimonial_item">
+                            <div class="author_box">
+                                <div
+                                    class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
+                                    <span class="m-0 b-0">A</span>
+                                </div>
+                                <div class="author_box_content">
+                                    <h3 class="author_box_name">Rohit Verma</h3>
+                                    <ul class="star_list unordered_list d-flex align-items-center">
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <p class="mb-0">
+                                The customer support was outstanding and the process was smooth from start to finish.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="carousel_item col-2">
+                        <div class="testimonial_item">
+                            <div class="author_box">
+                                <div
+                                    class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
+                                    <span class="m-0 b-0">S</span>
+                                </div>
+                                <div class="author_box_content">
+                                    <h3 class="author_box_name">Sara Malik</h3>
+                                    <ul class="star_list unordered_list d-flex align-items-center">
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <p class="mb-0">
+                                A reliable platform that has helped me grow my investments over the past year.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="carousel_item col-2">
+                        <div class="testimonial_item">
+                            <div class="author_box">
+                                <div
+                                    class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
+                                    <span class="m-0 b-0">R</span>
+                                </div>
+                                <div class="author_box_content">
+                                    <h3 class="author_box_name">Ahmed Khan</h3>
+                                    <ul class="star_list unordered_list d-flex align-items-center">
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <p class="mb-0">
+                                Good experience overall. I appreciate the transparency and easy-to-use dashboard.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="carousel_item col-2">
+                        <div class="testimonial_item">
+                            <div class="author_box">
+                                <div
+                                    class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
+                                    <span class="m-0 b-0">L</span>
+                                </div>
+                                <div class="author_box_content">
+                                    <h3 class="author_box_name">Alok Kumar</h3>
+                                    <ul class="star_list unordered_list d-flex align-items-center">
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <p class="mb-0">
+                                The team is knowledgeable and responsive. I feel secure about my investments here.
+                            </p>
+                        </div>
+                    </div>
+
 
                 </div>
             </div>
         </div>
     </section>
     <!-- ==================================================
-                        Testimonial Section - End
-                        ================================================== -->
+                                        Testimonial Section - End
+                                        ================================================== -->
 
 
     <!-- ==================================================
-                            FAQ Section - Start
-                        ================================================== -->
+                                            FAQ Section - Start
+                                        ================================================== -->
     <section class="faq_section section_space_lg">
         <div class="container">
             <div class="row align-items-center">
@@ -1149,8 +1246,7 @@
                             <div class="accordion-item">
                                 <div class="accordion-header" id="heading_two">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse_two" aria-expanded="false"
-                                        aria-controls="collapse_two">
+                                        data-bs-target="#collapse_two" aria-expanded="false" aria-controls="collapse_two">
                                         Are your products organic or preservative-free?
                                     </button>
                                 </div>
@@ -1173,8 +1269,8 @@
                                         How do I place an order?
                                     </button>
                                 </div>
-                                <div id="collapse_three" class="accordion-collapse collapse"
-                                    aria-labelledby="heading_three" data-bs-parent="#faq_accordion">
+                                <div id="collapse_three" class="accordion-collapse collapse" aria-labelledby="heading_three"
+                                    data-bs-parent="#faq_accordion">
                                     <div class="accordion-body">
                                         <p class="m-0">
                                             Simply browse our products, add your desired items to the cart, and
@@ -1187,13 +1283,12 @@
                             <div class="accordion-item">
                                 <div class="accordion-header" id="heading_four">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse_four" aria-expanded="false"
-                                        aria-controls="collapse_four">
+                                        data-bs-target="#collapse_four" aria-expanded="false" aria-controls="collapse_four">
                                         What payment methods do you accept?
                                     </button>
                                 </div>
-                                <div id="collapse_four" class="accordion-collapse collapse"
-                                    aria-labelledby="heading_four" data-bs-parent="#faq_accordion">
+                                <div id="collapse_four" class="accordion-collapse collapse" aria-labelledby="heading_four"
+                                    data-bs-parent="#faq_accordion">
                                     <div class="accordion-body">
                                         <p class="m-0">
                                             We accept major credit/debit cards, UPI, net banking, and digital
@@ -1205,13 +1300,12 @@
                             <div class="accordion-item">
                                 <div class="accordion-header" id="heading_five">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse_five" aria-expanded="false"
-                                        aria-controls="collapse_five">
+                                        data-bs-target="#collapse_five" aria-expanded="false" aria-controls="collapse_five">
                                         How long does delivery take?
                                     </button>
                                 </div>
-                                <div id="collapse_five" class="accordion-collapse collapse"
-                                    aria-labelledby="heading_five" data-bs-parent="#faq_accordion">
+                                <div id="collapse_five" class="accordion-collapse collapse" aria-labelledby="heading_five"
+                                    data-bs-parent="#faq_accordion">
                                     <div class="accordion-body">
                                         <p class="m-0">
                                             Orders are usually delivered within 2–5 business days, depending on your
@@ -1227,15 +1321,15 @@
         </div>
     </section>
     <!-- ==================================================
-                          FAQ Section - End
-                          ================================================== -->
+                                          FAQ Section - End
+                                          ================================================== -->
     <!-- ==================================================
-                            Blog Section - Start
-                        ================================================== -->
+                                            Blog Section - Start
+                                        ================================================== -->
     <section class="blog_section section_space_lg">
         <div class="container">
             <div class="section_heading text-center">
-                <h2 class="section_heading_text">Latest News</h2>
+                <h2 class="section_heading_text">Blogs</h2>
                 <p class="section_heading_description mb-0">
                     Explore smart sourcing, product comparisons, and everything wholesale buyers need to know.
                 </p>
@@ -1246,39 +1340,17 @@
                         <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
                     </div>
                     <div class="blog_item_content">
-                        <a href="#">
-                            <h3 class="blog_item_title text-black">Why Buying Dairy Products in Bulk Is a Smart
-                                Business Move </h3>
+                        <a href="{{ route('smart-business') }}">
+                            <h3 class="blog_item_title text-black">Why Buying Dairy Products in Bulk Is a Smart Business
+                                Move</h3>
                         </a>
-                        <p class="blog_item_description text-secondary">Whether you run a bakery, a restaurant, or
-                            a grocery store, buying dairy products in bulk can help you save money and keep
-                            operations smooth. But how do you ensure quality while maximizing savings?</p>
-                        <hr class="mt-3 mb-4 border border-black border-top-0">
-                        <a class="btn btn-outline-primary text-decoration-none px-3 py-1" href="#">
-                            <span class="btn_text" data-text="Get A Consultation">
-                                Read More
-                            </span>
-                            <span class="btn_icon">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </span>
-                        </a>
-                    </div>
-                </div>
-                <div class="blog_item m-2">
-                    <div class="blog_item_img_container">
-                        <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
-                    </div>
-                    <div class="blog_item_content">
-                        <a href="#">
-                            <h3 class="blog_item_title text-black">The Ultimate Guide to Buying Rice in Bulk for
-                                Your Business</h3>
-                        </a>
-                        <p class="blog_item_description text-secondary">Rice is a staple in many kitchens — from
-                            restaurants to food delivery services. But purchasing rice in bulk isn't just about
-                            quantity; it's about choosing the right type, supplier, and packaging to fit your needs.
+                        <p class="blog_item_description text-secondary"> Whether you run a bakery, a restaurant, or a
+                            grocery store, buying dairy products in bulk
+                            can help you save money and keep operations smooth. But how do you ensure quality while
+                            maximizing savings?
                         </p>
                         <hr class="mt-3 mb-4 border border-black border-top-0">
-                        <a class="btn btn-outline-primary text-decoration-none px-3 py-1" href="#">
+                        <a class="btn btn-outline-primary text-decoration-none px-3 py-1" href="{{ route('smart-business') }}">
                             <span class="btn_text" data-text="Get A Consultation">
                                 Read More
                             </span>
@@ -1293,15 +1365,15 @@
                         <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
                     </div>
                     <div class="blog_item_content">
-                        <a href="#">
-                            <h3 class="blog_item_title text-black">Bulk Products Every Food Business Should Always
-                                Keep in Stock</h3>
+                        <a href="{{ route('smart-strategies-managing-bulk-inventory') }}">
+                            <h3 class="blog_item_title text-black">Smart Strategies for Managing Bulk Inventory</h3>
                         </a>
-                        <p class="blog_item_description text-secondary">Running a food-based business? These five
-                            essential items — from cooking oils to sugar — are must-haves for your pantry. Here's
-                            why buying them in bulk is the best decision for long-term savings and efficiency.</p>
+                        <p class="blog_item_description text-secondary">Discover how to efficiently manage large quantities
+                            of stock and reduce spoilage with smart storage solutions.
+
+                        </p>
                         <hr class="mt-3 mb-4 border border-black border-top-0">
-                        <a class="btn btn-outline-primary text-decoration-none px-3 py-1" href="#">
+                        <a class="btn btn-outline-primary text-decoration-none px-3 py-1" href="{{ route('smart-strategies-managing-bulk-inventory') }}">
                             <span class="btn_text" data-text="Get A Consultation">
                                 Read More
                             </span>
@@ -1316,15 +1388,58 @@
                         <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
                     </div>
                     <div class="blog_item_content">
-                        <a href="#">
-                            <h3 class="blog_item_title text-black">Bulk Products Every Food Business Should Always
-                                Keep in Stock</h3>
+                        <a href="{{ route('stocking-premium-dates-elevate-product-offering') }}">
+                            <h3 class="blog_item_title text-black">Why Stocking Premium Dates Can Elevate Your Product
+                                Offering</h3>
                         </a>
-                        <p class="blog_item_description text-secondary">Running a food-based business? These five
-                            essential items — from cooking oils to sugar — are must-haves for your pantry. Here's
-                            why buying them in bulk is the best decision for long-term savings and efficiency.</p>
+                        <p class="blog_item_description text-secondary">From nutritional benefits to cultural significance,
+                            discover why adding dates to your
+                            product lineup can attract more customers and boost brand value.</p>
                         <hr class="mt-3 mb-4 border border-black border-top-0">
-                        <a class="btn btn-outline-primary text-decoration-none px-3 py-1" href="#">
+                        <a class="btn btn-outline-primary text-decoration-none px-3 py-1" href="{{ route('stocking-premium-dates-elevate-product-offering') }}">
+                            <span class="btn_text" data-text="Get A Consultation">
+                                Read More
+                            </span>
+                            <span class="btn_icon">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="blog_item m-2">
+                    <div class="blog_item_img_container">
+                        <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+                    </div>
+                    <div class="blog_item_content">
+                        <a href="{{ route('right-way-store-eggs-extend-shelf-life') }}">
+                            <h3 class="blog_item_title text-black">The Right Way to Store Eggs and Extend Shelf Life in Bulk
+                            </h3>
+                        </a>
+                        <p class="blog_item_description text-secondary"> Avoid spoilage and ensure safety with these
+                            essential storage methods for handling eggs in commercial quantities. </p>
+                        <hr class="mt-3 mb-4 border border-black border-top-0">
+                        <a class="btn btn-outline-primary text-decoration-none px-3 py-1" href="{{ route('right-way-store-eggs-extend-shelf-life') }}">
+                            <span class="btn_text" data-text="Get A Consultation">
+                                Read More
+                            </span>
+                            <span class="btn_icon">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="blog_item m-2">
+                    <div class="blog_item_img_container">
+                        <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+                    </div>
+                    <div class="blog_item_content">
+                        <a href="{{ route('identify-high-quality-basmati-rice-buyers-guide') }}">
+                            <h3 class="blog_item_title text-black">How to Identify High-Quality Basmati Rice: A Buyer’s Guide</h3>
+                        </a>
+                        <p class="blog_item_description text-secondary">Learn how grain length, aroma, and aging affect basmati rice quality — so you can make
+                        smarter bulk buying decisions for your food business.</p>
+                        <hr class="mt-3 mb-4 border border-black border-top-0">
+                        <a class="btn btn-outline-primary text-decoration-none px-3 py-1" href="{{ route('identify-high-quality-basmati-rice-buyers-guide') }}">
                             <span class="btn_text" data-text="Get A Consultation">
                                 Read More
                             </span>
@@ -1338,20 +1453,20 @@
         </div>
     </section>
     <!-- ==================================================
-                            Blog Section - End
-                        ================================================== -->
+                                            Blog Section - End
+                                        ================================================== -->
     <!-- ==================================================
-                          Get in touch Section - Start
-                          ================================================== -->
+                                          Get in touch Section - Start
+                                          ================================================== -->
     <section class="get_in_touch_section position-relative ">
         {{-- <div class="get_in_touch_wrapper">
-                <img src="{{ asset('assets/images/') }}" alt="">
-            </div> --}}
+            <img src="{{ asset('assets/images/') }}" alt="">
+        </div> --}}
         {{-- <div class="get_in_touch_section-wrapper px-0 z-n1">
-                <div class="h-100">
-                    <img src="{{ asset('assets/images/meta/Get-in-touch-us.png') }}" alt="" class="img-fluid">
-                </div>
-            </div> --}}
+            <div class="h-100">
+                <img src="{{ asset('assets/images/meta/Get-in-touch-us.png') }}" alt="" class="img-fluid">
+            </div>
+        </div> --}}
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -1438,14 +1553,14 @@
         </div>
     </section>
     <!-- ==================================================
-                          Get in touch Section - End
-                          ================================================== -->
+                                          Get in touch Section - End
+                                          ================================================== -->
 @endsection
 
 
 @section('extrajs')
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
             $('#home-banner ').owlCarousel({
                 loop: true,
                 margin: 10,
@@ -1475,7 +1590,7 @@
                 ],
                 responsive: {
                     0: {
-                        items: 1,
+                        items: 2,
                     },
                     768: {
                         items: 2,
@@ -1527,7 +1642,7 @@
                 ],
                 responsive: {
                     0: {
-                        items: 1,
+                        items: 2,
                     },
                     768: {
                         items: 2,
@@ -1553,7 +1668,7 @@
                 ],
                 responsive: {
                     0: {
-                        items: 1,
+                        items: 2,
                     },
                     768: {
                         items: 2,
@@ -1602,12 +1717,15 @@
                 responsive: {
                     0: {
                         items: 1,
+                        dots: true,
                     },
                     475: {
                         items: 2,
+                        dots: true,
                     },
                     768: {
                         items: 2,
+                        dots: true,
                     },
                     992: {
                         items: 3,
@@ -1620,7 +1738,7 @@
                 speed: 1000,
                 arrows: true,
                 infinite: true,
-                autoplay: true,
+                autoplay: false,
                 slidesToShow: 2,
                 slidesToScroll: 2,
                 pauseOnHover: true,

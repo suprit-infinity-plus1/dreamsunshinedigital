@@ -1,9 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.text-main-color{
+    color: #002f75;
+}
+/* .side-images{
+    width: 100px
+} */
+/* .single-product-card-img-main{
+    width: 100%;
+    height:auto ;
+} */
+.side-image {
+    border: none;  /* No border by default */
+}
+
+/* When the side image has the selected-side-image class */
+.selected-side-image {
+    border: 2px solid black;  /* Apply black border */
+}
+
+
+/* Base styles for all share icons */
+.share-icons svg {
+    color: #d3d3d3;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 16px;
+    transition: color 0.3s ease;
+}
+
+/* Optional: Add left margin to the first icon */
+.share-icons svg:first-child {
+    margin-left: 16px;
+}
+
+/* Hover color for each icon */
+.facebook-icon:hover {
+    color: #1877F2; /* Facebook blue */
+}
+
+.instagram-icon:hover {
+    color: #E1306C; /* Instagram pink-red */
+}
+
+.twitter-icon:hover {
+    color: #000000; /* Twitter black */
+}
+
+
 .quantitybtn-1 {
-    border-color: #d5dae0 !important;
-    color: #d5dae0 !important;
+    border-color: #000000;
+    
 }
 
 .quantitybtn-1:hover {
     color: #619cdf !important;    
-    border-color: #619cdf !important;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid #619cdf !important;
 }
+
+img#xzoom-default{
+    box-shadow: none;
+}
+
+
+/* .single-product-card-img img {
+    height: 400px; 
+    object-fit: cover; 
+    width: 100%; 
+} */
+.anaya-title{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 33px;
+}
+
+
+/* Remove boldness from the accordion title */
+.accordion-button {
+    font-weight: 400 !important; /* Makes the title not bold */
+}
+
+/* Style for the specification rows */
+.specification {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style for each label-value row */
+.spec-row {
+    display: flex;
+    justify-content: flex-start; /* Aligns label and value to the left */
+    margin-bottom: 10px; /* Space between rows */
+}
+
+/* Label style */
+.spec-label {
+    font-weight: bold; /* Bold for the labels */
+    margin-right: 10px; /* Space between label and value */
+    min-width: 100px; /* Make sure label has enough width */
+}
+
+/* Value style */
+.spec-value {
+    flex-grow: 1; /* Makes the value section grow to fill the available space */
+}
+
+/* Optional: Add some space between the accordion body and content */
+.accordion-body {
+    margin-top: 10px;
+}
+
+.description-btn{
+    font-weight: 500;
+}
+.description-text {
+    display: block;
+    transition: all 0.3s ease;
+}
+
+#readMoreBtn {
+    display: none;
+    margin-top: 10px;
+    color: blue;
+    cursor: pointer;
+}
+
+.read-more {
+    display: inline;
+}
+
+.read-less {
+    display: inline;
+}
+
+
+
+.enquire-now-btn{
+    color: white;
+    background-color: #61CE70;
+    margin-top: 20px;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+
+
+.enquire-now-btn:hover{
+    scale: 1.05;
+
+}
+.enquire-now-btn svg{
+    height: 25px;
+    width: 25px;
+}
+
