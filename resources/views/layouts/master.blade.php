@@ -170,7 +170,7 @@
                     </li>
                     <li data-target=".lasers-submenu">
                         <p>
-                            Beverages <span><i class="fa-solid fa-chevron-down"></i></span>
+                            Beveragess <span><i class="fa-solid fa-chevron-down"></i></span>
                         </p>
                         <!-- <span><i class="fa-solid fa-chevron-down"></i></span> -->
                     </li>
