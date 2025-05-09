@@ -6,7 +6,7 @@
 @section('content')
 <div class="blog-main-container blog-dates">
     <div class="blog-image">
-        <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="Premium Dates">
+        <img src="{{ asset('assets/images/blog/blog-dates.jpg') }}" alt="Premium Dates">
     </div>
 
     <div class="blog-content">
@@ -46,16 +46,27 @@
         </p>
     </div>
 
+
+<!-- ----------------Share Icons------------------ -->
+    <span class="share-icons">
+<a href="https://www.facebook.com/sharer/sharer.php?u={{ urlencode(url()->current()) }}" 
+       target="_blank" rel="noopener" class="me-3">
+        <i class="fa-brands fa-facebook-f facebook-icon"></i>
+    </a>            
+            <i class="fa-brands fa-instagram instagram-icon"></i>
+            <i class="fa-brands fa-x-twitter twitter-icon"></i>
+        </span>
+
     <!-- START: Related Blog Section -->
 <div class="related-blogs mt-0">
-    <h2 class="related-title mb-0">Related Blog</h2>
-    <div class="row row-cols-1 row-cols-md-2 g-4 mb-4 mt-4 justify-content-center">
+    <h2 class="related-title mb-2">Related Blog</h2>
+    <div class="row row-cols-1 row-cols-md-2 g-4  justify-content-center">
 
         <!-- Blog Card 1 -->
         <div class="col">
                     <div class="blog_item m-2">
                         <div class="blog_item_img_container">
-                            <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+                            <img src="{{ asset('assets/images/blog/blog-dairy-bulk.jpg') }}" alt="">
                         </div>
                         <div class="blog_item_content">
                             <a href="{{ route('smart-business') }}">
@@ -83,7 +94,7 @@
         <div class="col">
     <div class="blog_item m-2">
         <div class="blog_item_img_container">
-            <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+            <img src="{{ asset('assets/images/blog/blog-bulk.jpg') }}" alt="">
         </div>
         <div class="blog_item_content">
             <a href="{{ route('smart-strategies-managing-bulk-inventory') }}">
@@ -106,7 +117,7 @@
         <div class="col">
             <div class="blog_item m-2">
                 <div class="blog_item_img_container">
-                    <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+                    <img src="{{ asset('assets/images/blog/blog-egg.jpg') }}" alt="">
                 </div>
                 <div class="blog_item_content">
                     <a href="{{ route('right-way-store-eggs-extend-shelf-life') }}">
@@ -131,7 +142,7 @@
         <div class="col">
             <div class="blog_item m-2">
                 <div class="blog_item_img_container">
-                    <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+                    <img src="{{ asset('assets/images/blog/blog-rice.jpg') }}" alt="">
                 </div>
                 <div class="blog_item_content">
                     <a href="{{ route('identify-high-quality-basmati-rice-buyers-guide') }}">
@@ -156,13 +167,6 @@
 </div>
 <!-- END: Related Blog Section -->
 
-<span class="share-icons">
-<a href="https://www.facebook.com/sharer/sharer.php?u={{ urlencode(url()->current()) }}" 
-       target="_blank" rel="noopener" class="me-3">
-        <i class="fa-brands fa-facebook-f facebook-icon"></i>
-    </a>            
-            <i class="fa-brands fa-instagram instagram-icon"></i>
-            <i class="fa-brands fa-x-twitter twitter-icon"></i>
-        </span>
+
 </div>
 @endsection

@@ -9,7 +9,7 @@
 
         <!-- START: Main Blog Content -->
         <div class="blog-image">
-            <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="Dairy Product">
+            <img src="{{ asset('assets/images/blog/blog-dairy-bulk.jpg') }}" alt="Dairy Product">
         </div>
 
         <div class="blog-content">
@@ -57,16 +57,24 @@
         </div>
         <!-- END: Main Blog Content -->
 
+
+        <!-- START: Share Icons -->
+
+        <span class="share-icons">
+            <i class="fa-brands fa-facebook-f facebook-icon"></i>
+            <i class="fa-brands fa-instagram instagram-icon"></i>
+            <i class="fa-brands fa-x-twitter twitter-icon"></i>
+        </span>
         <!-- START: Related Blog Section -->
         <div class="related-blogs mt-0">
-            <h2 class="related-title mb-0 ">Related Blog</h2>
-            <div class="row row-cols-1 row-cols-md-2 g-4 mb-4 mt-4">
+            <h2 class="related-title mb-2 ">Related Blog</h2>
+            <div class="row row-cols-1 row-cols-md-2 g-4 ">
 
                 <!-- Blog Card 1 -->
                 <div class="col">
                     <div class="blog_item m-2">
                         <div class="blog_item_img_container">
-                            <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+                            <img src="{{ asset('assets/images/blog/blog-bulk.jpg') }}" alt="">
                         </div>
                         <div class="blog_item_content">
                             <a href="{{ route('smart-strategies-managing-bulk-inventory') }}">
@@ -90,9 +98,10 @@
 
                 <!-- Blog Card 2 -->
                 <div class="col">
+
                     <div class="blog_item m-2">
                         <div class="blog_item_img_container">
-                            <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+                            <img src="{{ asset('assets/images/blog/blog-dates.jpg') }}" alt="">
                         </div>
                         <div class="blog_item_content">
                             <a href="{{ route('stocking-premium-dates-elevate-product-offering') }}">
@@ -118,7 +127,7 @@
                 <div class="col">
                     <div class="blog_item m-2">
                         <div class="blog_item_img_container">
-                            <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+                            <img src="{{ asset('assets/images/blog/blog-egg.jpg') }}" alt="">
                         </div>
                         <div class="blog_item_content">
                             <a href="{{ route('right-way-store-eggs-extend-shelf-life') }}">
@@ -142,9 +151,10 @@
 
                 <!-- Blog Card 4 -->
                 <div class="col">
+
                     <div class="blog_item m-2">
                         <div class="blog_item_img_container">
-                            <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+                            <img src="{{ asset('assets/images/blog/blog-rice.jpg') }}" alt="">
                         </div>
                         <div class="blog_item_content">
                             <a href="{{ route('identify-high-quality-basmati-rice-buyers-guide') }}">
@@ -170,11 +180,7 @@
         </div>
         <!-- END: Related Blog Section -->
 
-        <span class="share-icons">
-            <i class="fa-brands fa-facebook-f facebook-icon"></i>
-            <i class="fa-brands fa-instagram instagram-icon"></i>
-            <i class="fa-brands fa-x-twitter twitter-icon"></i>
-        </span>
+     
 
     </div>
 @endsection

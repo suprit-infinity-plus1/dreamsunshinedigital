@@ -1,6 +1,8 @@
 <?php
 
 
+use App\Http\Controllers\DevelopersController;
+use App\Http\Controllers\DreamTransportController;
 use App\Http\Controllers\MainController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CategoryController;   
@@ -27,6 +29,14 @@ Route::prefix('blog')->group(function () {
     Route::get('/identify-high-quality-basmati-rice-buyers-guide', [BlogController::class, 'identifyHighQualityBasmatiRice'])->name('identify-high-quality-basmati-rice-buyers-guide');
 });
 
+// -------------------------------Dream Trnasport --------------------------
+
+Route::get('/dream-transport', [DreamTransportController::class,'dreamTransport'])->name('dream-transport');
+
+// -------------------------------Dream Sunshine Developers --------------------------
+
+Route::get('/dream-sunshine-developers', [DevelopersController::class,'dreamSunshineDevelopers'])->name('dream-sunshine-developers');
+
 
 
 //-------------------------------Category Product--------------------------
@@ -34,15 +44,19 @@ Route::get('/', [MainController::class, 'index'])->name('index');
 Route::get('/single-product', action: [MainController::class, 'singleproduct'])->name('singleproduct');
 // Route::get('/category', [CategoryController::class, 'index'])->name('category.index');
 Route::get('/category/food-&-grocery', [CategoryController::class, 'foodgrocery'])->name('category.foodgrocery');
-Route::get('/category/anaya_rice', [CategoryController::class, 'anaya_rice'])->name('category.anaya_rice');
+Route::get('/category/anaya-rice', [CategoryController::class, 'anaya-rice'])->name('category.anaya-rice');
+
+Route::get('/category/iramdates', [CategoryController::class, 'iramDates'])->name('category.iramdates');
 Route::get('/category/dates', [CategoryController::class, 'dates'])->name('category.dates');
+Route::get('/category/dry-fruits', [CategoryController::class, 'dryFruits'])->name('category.dry-fruits');
+Route::get('/category/dry-fruits', [CategoryController::class, 'dryFruits'])->name('category.dry-fruits');
 Route::get('/category/oil', [CategoryController::class, 'oil'])->name('category.oil');
 Route::get('/category/sugar', [CategoryController::class, 'sugar'])->name('category.sugar');
 Route::get('/category/dairyeggs', [CategoryController::class, 'dairyeggs'])->name('category.dairyeggs');
 Route::get('/category/dairy', [CategoryController::class, 'dairy'])->name('category.dairy');
 Route::get('/category/realeggs', [CategoryController::class, 'realeggs'])->name('category.realeggs');
 Route::get('/category/beverages', [CategoryController::class, 'beverages'])->name('category.beverages');
-Route::get('/category/soft_drinks', [CategoryController::class, 'soft_drinks'])->name('category.soft_drinks');
+Route::get('/category/soft-drinks', [CategoryController::class, 'softDrinks'])->name('category.soft-drinks');
 Route::get('/category/realoxy', [CategoryController::class, 'realoxy'])->name('category.realoxy');
 Route::get('/category/anayatealeave', [CategoryController::class, 'anayatealeave'])->name('category.anayatealeave');
 
@@ -66,7 +80,6 @@ Route::get(uri: '/anayatealeave', action: [MainController::class, 'anayatealeave
 Route::get(uri: '/jeeramasala', action: [MainController::class, 'jeeramasala'])->name('singleproduct.jeeramasala');
 Route::get(uri: '/applejuice', action: [MainController::class, 'applejuice'])->name('singleproduct.applejuice');
 Route::get(uri: '/orangejuice', action: [MainController::class, 'orangejuice'])->name('singleproduct.orangejuice');
-Route::get(uri: '/minipacks', action: [MainController::class, 'minipacks'])->name('singleproduct.minipacks');
 Route::get(uri: '/realoxy1', action: [MainController::class, 'realoxy1'])->name('singleproduct.realoxy1');
 Route::get(uri: '/realoxy2', action: [MainController::class, 'realoxy2'])->name('singleproduct.realoxy2');
 });

@@ -21,7 +21,7 @@ body {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
-    padding: 70px 16px;
+    padding: 30px 16px;
     display: flex;
     flex-direction: column;
 }

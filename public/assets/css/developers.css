@@ -1,0 +1,57 @@
+body{
+    font-family: 'poppins', sans-serif;
+    color: white;
+}
+/* .contact-us-head img{
+    width: 100%;
+    height:300px;
+}
+.contact-us-head h4{
+    display: block;
+
+} */
+.image-wrapper {
+    position: relative;
+    display: inline-block; /* keeps size according to image */
+    width: 100%;
+    /* margin-bottom: 30px; */
+  }
+ 
+  
+  .image-wrapper img {
+    width: 100%; /* or set fixed width if needed */
+    height: 300px;
+    display: block;
+  }
+  @media (max-width: 768px) {
+    .image-wrapper img{
+        height: 160px;
+    }
+  }
+  @media (max-width: 576px) {
+    .image-wrapper img{
+        height: 100px;
+    }
+  }
+  
+  .image-wrapper h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* or white, depending on your image */
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+    background-color: rgba(92, 89, 89, 0.3);     width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  @media (max-width: 768px) {
+    .image-wrapper h4 {
+        font-size: 20px;
+    }
+  }
+  

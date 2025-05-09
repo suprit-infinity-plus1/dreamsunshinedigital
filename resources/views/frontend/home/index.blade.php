@@ -1,4 +1,5 @@
 @extends('layouts.master')
+@section('title','Home | Dream Sunshine Digital')
 @section('content')
     <div class="banner-section">
 
@@ -123,7 +124,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="btn btn-outline-secondary rounded-1" href="about.html">
+                                <a class="btn btn-outline-secondary rounded-1" href="{{ route("about") }}">
                                     <span class="btn_text" data-text="Learn More">
                                         Read More
                                     </span>
@@ -848,20 +849,20 @@
                 <div class="product_item border rounded-2">
                     <div class="product-card">
                         <div class="product-card-img position-relative overflow-hidden">
-                            <img src="{!! asset('assets/images/productImage/300img/bebe-mini.png') !!}" alt="" />
+                            <img src="{!! asset('assets/images/category/beverages/beverages-square-bottle.png') !!}" alt="" />
                             <div class="product-badge d-flex flex-column align-items-start gap-1">
                                 <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
                                 <span class="new-badge rounded-1 fs-small-heading">New</span>
                             </div>
                             <div class="card-btn-container w-100 px-3">
-                                <a href="{{ route("singleproduct.minipacks") }}"
+                                <a href="#"
                                     class="btn btn-primary w-100 view-product-btn">View Product</a>
                             </div>
                         </div>
                         <div class="card-body text-center border-top p-3">
                             <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                <a href="{{ route("singleproduct.minipacks") }}" class="truncate-text">
-                                    mini packs
+                                <a href="{{ route("singleproduct.realoxy1") }}" class="truncate-text">
+                                    Real Oxy
                                 </a>
                             </h5>
                             <ul class="rating_star d-flex align-items-center justify-content-center m-0">
@@ -884,7 +885,7 @@
     <!-- ==================================================
                                         Logistics & Transportation Section - Start
                                         ================================================== -->
-    <section style="background-color: #002f753f;"
+    <section id="dream-transport-section" style="background-color: #002f753f;"
         class="logistics_transportation_section decoration_wrapper section_space_lg">
         <div class="container">
             <div class="row align-items-start">
@@ -1024,22 +1025,16 @@
     <section class="testimonial_section section_space_lg">
         <div class="container">
             <div class="section_heading text-center">
-                <h2 class="section_heading_text">What Clients Say</h2>
-                {{-- <p class="section_heading_description mb-0">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry
-                </p> --}}
             </div>
+            <h2 class="section_heading_text">What Clients Say</h2>
 
             <div class="testimonial_carousel">
-                <div class="carousel_2col row" data-slick='{"arrows":false}'>
+                <div class="carousel_2col row" data-slick='{"arrows":true}'>
                     <div class="carousel_item col-2">
                         <div class="testimonial_item">
-
                             <div class="author_box">
-                                <div
-                                    class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
+                                <div class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
                                     <span class="m-0 b-0">N</span>
-                                    <!-- {{-- <img src="{{ asset('assets/images/meta/author_image_1.png') }}" alt=""> --}} -->
                                 </div>
                                 <div class="author_box_content">
                                     <h3 class="author_box_name">Naziya Ansari</h3>
@@ -1061,12 +1056,9 @@
                     </div>
                     <div class="carousel_item col-2">
                         <div class="testimonial_item">
-
                             <div class="author_box">
-                                <div
-                                    class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
+                                <div class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
                                     <span class="m-0 b-0">A</span>
-                                    {{-- <img src="{{ asset('assets/images/meta/author_image_1.png') }}" alt=""> --}}
                                 </div>
                                 <div class="author_box_content">
                                     <h3 class="author_box_name">Mohammed Abdullah</h3>
@@ -1090,8 +1082,7 @@
                     <div class="carousel_item col-2">
                         <div class="testimonial_item">
                             <div class="author_box">
-                                <div
-                                    class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
+                                <div class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
                                     <span class="m-0 b-0">A</span>
                                 </div>
                                 <div class="author_box_content">
@@ -1114,8 +1105,7 @@
                     <div class="carousel_item col-2">
                         <div class="testimonial_item">
                             <div class="author_box">
-                                <div
-                                    class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
+                                <div class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
                                     <span class="m-0 b-0">S</span>
                                 </div>
                                 <div class="author_box_content">
@@ -1138,8 +1128,7 @@
                     <div class="carousel_item col-2">
                         <div class="testimonial_item">
                             <div class="author_box">
-                                <div
-                                    class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
+                                <div class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
                                     <span class="m-0 b-0">R</span>
                                 </div>
                                 <div class="author_box_content">
@@ -1162,8 +1151,7 @@
                     <div class="carousel_item col-2">
                         <div class="testimonial_item">
                             <div class="author_box">
-                                <div
-                                    class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
+                                <div class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
                                     <span class="m-0 b-0">L</span>
                                 </div>
                                 <div class="author_box_content">
@@ -1182,8 +1170,6 @@
                             </p>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
@@ -1337,7 +1323,7 @@
             <div class="owl-carousel owl-theme" id="blogSectionCarousel">
                 <div class="blog_item m-2">
                     <div class="blog_item_img_container">
-                        <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+                        <img src="{{ asset('assets/images/blog/blog-dairy-bulk.jpg') }}" alt="">
                     </div>
                     <div class="blog_item_content">
                         <a href="{{ route('smart-business') }}">
@@ -1362,7 +1348,7 @@
                 </div>
                 <div class="blog_item m-2">
                     <div class="blog_item_img_container">
-                        <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+                        <img src="{{ asset('assets/images/blog/blog-bulk.jpg') }}" alt="">
                     </div>
                     <div class="blog_item_content">
                         <a href="{{ route('smart-strategies-managing-bulk-inventory') }}">
@@ -1385,7 +1371,7 @@
                 </div>
                 <div class="blog_item m-2">
                     <div class="blog_item_img_container">
-                        <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+                        <img src="{{ asset('assets/images/blog/blog-dates.jpg') }}" alt="">
                     </div>
                     <div class="blog_item_content">
                         <a href="{{ route('stocking-premium-dates-elevate-product-offering') }}">
@@ -1408,7 +1394,7 @@
                 </div>
                 <div class="blog_item m-2">
                     <div class="blog_item_img_container">
-                        <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+                        <img src="{{ asset('assets/images/blog/blog-egg.jpg') }}" alt="">
                     </div>
                     <div class="blog_item_content">
                         <a href="{{ route('right-way-store-eggs-extend-shelf-life') }}">
@@ -1430,7 +1416,7 @@
                 </div>
                 <div class="blog_item m-2">
                     <div class="blog_item_img_container">
-                        <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+                        <img src="{{ asset('assets/images/blog/blog-rice.jpg') }}" alt="">
                     </div>
                     <div class="blog_item_content">
                         <a href="{{ route('identify-high-quality-basmati-rice-buyers-guide') }}">
@@ -1564,7 +1550,7 @@
             $('#home-banner ').owlCarousel({
                 loop: true,
                 margin: 10,
-                nav: true,
+                nav: ture,
                 autoplay: false,
                 dots: true,
                 // animateOut: 'fadeOutRight',

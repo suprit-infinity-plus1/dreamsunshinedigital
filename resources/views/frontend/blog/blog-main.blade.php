@@ -8,7 +8,7 @@
             <img src="{{ asset('assets/images/categoryImages/Category-sample.jpg') }}" alt="">
             <h4>Home &gt; Blogs</h4>
         </div>
-    <div class="container my-5">
+    <div class=" container blog-container">
         
         <div class="px-5"> <!-- Add this wrapper -->
 
@@ -18,18 +18,18 @@
                 <div class="col">
                     <div class="blog_item m-2">
                         <div class="blog_item_img_container">
-                            <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+                            <img src="{{ asset('assets/images/blog/blog-dairy-bulk.jpg') }}" alt="">
                         </div>
                         <div class="blog_item_content">
                             <a href="{{ route('smart-business') }}">
                                 <h3 class="blog_item_title">
-                                    Why Buying Dairy Products in Bulk Is a Smart Business Move
-                                </h3>
-                            </a>
-                            <p class="blog_item_description text-secondary">
-                                Whether you run a bakery, a restaurant, or a grocery store, buying dairy products in bulk
-                                can help you save money and keep operations smooth. But how do you ensure quality while
-                                maximizing savings?
+                                        Why Buying Dairy Products in Bulk Is a Smart Business Move
+                                    </h3>
+                                </a>
+                                <p class="blog_item_description text-secondary">
+                                    Whether you run a bakery, a restaurant, or a grocery store, buying dairy products in bulk
+                                    can help you save money and keep operations smooth. But how do you ensure quality while
+                                    maximizing savings?
                             </p>
                             <hr class="mt-3 mb-4 border border-black border-top-0">
                             <a href="{{ route('smart-business') }}"
@@ -45,7 +45,7 @@
                 <div class="col">
                     <div class="blog_item m-2">
                         <div class="blog_item_img_container">
-                            <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+                            <img src="{{ asset('assets/images/blog/blog-bulk.jpg') }}" alt="">
                         </div>
                         <div class="blog_item_content">
                             <a href="{{ route('smart-strategies-managing-bulk-inventory') }}">
@@ -71,7 +71,7 @@
                 <div class="col">
                     <div class="blog_item m-2">
                         <div class="blog_item_img_container">
-                            <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+                            <img src="{{ asset('assets/images/blog/blog-dates.jpg') }}" alt="">
                         </div>
                         <div class="blog_item_content">
                             <a href="{{ route('stocking-premium-dates-elevate-product-offering') }}">
@@ -97,7 +97,7 @@
                 <div class="col">
                     <div class="blog_item m-2">
                         <div class="blog_item_img_container">
-                            <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+                            <img src="{{ asset('assets/images/blog/blog-egg.jpg') }}" alt="">
                         </div>
                         <div class="blog_item_content">
                             <a href="{{ route('right-way-store-eggs-extend-shelf-life') }}">
@@ -123,7 +123,7 @@
                 <div class="col">
                     <div class="blog_item m-2">
                         <div class="blog_item_img_container">
-                            <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+                            <img src="{{ asset('assets/images/blog/blog-rice.jpg') }}" alt="">
                         </div>
                         <div class="blog_item_content">
                             <a href="{{ route('identify-high-quality-basmati-rice-buyers-guide') }}">

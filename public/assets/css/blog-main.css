@@ -11,7 +11,9 @@
     /* margin-bottom: 30px; */
   }
  
-  
+  .blog-container{
+    padding: 30px 0px;
+  }
   .image-wrapper img {
     width: 100%; /* or set fixed width if needed */
     height: 300px;
@@ -89,6 +91,6 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-    height: 3em;                  /* Adjust based on line-height */
+    height: 2em;                  /* Adjust based on line-height */
     line-height: 1.5em;
 }

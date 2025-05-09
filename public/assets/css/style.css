@@ -7,6 +7,7 @@
 body {
     font-family: "Poppins", sans-serif;
     /* font-family: "Urbanist", sans-serif; */
+    scroll-behavior: smooth;
     position: relative;
     margin: 0;
     padding: 0;
@@ -1133,7 +1134,7 @@ ul.menu.vertical.large-horizontal.dropdown li:nth-child(3) a:hover {
 
 /* fade effect end here */
 .dram-section {
-    padding: 40px 0;
+    padding: 30px 0;
 }
 @media screen and (max-width: 767px) {
     .dram-section {
@@ -1532,7 +1533,7 @@ ul.menu.vertical.large-horizontal.dropdown li:nth-child(3) a:hover {
 Page Hero Section - Start
 ================================================== */
 .hero_section {
-    padding: 60px 0 60px;
+    padding: 30px 0 30px;
 }
 
 .hero_section .heading_text {
@@ -1610,7 +1611,7 @@ Page Hero Section - Start
 }
 
 .section_space_lg {
-    padding: 60px 0;
+    padding: 30px 0;
 }
 
 /* 4.11 - Testimonial - Start
@@ -1772,7 +1773,7 @@ ul li {
     }
 
     .hero_section {
-        padding: 60px 0 60px;
+        padding: 30px 0 30px;
     }
 
     .section_heading .section_heading_text {
@@ -1791,6 +1792,7 @@ ul li {
         line-height: 28px;
     }
 
+
     .accordion .accordion-item .accordion-button {
         font-size: 20px;
         line-height: 28px;
@@ -1801,6 +1803,7 @@ ul li {
         padding-bottom: 30px;
     }
 }
+
 @media (max-width: 576px) {
     /* .section.dairy_eggs_section.section_space_lg {
         padding-top: 20px;
@@ -1896,7 +1899,7 @@ ul li {
     }
 
     .hero_section {
-        padding: 60px 0 60px;
+        padding: 30px 0 30px;
     }
 }
 

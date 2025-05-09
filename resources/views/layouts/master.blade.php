@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>  @yield(section: 'title')  </title>
   <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
   <link rel="stylesheet"
     href="https://www.jqueryscript.net/demo/Feature-rich-Product-Gallery-With-Image-Zoom-xZoom/css/xzoom.css" />
@@ -37,7 +37,7 @@
             box-shadow: 0 0 0 2px;
         } */
   </style>
-  @yield('extracss')
+  @yield(section: 'extracss')
 </head>
 
 <body>
@@ -45,8 +45,9 @@
     <header class="bg-light py-3">
       <div class="container">
         <div class="d-flex justify-content-between align-items-center flex-column flex-sm-row gap-3">
-          <div class="logo-container"  >
-           <a href="{{ route('index') }}"> <img src="{{ asset('assets/images/logo/text-logo-transperant.png') }}" alt="Logo"></a>
+          <div class="logo-container">
+            <a href="{{ route('index') }}"> <img src="{{ asset('assets/images/logo/text-logo-transperant.png') }}"
+                alt="Logo"></a>
           </div>
           <form action="#" class="flex-fill">
             <div class="input-group position-relative mb-0 w-100">
@@ -87,7 +88,7 @@
             </div>
             <div
               class="header-social-icons text-white bg-danger d-flex justify-content-center align-items-center fs-4 rounded-1">
-              <i class="fa-brands fa-whatsapp"></i>
+              <a class="text-white" href="https://wa.me/+919819168057"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
           </div>
           <div class="hamburger-menu-container">
@@ -163,43 +164,40 @@
         <ul>
           <li data-target=".skin-submenu">
             <p>
-              Food & Grocery <span><i class="fa-solid fa-chevron-down"></i></span>
+              Real Oxy <span><i class="fa-solid fa-chevron-down"></i></span>
             </p>
             <!-- <span><i class="fa-solid fa-chevron-down"></i></span> -->
           </li>
           <li data-target=".hair-submenu">
             <p>
-              Dairy & Eggs <span><i class="fa-solid fa-chevron-down"></i></span>
+              Iram Dates <span><i class="fa-solid fa-chevron-down"></i></span>
             </p>
             <!-- <span><i class="fa-solid fa-chevron-down"></i></span> -->
           </li>
-          <li data-target=".lasers-submenu">
-            <p>
-              Beverages <span><i class="fa-solid fa-chevron-down"></i></span>
-            </p>
+          <li>
+            <a href="{{ route('category.oil') }}">
+              Dream Sunshine Pure Cooking Oil
+            </a>
             <!-- <span><i class="fa-solid fa-chevron-down"></i></span> -->
           </li>
-          <li data-target=".lasers-submenu">
-            <p>
-              Beverages 2<span><i class="fa-solid fa-chevron-down"></i></span>
-            </p>
-            <!-- <span><i class="fa-solid fa-chevron-down"></i></span> -->
+
+          <!-- <li data-target=".slimming-submenu"> -->
+          <li>
+            <a href="{{ route('dream-transport') }}">
+              Dream Transport
+            </a>
+            <!-- <p>
+            </p> -->
           </li>
-          <li data-target=".lasers-submenu">
-            <p>
-              Beverages <span><i class="fa-solid fa-chevron-down"></i></span>
-            </p>
-            <!-- <span><i class="fa-solid fa-chevron-down"></i></span> -->
-          </li>
-          <li data-target=".slimming-submenu">
-            <p>
-              Logistics & Transportation <span><i class="fa-solid fa-chevron-down"></i></span>
-            </p>
+          <li>
+            <a href="{{ route('dream-sunshine-developers') }}">
+              Dream Sunshine Developers
+            </a>
             <!-- <span><i class="fa-solid fa-chevron-down"></i></span> -->
           </li>
           <li data-target=".antiaging-submenu">
             <p>
-              Real Estate & Construction <span><i class="fa-solid fa-chevron-down"></i></span>
+              Food & Groceries <span><i class="fa-solid fa-chevron-down"></i></span>
             </p>
             <!-- <span><i class="fa-solid fa-chevron-down"></i></span> -->
           </li>
@@ -223,27 +221,21 @@
         <div class="submenu-treatment-tab">
           <ul class="treatment-tab-holder skin-submenu">
             <li>
-            <a href="{{ route("category.anaya_rice") }}">
-    Anaya Rice
-</a>
-
-            </li>
-            <li>
-              <a href="{{ route("category.sugar") }}">
-                Pure and Hygienic Sugar
+              <a href="{{ route("category.realoxy") }}">
+                Real Oxy Mineral Water
               </a>
             </li>
             <li>
-              <a href="{{ route("category.oil") }}">
-                Pure Cooking Oil
+              <a href="{{ route("category.soft-drinks") }}">
+                Soft Drinks
               </a>
             </li>
-            <li>
+            <!-- <li>
               <a href="{{ route("category.dates") }}">
                 Iram Dates
               </a>
-            </li>
-            
+            </li> -->
+
             {{-- <li>
               <a href="skin-whitening.php">
                 SKIN WHITENING
@@ -302,13 +294,13 @@
           </ul>
           <ul class="treatment-tab-holder hair-submenu">
             <li>
-              <a href="{{ route("category.dairy") }}">
-                Anaya Dairy Products
+              <a href="{{ route("category.dates") }}">
+                Dates
               </a>
             </li>
             <li>
-              <a href="{{ route("category.realeggs") }}">
-                Real Eggs
+              <a href="{{ route("category.dry-fruits") }}">
+                Dry Fruits
               </a>
             </li>
             {{-- <li>
@@ -354,11 +346,11 @@
           </ul>
           <ul class="treatment-tab-holder lasers-submenu">
             <li>
-              <a href="{{ route("category.soft_drinks") }}">
-                Soft drinks
+              <a href="{{ route("category.oil") }}">
+                Dream Sunshine Pure Cooking Oil
               </a>
             </li>
-            <li>
+            <!-- <li>
               <a href="{{ route("category.anayatealeave") }}">
                 Anaya Tea
               </a>
@@ -367,7 +359,7 @@
               <a href="{{ route("category.realoxy") }}">
                 Real Oxy
               </a>
-            </li>
+            </li> -->
             {{-- <li>
               <a href="laser-toning.php">
                 LASER TONING
@@ -385,11 +377,11 @@
             </li> --}}
           </ul>
           <ul class="treatment-tab-holder slimming-submenu">
-            <li>
+            <!-- <li>
               <a href="#">
                 Dream Transport
               </a>
-            </li>
+            </li> -->
             {{-- <li>
               <a href="weight-loss.php">
                 WEIGHT LOSS
@@ -443,8 +435,28 @@
           </ul>
           <ul class="treatment-tab-holder antiaging-submenu">
             <li>
-              <a href="#">
-                Dream Sunshine Developers
+              <a href="{{ route("category.anaya-rice") }}">
+                Anaya Rice
+              </a>
+            </li>
+            <li>
+              <a href="{{ route("category.anayatealeave") }}">
+                Anaya Tea
+              </a>
+            </li>
+            <li>
+              <a href="{{ route("category.sugar") }}">
+                Pure & hygienic Sugar
+              </a>
+            </li>
+            <li>
+              <a href="{{ route("category.dairy") }}">
+                Anaya Dairy Product
+              </a>
+            </li>
+            <li>
+              <a href="{{ route("category.realeggs") }}">
+                Real Eggs
               </a>
             </li>
             {{-- <li>
@@ -498,6 +510,7 @@
               </a>
             </li> --}}
           </ul>
+
           {{-- <ul class="treatment-tab-holder dental-submenu">
             <li>
               <a href="#">
@@ -536,7 +549,7 @@
         <div class="new-menu-container">
           <ul class="new-main-menu">
             <li class="menu">
-              <a href="{{ route('index') }}" >
+              <a href="{{ route('index') }}">
                 home
               </a>
             </li>
@@ -597,34 +610,25 @@
                 < back to menu</p>
             </div>
             <li data-target=".small-skin-submenu">
-              <p>
-                Food & Grocery
+              <p class="fw-semibold">
+                Real Oxy
               </p>
               <i class="fa-solid fa-plus"></i>
 
             </li>
             <ul class="new-submenu-holder small-skin-submenu">
-              <li>
-                <a href="{{ url('products/rice') }}">
-                  Anaya Rice
-                </a>
 
-              </li>
               <li>
-                <a href="#">
-                  Pure and Hygienic Sugar
+                <a href="{{ route("category.realoxy") }}" class="fw-normal">
+                  Real Oxy Mineral Water
                 </a>
               </li>
               <li>
-                <a href="#">
-                  Pure Cooking Oil
+                <a href="{{ route("category.soft-drinks") }}" class="fw-normal">
+                  Soft Drinks
                 </a>
               </li>
-              <li>
-                <a href="#">
-                  Iram Dates
-                </a>
-              </li>
+
               {{-- <li>
                 <a href="skin-whitening.php">
                   SKIN WHITENING
@@ -682,21 +686,21 @@
               </li> --}}
             </ul>
             <li data-target=".small-hair-submenu">
-              <p>
-                Dairy & Eggs
+              <p class="fw-semibold">
+                Iram Dates
               </p>
               <i class="fa-solid fa-plus"></i>
 
             </li>
             <ul class="new-submenu-holder small-hair-submenu">
               <li>
-                <a href="#">
-                  Anaya Dairy Products
+                <a href="{{ route("category.dates") }}" class="fw-normal">
+                  Dates
                 </a>
               </li>
               <li>
-                <a href="#">
-                  Real Eggs
+                <a href="{{ route("category.dry-fruits") }}" class="fw-normal">
+                  Dry Fruits
                 </a>
               </li>
               {{-- <li>
@@ -740,58 +744,21 @@
                 </a>
               </li> --}}
             </ul>
-            <li data-target=".small-lasers-submenu">
-              <p>
-                Beverages
-              </p>
-              <i class="fa-solid fa-plus"></i>
+            <li>
+              <a href="{{ route('category.oil') }}">
+                Dream Sunshine Pure Cooking Oil
+              </a>
 
             </li>
-            <ul class="new-submenu-holder small-lasers-submenu">
-              <li>
-                <a href="#">
-                  Zhakaas Jeera Masala
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  Anaya Tea
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  Real Oxy
-                </a>
-              </li>
-              {{-- <li>
-                <a href="laser-toning.php">
-                  LASER TONING
-                </a>
-              </li>
-              <li>
-                <a href="laser-resurfacing.php">
-                  LASER RESURFACING
-                </a>
-              </li>
-              <li>
-                <a href="pigmentation-with-lasers.php">
-                  PIGMENTATION WITH LASERS
-                </a>
-              </li> --}}
-            </ul>
-            <li data-target=".small-slimming-submenu">
-              <p>
-                Logistics & Transportation
-              </p>
-              <i class="fa-solid fa-plus"></i>
+
+            <li>
+              <a href="{{ route('dream-transport') }}">
+                Dream Transport
+              </a>
 
             </li>
             <ul class="new-submenu-holder small-slimming-submenu">
-              <li>
-                <a href="#">
-                  Dream Transport
-                </a>
-              </li>
+
               {{-- <li>
                 <a href="weight-loss.php">
                   WEIGHT LOSS
@@ -843,19 +810,49 @@
                 </a>
               </li> --}}
             </ul>
-            <li data-target=".small-antiaging-submenu">
-              <p>
-                Real Estate & Construction
-              </p>
-              <i class="fa-solid fa-plus"></i>
+            <li>
+              <a href="{{ route('dream-sunshine-developers') }}">
+                Dream Sunshine Developers
+              </a>
+              
 
             </li>
+            <li data-target=".small-antiaging-submenu">
+              <a href="#" >
+                Food & Groceries
+              </a>
+              <i class="fa-solid fa-plus"></i>
+            </li>
+
             <ul class="new-submenu-holder small-antiaging-submenu">
-              <li>
-                <a href="#">
-                  Dream Sunshine Developers
+
+            <li>
+                <a href="{{ route("category.anaya-rice") }}" class="fw-normal">
+                  Anaya Rice
                 </a>
               </li>
+              <li>
+                <a href="{{ route("category.anayatealeave") }}" class="fw-normal">
+                 Anaya Tea 
+              </a>
+              </li>
+              <li>
+                <a href="{{ route("category.sugar") }}" class="fw-normal">
+                 Pure & hygienic Sugar
+              </a>
+              </li>
+              <li>
+                <a href="{{ route("category.dairy") }}" class="fw-normal">
+                 Anaya Dairy Product
+              </a>
+              </li>
+              <li>
+                <a href="{{ route("category.realeggs") }}" class="fw-normal">
+                 Rela Eggs 
+              </a>
+              </li>
+
+
               {{-- <li>
                 <a href="fillers-treatment.php">
                   FILLERS TREATMENTS
@@ -973,16 +970,16 @@
             <form action="#" class="position-sticky top-0">
               <div class="row bg-white pt-3">
                 <div class="d-flex justify-content-center align-items-center gap-3">
-                  <input type="text" class="no-focus form-control rounded-0 shadow-none border-0 border-bottom mb-0"
-                    aria-label="Search" placeholder="Search for category....">
+                  <!-- <input type="text" class="no-focus form-control rounded-0 shadow-none border-0 border-bottom mb-0"
+                    aria-label="Search" placeholder="Search for category...."> -->
                   {{-- <input type="text"
                     class="no-focus form-control position-relative rounded-0 pe-5 border-0 border-bottom"
                     placeholder="Search for category...." aria-label="Search" aria-describedby="button-addon2"> --}}
-                  <button class="btn btn-outline-primary border-0" type="button" id="button-addon2"><i
-                      class="fa-solid fa-magnifying-glass"></i></button>
+                  <!-- <button class="btn btn-outline-primary border-0" type="button" id="button-addon2"><i
+                      class="fa-solid fa-magnifying-glass"></i></button> -->
                 </div>
               </div>
-              <div class="row bg-white py-3">
+              <!-- <div class="row bg-white py-3">
                 <div class="text-center">
                   <h4 class="mb-3">
                     Popular Searches
@@ -1000,7 +997,7 @@
                       Jeera Products</a>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </form>
             <div class="mt-4">
               <div class="row pop-up-category-section">
@@ -1011,10 +1008,10 @@
                         class="pop-up-categogy-img">
                     </div>
                     <div class="pop-up-category-info-container">
-                      <h5 class="pop-up-category-name">anaya dairy product</h5>
+                      <a href="{{ route("category.dairyeggs") }}"><h5 class="pop-up-category-name">anaya dairy product</h5></a>
                       {{-- <p class="pop-up-category-description mb-0">Lorem ipsum dolor sit amet,
                         consectetur adipisicing elit. Quisquam, voluptatibus.</p> --}}
-                      <a href="#" class="btn btn-outline-primary text-decoration-none px-3 py-1">View
+                      <a href="{{ route("category.dairyeggs") }}" class="btn btn-outline-primary text-decoration-none px-3 py-1">View
                         Products <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                   </div>
@@ -1026,10 +1023,10 @@
                         class="pop-up-categogy-img">
                     </div>
                     <div class="pop-up-category-info-container">
-                      <h5 class="pop-up-category-name">anaya rice</h5>
+                      <a href="{{ route("category.anaya-rice") }}"><h5 class="pop-up-category-name">anaya rice</h5></a>
                       {{-- <p class="pop-up-category-description mb-0">Lorem ipsum dolor sit amet,
                         consectetur adipisicing elit. Quisquam, voluptatibus.</p> --}}
-                      <a href="#" class="btn btn-outline-primary text-decoration-none px-3 py-1">View
+                      <a href="{{ route("category.anaya-rice") }}" class="btn btn-outline-primary text-decoration-none px-3 py-1">View
                         Products <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                   </div>
@@ -1041,10 +1038,10 @@
                         class="pop-up-categogy-img">
                     </div>
                     <div class="pop-up-category-info-container">
-                      <h5 class="pop-up-category-name">dream sun shine developers</h5>
+                      <a href="{{ route("dream-sunshine-developers") }}"><h5 class="pop-up-category-name">dream sun shine developers</h5></a>
                       {{-- <p class="pop-up-category-description mb-0">Lorem ipsum dolor sit amet,
                         consectetur adipisicing elit. Quisquam, voluptatibus.</p> --}}
-                      <a href="#" class="btn btn-outline-primary text-decoration-none px-3 py-1">View
+                      <a href="{{ route("dream-sunshine-developers") }}"class="btn btn-outline-primary text-decoration-none px-3 py-1">View
                         Products <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                   </div>
@@ -1056,10 +1053,10 @@
                         class="pop-up-categogy-img">
                     </div>
                     <div class="pop-up-category-info-container">
-                      <h5 class="pop-up-category-name">dream transport</h5>
+                      <a href="{{ route("dream-transport") }}"><h5 class="pop-up-category-name">dream transport</h5></a>
                       {{-- <p class="pop-up-category-description mb-0">Lorem ipsum dolor sit amet,
                         consectetur adipisicing elit. Quisquam, voluptatibus.</p> --}}
-                      <a href="#" class="btn btn-outline-primary text-decoration-none px-3 py-1">View
+                      <a href="{{ route("dream-transport") }}" class="btn btn-outline-primary text-decoration-none px-3 py-1">View
                         Products <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                   </div>
@@ -1071,10 +1068,10 @@
                         class="pop-up-categogy-img">
                     </div>
                     <div class="pop-up-category-info-container">
-                      <h5 class="pop-up-category-name">iram dates</h5>
+                      <a href="{{ route("category.iramdates") }}"><h5 class="pop-up-category-name">iram dates</h5></a>
                       {{-- <p class="pop-up-category-description mb-0">Lorem ipsum dolor sit amet,
                         consectetur adipisicing elit. Quisquam, voluptatibus.</p> --}}
-                      <a href="#" class="btn btn-outline-primary text-decoration-none px-3 py-1">View
+                      <a href="{{ route("category.iramdates") }}" class="btn btn-outline-primary text-decoration-none px-3 py-1">View
                         Products <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                   </div>
@@ -1086,10 +1083,10 @@
                         class="pop-up-categogy-img">
                     </div>
                     <div class="pop-up-category-info-container">
-                      <h5 class="pop-up-category-name">pure and hygienic suger</h5>
+                      <a href="{{ route("category.sugar") }}"><h5 class="pop-up-category-name">pure and hygienic suger</h5>
                       {{-- <p class="pop-up-category-description mb-0">Lorem ipsum dolor sit amet,
                         consectetur adipisicing elit. Quisquam, voluptatibus.</p> --}}
-                      <a href="#" class="btn btn-outline-primary text-decoration-none px-3 py-1">View
+                      <a href="{{ route("category.sugar") }}" class="btn btn-outline-primary text-decoration-none px-3 py-1">View
                         Products <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                   </div>
@@ -1101,10 +1098,10 @@
                         class="pop-up-categogy-img">
                     </div>
                     <div class="pop-up-category-info-container">
-                      <h5 class="pop-up-category-name">pure cooking oil</h5>
+                      <a href="{{ route("category.oil") }}"><h5 class="pop-up-category-name">pure cooking oil</h5></a>
                       {{-- <p class="pop-up-category-description mb-0">Lorem ipsum dolor sit amet,
                         consectetur adipisicing elit. Quisquam, voluptatibus.</p> --}}
-                      <a href="#" class="btn btn-outline-primary text-decoration-none px-3 py-1">View
+                      <a href="{{ route("category.oil") }}" class="btn btn-outline-primary text-decoration-none px-3 py-1">View
                         Products <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                   </div>
@@ -1116,10 +1113,10 @@
                         class="pop-up-categogy-img">
                     </div>
                     <div class="pop-up-category-info-container">
-                      <h5 class="pop-up-category-name">real eggs</h5>
+                      <a href="{{ route("category.realeggs") }}"><h5 class="pop-up-category-name">real eggs</h5></a>
                       {{-- <p class="pop-up-category-description mb-0">Lorem ipsum dolor sit amet,
                         consectetur adipisicing elit. Quisquam, voluptatibus.</p> --}}
-                      <a href="#" class="btn btn-outline-primary text-decoration-none px-3 py-1">View
+                      <a href="{{ route("category.realeggs") }}" class="btn btn-outline-primary text-decoration-none px-3 py-1">View
                         Products <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                   </div>
@@ -1131,10 +1128,10 @@
                         class="pop-up-categogy-img">
                     </div>
                     <div class="pop-up-category-info-container">
-                      <h5 class="pop-up-category-name">real-oxy</h5>
+                      <a href="{{ route("category.realoxy") }}"><h5 class="pop-up-category-name">real-oxy</h5></a>
                       {{-- <p class="pop-up-category-description mb-0">Lorem ipsum dolor sit amet,
                         consectetur adipisicing elit. Quisquam, voluptatibus.</p> --}}
-                      <a href="#" class="btn btn-outline-primary text-decoration-none px-3 py-1">View
+                      <a href="{{ route("category.realoxy") }}" class="btn btn-outline-primary text-decoration-none px-3 py-1">View
                         Products <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                   </div>
@@ -1146,10 +1143,10 @@
                         alt="" class="pop-up-categogy-img">
                     </div>
                     <div class="pop-up-category-info-container">
-                      <h5 class="pop-up-category-name">zhakaas jeera masala</h5>
+                      <a href="{{ route("category.soft-drinks") }}"><h5 class="pop-up-category-name">zhakaas jeera masala</h5></a>
                       {{-- <p class="pop-up-category-description mb-0">Lorem ipsum dolor sit amet,
                         consectetur adipisicing elit. Quisquam, voluptatibus.</p> --}}
-                      <a href="#" class="btn btn-outline-primary text-decoration-none px-3 py-1">View
+                      <a href="{{ route("category.soft-drinks") }}" class="btn btn-outline-primary text-decoration-none px-3 py-1">View
                         Products <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                   </div>
@@ -1177,37 +1174,37 @@
             <h5 class="mb-3">Categories</h5>
             <ul class="list-unstyled ps-0 ms-0">
               <li class="mb-2">
-                <a href="#" class="text-decoration-none  text-capitalize">anaya dairy
+                <a href="{{ route("category.dairy") }}" class="text-decoration-none  text-capitalize">anaya dairy
                   product</a>
               </li>
               <li class="mb-2">
-                <a href="#" class="text-decoration-none  text-capitalize">anaya rice</a>
+                <a href="{{ route("category.anaya-rice") }}" class="text-decoration-none  text-capitalize">anaya rice</a>
               </li>
               <li class="mb-2">
-                <a href="#" class="text-decoration-none  text-capitalize">dream sun shine
+                <a href="{{ route("dream-sunshine-developers") }}" class="text-decoration-none  text-capitalize">dream sun shine
                   developers</a>
               </li>
               <li class="mb-2">
-                <a href="#" class="text-decoration-none  text-capitalize">dream transport</a>
+                <a href="{{ route("dream-transport") }}" class="text-decoration-none  text-capitalize">dream transport</a>
               </li>
               <li class="mb-2">
-                <a href="#" class="text-decoration-none  text-capitalize">iram dates</a>
+                <a href="{{ route("category.iramdates") }}" class="text-decoration-none  text-capitalize">iram dates</a>
               </li>
               <li class="mb-2">
-                <a href="#" class="text-decoration-none  text-capitalize">pure and hygienic
+                <a href="{{ route("category.sugar") }}" class="text-decoration-none  text-capitalize">pure and hygienic
                   suger</a>
               </li>
               <li class="mb-2">
-                <a href="#" class="text-decoration-none  text-capitalize">pure cooking oil</a>
+                <a href="{{ route("category.oil") }}" class="text-decoration-none  text-capitalize">pure cooking oil</a>
               </li>
               <li class="mb-2">
-                <a href="#" class="text-decoration-none  text-capitalize">real eggs</a>
+                <a href="{{ route("category.realeggs") }}" class="text-decoration-none  text-capitalize">real eggs</a>
               </li>
               <li class="mb-2">
-                <a href="#" class="text-decoration-none  text-capitalize">real-oxy</a>
+                <a href="{{ route("category.realoxy") }}" class="text-decoration-none  text-capitalize">real-oxy</a>
               </li>
               <li class="mb-2">
-                <a href="#" class="text-decoration-none  text-capitalize">zhakaas jeera
+                <a href="{{ route("category.soft-drinks") }}" class="text-decoration-none  text-capitalize">zhakaas jeera
                   masala</a>
               </li>
             </ul>
@@ -1218,28 +1215,28 @@
             <h5 class="mb-3">Best Products</h5>
             <ul class="list-unstyled ps-0 ms-0">
               <li class="mb-2">
-                <a href="#" class="text-decoration-none  text-capitalize">mineral water</a>
+                <a href="{{ route("category.realoxy") }}" class="text-decoration-none  text-capitalize">mineral water</a>
               </li>
               <li class="mb-2">
-                <a href="#" class="text-decoration-none  text-capitalize">Cold Drinks</a>
+                <a href="{{ route("category.soft-drinks") }}" class="text-decoration-none  text-capitalize">Cold Drinks</a>
               </li>
               <li class="mb-2">
-                <a href="#" class="text-decoration-none  text-capitalize">dry fruit & iram
+                <a href="{{ route("category.iramdates") }}" class="text-decoration-none  text-capitalize">dry fruit & iram
                   dates</a>
               </li>
               <li class="mb-2">
-                <a href="#" class="text-decoration-none  text-capitalize">pure basmati
+                <a href="{{ route("category.anaya-rice") }}" class="text-decoration-none  text-capitalize">pure basmati
                   rice</a>
               </li>
               <li class="mb-2">
-                <a href="#" class="text-decoration-none  text-capitalize">Premium quality
+                <a href="{{ route("category.sugar") }}" class="text-decoration-none  text-capitalize">Premium quality
                   white suger</a>
               </li>
               <li class="mb-2">
-                <a href="#" class="text-decoration-none  text-capitalize">Dairy Product</a>
+                <a href="{{ route("category.dairy") }}" class="text-decoration-none  text-capitalize">Dairy Product</a>
               </li>
               <li class="mb-2">
-                <a href="#" class="text-decoration-none  text-capitalize">Refined sunflower
+                <a href="{{ route("category.oil") }}" class="text-decoration-none  text-capitalize">Refined sunflower
                   oil</a>
               </li>
             </ul>
@@ -1250,19 +1247,19 @@
             <h5 class="mb-3">Useful Links</h5>
             <ul class="list-unstyled ps-0 ms-0">
               <li class="mb-2">
-                <a href="#" class="text-decoration-none ">Home</a>
+                <a href="{{ route("index") }}" class="text-decoration-none ">Home</a>
               </li>
               <li class="mb-2">
-                <a href="#" class="text-decoration-none ">About Us</a>
+                <a href="{{ route("about") }}" class="text-decoration-none ">About Us</a>
               </li>
               <li class="mb-2">
                 <a href="#" class="text-decoration-none ">Shop</a>
               </li>
               <li class="mb-2">
-                <a href="#" class="text-decoration-none ">Blogs</a>
+                <a href="{{ route('blog') }}" class="text-decoration-none ">Blogs</a>
               </li>
               <li class="mb-2">
-                <a href="#" class="text-decoration-none ">Contact Us</a>
+                <a href="{{ route('contact') }}" class="text-decoration-none ">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -1304,7 +1301,7 @@
             </div>
             <h5 class="mb-3">Follow Us</h5>
             <div class="d-flex align-items-center justify-content-start gap-2">
-              <a href="#" class="text-white social-media-icon facebook-icon-bg"><i
+              <a href="https://www.facebook.com/people/DreamSunshine-Digital-Private-Limited/61575942811577/ " class="text-white social-media-icon facebook-icon-bg"><i
                   class="fa-brands fa-facebook-f"></i></a>
               <a href="#" class="text-white social-media-icon x-icon-bg"><i class="fa-brands fa-x-twitter"></i></a>
               <a href="#" class="text-white social-media-icon youtube-icon-bg"><i class="fa-brands fa-youtube"></i></a>

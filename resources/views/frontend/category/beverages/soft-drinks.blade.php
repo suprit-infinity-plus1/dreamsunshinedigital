@@ -122,30 +122,7 @@
                     </div>
                 </div>
             </div>
-            <div class="category-card">
-                <div class="category-img-container">
-                    <img class="category-card-image" src="{{ asset('assets/images/category/beverages/bebe-mini.png') }}"
-                        class="card-img-top" alt="Category Image" />
-                </div>
-
-                <div class="category-card-body">
-                    <a href="{{ route("singleproduct.minipacks") }}">
-                        <h5 class="category-card-title fw-bolder">Mini juices</h5>
-                    </a>
-                    <span>
-                        <i class="fa-solid fa-star" style="color: #FFD700; font-size: 16px;"></i>
-                        <i class="fa-solid fa-star" style="color: #FFD700; font-size: 16px;"></i>
-                        <i class="fa-solid fa-star" style="color: #FFD700; font-size: 16px;"></i>
-                        <i class="fa-solid fa-star" style="color: #FFD700; font-size: 16px;"></i>
-                        <i class="fa-solid fa-star" style="color: #FFD700; font-size: 16px;"></i>
-                    </span>
-                    <div class="text-center position-relative card-btn-container">
-                        <a href="{{ route("singleproduct.minipacks") }}"
-                            class="position-relative btn btn-primary view-product-btn">View
-                            Product</a>
-                    </div>
-                </div>
-            </div>
+        
             
         </div>
 @endsection
