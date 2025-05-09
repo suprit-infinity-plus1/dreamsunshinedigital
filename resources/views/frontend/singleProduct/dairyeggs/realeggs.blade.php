@@ -41,7 +41,7 @@
 
     <div class="whole-body container ">
         <div>
-            <p class="mt-3">Home > Dairy & Eggs > Real Eggs</p>
+            <p class="mt-3">Home > Real Eggs</p>
         </div>
 
 

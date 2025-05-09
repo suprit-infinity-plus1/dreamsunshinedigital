@@ -72,11 +72,11 @@
           <div class="header-social-icons-container d-none d-md-flex d-flex gap-3">
             <div
               class="header-social-icons text-white bg-danger d-flex justify-content-center align-items-center fs-4 rounded-1">
-              <i class="fa-brands fa-instagram"></i>
+              <a class="text-white" href="https://www.instagram.com/dreamsunshine_digital_pvt.ltd/"><i class="fa-brands fa-instagram"></i></a>
             </div>
             <div
               class="header-social-icons text-white bg-danger d-flex justify-content-center align-items-center fs-5 rounded-1">
-              <i class="fa-brands fa-facebook-f"></i>
+              <a class="text-white" href="https://www.facebook.com/people/DreamSunshine-Digital-Private-Limited/61575942811577/"><i class="fa-brands fa-facebook-f"></i></a>
             </div>
             {{-- <div
               class="header-social-icons text-white bg-danger d-flex justify-content-center align-items-center fs-4 rounded-1">
@@ -84,7 +84,7 @@
             </div> --}}
             <div
               class="header-social-icons text-white bg-danger d-flex justify-content-center align-items-center fs-5 rounded-1">
-              <i class="fa-solid fa-phone"></i>
+              <a class="text-white" href="tel:+919819168057"><i class="fa-solid fa-phone"></i></a>
             </div>
             <div
               class="header-social-icons text-white bg-danger d-flex justify-content-center align-items-center fs-4 rounded-1">
@@ -1008,10 +1008,10 @@
                         class="pop-up-categogy-img">
                     </div>
                     <div class="pop-up-category-info-container">
-                      <a href="{{ route("category.dairyeggs") }}"><h5 class="pop-up-category-name">anaya dairy product</h5></a>
+                      <a href="{{ route("category.dairy") }}"><h5 class="pop-up-category-name">anaya dairy product</h5></a>
                       {{-- <p class="pop-up-category-description mb-0">Lorem ipsum dolor sit amet,
                         consectetur adipisicing elit. Quisquam, voluptatibus.</p> --}}
-                      <a href="{{ route("category.dairyeggs") }}" class="btn btn-outline-primary text-decoration-none px-3 py-1">View
+                      <a href="{{ route("category.dairy") }}" class="btn btn-outline-primary text-decoration-none px-3 py-1">View
                         Products <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                   </div>
@@ -1031,36 +1031,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-6 p-2 bg-light">
-                  <div class="d-flex align-items-center gap-3 border pop-up-category-container">
-                    <div class="pop-up-category-img-container d-flex justify-content-center align-items-center">
-                      <img src="{{ asset('assets/images/category/dream-sun-shine-developers/Untitled-1.png') }}" alt=""
-                        class="pop-up-categogy-img">
-                    </div>
-                    <div class="pop-up-category-info-container">
-                      <a href="{{ route("dream-sunshine-developers") }}"><h5 class="pop-up-category-name">dream sun shine developers</h5></a>
-                      {{-- <p class="pop-up-category-description mb-0">Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit. Quisquam, voluptatibus.</p> --}}
-                      <a href="{{ route("dream-sunshine-developers") }}"class="btn btn-outline-primary text-decoration-none px-3 py-1">View
-                        Products <i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6 p-2 bg-light">
-                  <div class="d-flex align-items-center gap-3 border pop-up-category-container">
-                    <div class="pop-up-category-img-container d-flex justify-content-center align-items-center">
-                      <img src="{{ asset('assets/images/category/dream-transport/Untitled-1.png') }}" alt=""
-                        class="pop-up-categogy-img">
-                    </div>
-                    <div class="pop-up-category-info-container">
-                      <a href="{{ route("dream-transport") }}"><h5 class="pop-up-category-name">dream transport</h5></a>
-                      {{-- <p class="pop-up-category-description mb-0">Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit. Quisquam, voluptatibus.</p> --}}
-                      <a href="{{ route("dream-transport") }}" class="btn btn-outline-primary text-decoration-none px-3 py-1">View
-                        Products <i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                  </div>
-                </div>
+                
                 <div class="col-lg-6 p-2 bg-light">
                   <div class="d-flex align-items-center gap-3 border pop-up-category-container">
                     <div class="pop-up-category-img-container d-flex justify-content-center align-items-center">
@@ -1143,10 +1114,40 @@
                         alt="" class="pop-up-categogy-img">
                     </div>
                     <div class="pop-up-category-info-container">
-                      <a href="{{ route("category.soft-drinks") }}"><h5 class="pop-up-category-name">zhakaas jeera masala</h5></a>
+                      <a href="{{ route("category.soft-drinks") }}"><h5 class="pop-up-category-name">Soft Drinks</h5></a>
                       {{-- <p class="pop-up-category-description mb-0">Lorem ipsum dolor sit amet,
                         consectetur adipisicing elit. Quisquam, voluptatibus.</p> --}}
                       <a href="{{ route("category.soft-drinks") }}" class="btn btn-outline-primary text-decoration-none px-3 py-1">View
+                        Products <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 p-2 bg-light">
+                  <div class="d-flex align-items-center gap-3 border pop-up-category-container">
+                    <div class="pop-up-category-img-container d-flex justify-content-center align-items-center">
+                      <img src="{{ asset('assets/images/category/dream-sun-shine-developers/Untitled-1.png') }}" alt=""
+                        class="pop-up-categogy-img">
+                    </div>
+                    <div class="pop-up-category-info-container">
+                      <a href="{{ route("dream-sunshine-developers") }}"><h5 class="pop-up-category-name">dream sun shine developers</h5></a>
+                      {{-- <p class="pop-up-category-description mb-0">Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Quisquam, voluptatibus.</p> --}}
+                      <a href="{{ route("dream-sunshine-developers") }}"class="btn btn-outline-primary text-decoration-none px-3 py-1">View
+                        Products <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 p-2 bg-light">
+                  <div class="d-flex align-items-center gap-3 border pop-up-category-container">
+                    <div class="pop-up-category-img-container d-flex justify-content-center align-items-center">
+                      <img src="{{ asset('assets/images/category/dream-transport/Untitled-1.png') }}" alt=""
+                        class="pop-up-categogy-img">
+                    </div>
+                    <div class="pop-up-category-info-container">
+                      <a href="{{ route("dream-transport") }}"><h5 class="pop-up-category-name">dream transport</h5></a>
+                      {{-- <p class="pop-up-category-description mb-0">Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Quisquam, voluptatibus.</p> --}}
+                      <a href="{{ route("dream-transport") }}" class="btn btn-outline-primary text-decoration-none px-3 py-1">View
                         Products <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                   </div>
@@ -1180,13 +1181,7 @@
               <li class="mb-2">
                 <a href="{{ route("category.anaya-rice") }}" class="text-decoration-none  text-capitalize">anaya rice</a>
               </li>
-              <li class="mb-2">
-                <a href="{{ route("dream-sunshine-developers") }}" class="text-decoration-none  text-capitalize">dream sun shine
-                  developers</a>
-              </li>
-              <li class="mb-2">
-                <a href="{{ route("dream-transport") }}" class="text-decoration-none  text-capitalize">dream transport</a>
-              </li>
+              
               <li class="mb-2">
                 <a href="{{ route("category.iramdates") }}" class="text-decoration-none  text-capitalize">iram dates</a>
               </li>
@@ -1204,8 +1199,14 @@
                 <a href="{{ route("category.realoxy") }}" class="text-decoration-none  text-capitalize">real-oxy</a>
               </li>
               <li class="mb-2">
-                <a href="{{ route("category.soft-drinks") }}" class="text-decoration-none  text-capitalize">zhakaas jeera
-                  masala</a>
+                <a href="{{ route("category.soft-drinks") }}" class="text-decoration-none  text-capitalize">soft Drinks</a>
+              </li>
+              <li class="mb-2">
+                <a href="{{ route("dream-sunshine-developers") }}" class="text-decoration-none  text-capitalize">dream sun shine
+                  developers</a>
+              </li>
+              <li class="mb-2">
+                <a href="{{ route("dream-transport") }}" class="text-decoration-none  text-capitalize">dream transport</a>
               </li>
             </ul>
           </div>
@@ -1294,18 +1295,18 @@
             </form>
             <h5 class="mb-3">Contact Us</h5>
             <div class="d-flex align-items-center justify-content-start gap-2 mb-3">
-              <a href="tel:+9876543210" class="text-white social-media-icon call-icon-bg"><i
+              <a href="tel:+" class="text-white social-media-icon call-icon-bg"><i
                   class="fa-solid fa-phone"></i></a>
-              <a href="mailto:" class="text-white social-media-icon mail-icon-bg"><i
+              <a href="mailto:info@dreamsunshinedigital.com" class="text-white social-media-icon mail-icon-bg"><i
                   class="fa-regular fa-envelope"></i></a>
             </div>
             <h5 class="mb-3">Follow Us</h5>
             <div class="d-flex align-items-center justify-content-start gap-2">
               <a href="https://www.facebook.com/people/DreamSunshine-Digital-Private-Limited/61575942811577/ " class="text-white social-media-icon facebook-icon-bg"><i
                   class="fa-brands fa-facebook-f"></i></a>
-              <a href="#" class="text-white social-media-icon x-icon-bg"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#" class="text-white social-media-icon linkedin-icon-bg"><i class="fa-brands fa-linkedin-in"></i></a>
               <a href="#" class="text-white social-media-icon youtube-icon-bg"><i class="fa-brands fa-youtube"></i></a>
-              <a href="#" class="text-white social-media-icon instagram-icon-bg"><i
+              <a href="https://www.instagram.com/dreamsunshine_digital_pvt.ltd/" class="text-white social-media-icon instagram-icon-bg"><i
                   class="fa-brands fa-instagram"></i></a>
             </div>
           </div>
@@ -1318,7 +1319,7 @@
       <div class="d-flex justify-content-between align-items-center py-2 gap-2 flex-wrap">
         <p class="mb-0 text-white">© 2025 Dreamsunshine Digital Rights Reserved.</p>
         <p class="mb-0 text-white">Designed and Developed by <a href="https://infinityplus1.in/"
-            class="text-decoration-none text-white">Infinity Plus 1</a></p>
+            class="text-decoration-none text-primary">Infinity Plus 1</a></p>
       </div>
     </div>
   </div>
@@ -1745,8 +1746,8 @@
         slidesToScroll: 2,
         pauseOnHover: true,
         autoplaySpeed: 5000,
-        prevArrow: ".c2c_arrow_left",
-        nextArrow: ".c2c_arrow_right",
+        // prevArrow: ".c2c_arrow_left",
+        // nextArrow: ".c2c_arrow_right",
         responsive: [{
           breakpoint: 992,
           settings: {

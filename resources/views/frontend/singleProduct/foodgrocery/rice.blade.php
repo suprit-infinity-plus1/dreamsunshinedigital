@@ -41,7 +41,7 @@
 
     <div class="whole-body container ">
         <div>
-            <p class="mt-3">Home > Food & Grocery> Rice</p>
+            <p class="mt-3">Home > Anaya Rice</p>
         </div>
 
 

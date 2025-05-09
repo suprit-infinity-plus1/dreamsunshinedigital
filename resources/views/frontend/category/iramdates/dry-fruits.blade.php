@@ -44,7 +44,7 @@
         <!-- Page Title -->
         <div class="category-banner">
             <img src="{{ asset('assets/images/categoryImages/Category-sample.jpg') }}" alt="">
-            <h4 class="category-banner-title">Home > Iram Dates > Dry Fruits</h4>
+            <h4 class="category-banner-title">Home > Dry Fruits</h4>
 
         </div>
 

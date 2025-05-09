@@ -14,7 +14,7 @@ class CategoryController extends Controller
     {
         return view('frontend.category.foodgrocery'); // This will return the category view
     }
-    public function anayarice()
+    public function anayaRice()
     {
         return view('frontend.category.food_grocery.anaya-rice'); // This will return the category view
     }

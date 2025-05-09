@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     font-family: "Poppins", sans-serif;
 }
+
 body {
     font-family: "Poppins", sans-serif;
     /* font-family: "Urbanist", sans-serif; */
@@ -301,6 +302,10 @@ ul.ps-0.mobile-menu-links {
     background-color: #cd201f;
 }
 
+.linkedin-icon-bg{
+    background-color: #0077B5;
+  
+}
 .instagram-icon-bg {
     background: linear-gradient(45deg, #F77737 0%, #FEDA77 20%, #DD2A7B 60%, #8134AF 100%);
     /* background: linear-gradient(45deg, #F58529, #F77737, #FEDA77, #DD2A7B, #8134AF); */
@@ -1134,8 +1139,11 @@ ul.menu.vertical.large-horizontal.dropdown li:nth-child(3) a:hover {
 
 /* fade effect end here */
 .dram-section {
-    padding: 30px 0;
+    /* padding: 30px 0; */
+    padding-top: 60px;
+    padding-bottom: 30px;
 }
+
 @media screen and (max-width: 767px) {
     .dram-section {
         padding: 20px 0;
@@ -1533,7 +1541,7 @@ ul.menu.vertical.large-horizontal.dropdown li:nth-child(3) a:hover {
 Page Hero Section - Start
 ================================================== */
 .hero_section {
-    padding: 30px 0 30px;
+    padding: 60px 0 60px;
 }
 
 .hero_section .heading_text {
@@ -1580,6 +1588,7 @@ Page Hero Section - Start
     background-color: #002f75;
     border-top-left-radius: 280px;
 }
+
 /* @media (max-width: 400px) {
     .hero_image_wrap:before{
         border-bottom-right-radius: 100px;
@@ -1614,6 +1623,12 @@ Page Hero Section - Start
     padding: 30px 0;
 }
 
+.section_space_xlg{
+    padding: 60px 0;
+}
+.beverages_section_xlg{
+    margin-bottom: 60px;
+}
 /* 4.11 - Testimonial - Start
 ================================================== */
 .testimonial_section {
@@ -1657,11 +1672,12 @@ Page Hero Section - Start
 }
 
 @media (max-width: 600px) {
-    .star_list{
-    text-align: left;
-    display: unset !important;
+    .star_list {
+        text-align: left;
+        display: unset !important;
     }
 }
+
 /* @media (max-width: 600px) {
     .authorandstar{
       display: flex;
@@ -1773,7 +1789,7 @@ ul li {
     }
 
     .hero_section {
-        padding: 30px 0 30px;
+        padding: 60px 0 60px;
     }
 
     .section_heading .section_heading_text {
@@ -1872,9 +1888,10 @@ ul li {
         padding: 180px 0;
     }
 }
+
 @media (max-width: 576px) {
     .get_in_touch_section {
-        padding: 30px 0;
+        padding: 60px 0;
     }
 }
 
@@ -1899,7 +1916,7 @@ ul li {
     }
 
     .hero_section {
-        padding: 30px 0 30px;
+        padding: 60px 0 60px;
     }
 }
 
@@ -1917,7 +1934,7 @@ ul li {
     }
 
     .hero_section {
-        padding: 30px 0 30px;
+        padding: 60px 0 60px;
     }
 }
 
@@ -1949,7 +1966,7 @@ ul li {
     }
 
     .testimonial_item {
-        padding: 50px 30px 33px;
+        padding: 50px 60px 33px;
     }
 
     .testimonial_item .rating_star {
@@ -2119,16 +2136,18 @@ ul li {
     right: -60px;
     transform: translateY(-50%);
 }
+
 @media (max-width: 768px) {
     .blog_section .owl-nav .owl-prev {
         left: -17px;
     }
-    
+
     .blog_section .owl-nav .owl-next {
         right: -17px;
     }
-    
+
 }
+
 /* ==================================================
 blog section End
 ================================================== */
@@ -2146,6 +2165,7 @@ categories section Start
 .categories_section .section_heading_description {
     margin-bottom: 70px !important;
 }
+
 @media (max-width: 768px) {
     .categories_section .section_heading_description {
         margin-bottom: 30px !important;
@@ -2292,11 +2312,13 @@ categories section End
     bottom: 20px;
     opacity: 1;
 }
+
 @media (max-width: 768px) {
     .product-card .card-btn-container {
         bottom: 10px;
         opacity: 1;
     }
+
     .product-card:hover .card-btn-container {
         bottom: 10px;
     }
@@ -2309,6 +2331,7 @@ categories section End
 .product-card .product-card-img img {
     transition: all 0.3s ease-in-out;
 }
+
 @media (min-width: 360px) and (max-width: 786px) {
     /* .product-card .product-card-img img {
         object-fit: none;
@@ -2323,6 +2346,7 @@ categories section End
 .product-carousel .product_item {
     background-color: #fff;
 }
+
 .truncate-text {
     white-space: nowrap;
     overflow: hidden;
@@ -2358,12 +2382,13 @@ categories section End
     .product-carousel .owl-nav .owl-prev {
         left: -17px;
     }
-    
+
     .product-carousel .owl-nav .owl-next {
         right: -17px;
     }
-    
+
 }
+
 .dairy_eggs_section {
     /* background-color: #002f753f; */
 }
@@ -2378,7 +2403,7 @@ categories section End
 }
 
 @media (max-width: 768px) {
-    
+
     .dram-section .product-card .card-btn-container .view-product-btn {
         top: -100px;
         opacity: 1;

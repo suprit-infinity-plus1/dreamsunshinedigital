@@ -8,7 +8,7 @@
         <div class="blog-image">
             <img src="{{ asset(path: 'assets/images/blog/blog-rice.jpg') }}" alt="High-Quality Basmati Rice">
         </div>
-
+        <p class="blog_item_date"><span>May 09, 2025</span> | Admin</p>
         <div class="blog-content">
             <h1 class="blog-title">How to Identify High-Quality Basmati Rice: A Buyer’s Guide</h1>
 
@@ -70,7 +70,7 @@
 
         <!-- ------------------Related Blogs----------------- -->
         <div class="related-blogs mt-0">
-            <h2 class="related-title mb-2 ">Related Blog</h2>
+            <h2 class="related-title mb-2 mt-2 ">Related Blog</h2>
             <div class="row row-cols-1 row-cols-md-2 g-4 ">
 
                 <!-- Blog Card 1 -->
@@ -79,7 +79,8 @@
                         <div class="blog_item_img_container">
                             <img src="{{ asset('assets/images/blog/blog-dairy-bulk.jpg') }}" alt="">
                         </div>
-                        <div class="blog_item_content">
+                        <p class="blog_item_date"><span>May 09, 2025</span> | Admin</p>
+                        <div class="related_blog_item_content">
                             <a href="{{ route('smart-business') }}">
                                 <h3 class="blog_item_title">
                                     Why Buying Dairy Products in Bulk Is a Smart Business Move
@@ -105,7 +106,8 @@
                         <div class="blog_item_img_container">
                             <img src="{{ asset('assets/images/blog/blog-bulk.jpg') }}" alt="">
                         </div>
-                        <div class="blog_item_content">
+                        <p class="blog_item_date"><span>May 09, 2025</span> | Admin</p>
+                        <div class="related_blog_item_content">
                             <a href="{{ route('smart-strategies-managing-bulk-inventory') }}">
                                 <h3 class="blog_item_title">
                                     Smart Strategies for Managing Bulk Inventory
@@ -130,7 +132,8 @@
                         <div class="blog_item_img_container">
                             <img src="{{ asset('assets/images/blog/blog-dates.jpg') }}" alt="">
                         </div>
-                        <div class="blog_item_content">
+                        <p class="blog_item_date"><span>May 09, 2025</span> | Admin</p>
+                        <div class="related_blog_item_content">
                             <a href="{{ route('stocking-premium-dates-elevate-product-offering') }}">
                                 <h3 class="blog_item_title">
                                     Why Stocking Premium Dates Can Elevate Your Product Offering
@@ -156,7 +159,8 @@
                         <div class="blog_item_img_container">
                             <img src="{{ asset('assets/images/blog/blog-egg.jpg') }}" alt="">
                         </div>
-                        <div class="blog_item_content">
+                        <p class="blog_item_date"><span>May 09, 2025</span> | Admin</p>
+                        <div class="related_blog_item_content">
                             <a href="{{ route('right-way-store-eggs-extend-shelf-life') }}">
                                 <h3 class="blog_item_title">
                                     The Right Way to Store Eggs and Extend Shelf Life in Bulk
@@ -179,6 +183,6 @@
             </div>
         </div>
 
-        
+
     </div>
 @endsection

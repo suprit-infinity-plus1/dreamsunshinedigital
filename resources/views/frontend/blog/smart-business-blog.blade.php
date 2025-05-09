@@ -11,6 +11,7 @@
         <div class="blog-image">
             <img src="{{ asset('assets/images/blog/blog-dairy-bulk.jpg') }}" alt="Dairy Product">
         </div>
+        <p class="blog_item_date"><span>May 09, 2025</span> | Admin</p>
 
         <div class="blog-content">
             <h1 class="blog-title">Why Buying Dairy Products in Bulk Is a Smart Business Move</h1>
@@ -76,7 +77,8 @@
                         <div class="blog_item_img_container">
                             <img src="{{ asset('assets/images/blog/blog-bulk.jpg') }}" alt="">
                         </div>
-                        <div class="blog_item_content">
+                        <p class="blog_item_date"><span>May 09, 2025</span> | Admin</p>
+                        <div class="related_blog_item_content">
                             <a href="{{ route('smart-strategies-managing-bulk-inventory') }}">
                                 <h3 class="blog_item_title">
                                     Smart Strategies for Managing Bulk Inventory
@@ -103,7 +105,8 @@
                         <div class="blog_item_img_container">
                             <img src="{{ asset('assets/images/blog/blog-dates.jpg') }}" alt="">
                         </div>
-                        <div class="blog_item_content">
+                        <p class="blog_item_date"><span>May 09, 2025</span> | Admin</p>
+                        <div class="related_blog_item_content">
                             <a href="{{ route('stocking-premium-dates-elevate-product-offering') }}">
                                 <h3 class="blog_item_title">
                                     Why Stocking Premium Dates Can Elevate Your Product Offering
@@ -129,7 +132,8 @@
                         <div class="blog_item_img_container">
                             <img src="{{ asset('assets/images/blog/blog-egg.jpg') }}" alt="">
                         </div>
-                        <div class="blog_item_content">
+                        <p class="blog_item_date"><span>May 09, 2025</span> | Admin</p>
+                        <div class="related_blog_item_content">
                             <a href="{{ route('right-way-store-eggs-extend-shelf-life') }}">
                                 <h3 class="blog_item_title">
                                     The Right Way to Store Eggs and Extend Shelf Life in Bulk
@@ -156,7 +160,8 @@
                         <div class="blog_item_img_container">
                             <img src="{{ asset('assets/images/blog/blog-rice.jpg') }}" alt="">
                         </div>
-                        <div class="blog_item_content">
+                                <p class="blog_item_date"><span>May 09, 2025</span> | Admin</p>
+                        <div class="related_blog_item_content">
                             <a href="{{ route('identify-high-quality-basmati-rice-buyers-guide') }}">
                                 <h3 class="blog_item_title">
                                     How to Identify High-Quality Basmati Rice: A Buyer’s Guide
@@ -180,7 +185,7 @@
         </div>
         <!-- END: Related Blog Section -->
 
-     
+
 
     </div>
 @endsection

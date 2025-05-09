@@ -44,7 +44,7 @@
         <!-- Page Title -->
         <div class="category-banner">
             <img src="{{ asset('assets/images/categoryImages/Category-sample.jpg') }}" alt="">
-            <h4 class="category-banner-title">Home > Beverages > Real Oxy</h4>
+            <h4 class="category-banner-title">Home > Anaya Tea Leave</h4>
 
         </div>
 

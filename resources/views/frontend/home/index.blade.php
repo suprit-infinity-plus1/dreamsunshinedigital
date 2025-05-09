@@ -10,7 +10,7 @@
 
         </div>
 
-        <div>
+     {{--   <div>
             <img src="{{ asset('assets/images/home-banner/vegetable-oil-banner.png') }}"
                 class="home-banner-image d-none d-md-block" alt="oil-banner">
             <img src="{{ asset('assets/images/home-banner/mobile-vegetable-oil-banner.png') }}"
@@ -19,7 +19,7 @@
                 <h2 class="text-primary mb-3 fw-bold fs-1"> Dream Sunshine</h2>
                 <h3 class="text-white mb-0 fw-bold fs-2"> Low Fat Cooking Promise Of Quality</h3>
             </div>
-        </div>
+        </div> --}} 
         <div>
             <img src="{{ asset('assets/images/home-banner/Dreamsunshinebanner-1.png') }}" class="home-banner-image"
                 alt="oil-banner">
@@ -255,7 +255,7 @@
 
                 <div class="item">
                     {{-- <a href="{{ route('product', ['id' => $data->id, 'slug' => $data->slug_url]) }}"> --}}
-                        <a href="#">
+                        <a >
                             <div class="product-card">
                                 <div class="product-card-img position-relative overflow-hidden">
                                     {{-- <img src="{!! asset('storage/images/products/' . $data->image_url) !!}"
@@ -304,7 +304,7 @@
                 </div>
                 {{-- @endforeach --}}
                 <div class="item">
-                    <a href="#">
+                    <a>
                         <div class="product-card">
                             <div class="product-card-img position-relative overflow-hidden">
                                 <img src="{!! asset('assets/images/productImage/dairyeggs/yogurt.png') !!}" alt="" />
@@ -334,7 +334,7 @@
                     </a>
                 </div>
                 <div class="item">
-                    <a href="#">
+                    <a>
                         <div class="product-card">
                             <div class="product-card-img position-relative overflow-hidden">
                                 <img src="{!! asset('assets/images/productImage/dairyeggs/cow ghee.png') !!}" alt="" />
@@ -363,7 +363,7 @@
                     </a>
                 </div>
                 <div class="item">
-                    <a href="#">
+                    <a>
                         <div class="product-card">
                             <div class="product-card-img position-relative overflow-hidden">
                                 <img src="{!! asset('assets/images/productImage/dairyeggs/milk-glass-bottle.png') !!}"
@@ -393,7 +393,7 @@
                     </a>
                 </div>
                 <div class="item">
-                    <a href="#">
+                    <a>
                         <div class="product-card">
                             <div class="product-card-img position-relative overflow-hidden">
                                 <img src="{!! asset('assets/images/productImage/beverages/tealeaves/tea-leave-img.png
@@ -601,7 +601,7 @@
                         <div class="product-card-img position-relative overflow-hidden">
                             <img src="{!! asset('assets/images/productImage/300img/egg.png ') !!}" alt="" />
                             <div class="product-badge d-flex flex-column align-items-start gap-1">
-                                <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
+                                <!-- <span class="featured-badge rounded-1 fs-small-heading">Featured</span> -->
                                 <span class="new-badge rounded-1 fs-small-heading">New</span>
                             </div>
                             <div class="card-btn-container w-100 px-3">
@@ -630,7 +630,7 @@
                         <div class="product-card-img position-relative overflow-hidden">
                             <img src="{!! asset('assets/images/productImage/300img/paneer.png') !!}" alt="" />
                             <div class="product-badge d-flex flex-column align-items-start gap-1">
-                                <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
+                                <!-- <span class="featured-badge rounded-1 fs-small-heading">Featured</span> -->
                                 <span class="new-badge rounded-1 fs-small-heading">New</span>
                             </div>
                             <div class="card-btn-container w-100 px-3">
@@ -659,7 +659,7 @@
                         <div class="product-card-img position-relative overflow-hidden">
                             <img src="{!! asset('assets/images/productImage/300img/milk-tetrapack.png') !!}" alt="" />
                             <div class="product-badge d-flex flex-column align-items-start gap-1">
-                                <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
+                                <!-- <span class="featured-badge rounded-1 fs-small-heading">Featured</span> -->
                                 <span class="new-badge rounded-1 fs-small-heading">New</span>
                             </div>
                             <div class="card-btn-container w-100 px-3">
@@ -689,7 +689,7 @@
                             <img src="{!! asset('assets/images/productImage/300img/milk.png') !!}" alt="" />
                             <div class="product-badge d-flex flex-column align-items-start gap-1">
                                 <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
-                                <span class="new-badge rounded-1 fs-small-heading">New</span>
+                                <!-- <span class="new-badge rounded-1 fs-small-heading">New</span> -->
                             </div>
                             <div class="card-btn-container w-100 px-3">
                                 <a href="{{ route("singleproduct.milk") }}"
@@ -717,7 +717,7 @@
                         <div class="product-card-img position-relative overflow-hidden">
                             <img src="{!! asset('assets/images/category/anaya-dairy-product/yogurt/9.png') !!}" alt="" />
                             <div class="product-badge d-flex flex-column align-items-start gap-1">
-                                <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
+                                <!-- <span class="featured-badge rounded-1 fs-small-heading">Featured</span> -->
                                 <span class="new-badge rounded-1 fs-small-heading">New</span>
                             </div>
                             <div class="card-btn-container w-100 px-3">
@@ -750,7 +750,7 @@
     <!-- ==================================================
                                          Beverages Section - Start
                                         ================================================== -->
-    <section class="beverages_section section_space_lg">
+    <section class="beverages_section section_space_lg beverages_section_xlg">
         <div class="container">
             <div class="section_heading text-center">
                 <h2 class="section_heading_text">Beverages</h2>
@@ -765,7 +765,7 @@
                             <img src="{!! asset('assets/images/productImage/300img/zhakas-jeera.png') !!}" alt="" />
                             <div class="product-badge d-flex flex-column align-items-start gap-1">
                                 <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
-                                <span class="new-badge rounded-1 fs-small-heading">New</span>
+                                <!-- <span class="new-badge rounded-1 fs-small-heading">New</span> -->
                             </div>
                             <div class="card-btn-container w-100 px-3">
                                 <a href="{{ route("singleproduct.jeeramasala") }}"
@@ -793,7 +793,7 @@
                         <div class="product-card-img position-relative overflow-hidden">
                             <img src="{!! asset('assets/images/productImage/300img/bebe-orange.png') !!}" alt="" />
                             <div class="product-badge d-flex flex-column align-items-start gap-1">
-                                <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
+                                <!-- <span class="featured-badge rounded-1 fs-small-heading">Featured</span> -->
                                 <span class="new-badge rounded-1 fs-small-heading">New</span>
                             </div>
                             <div class="card-btn-container w-100 px-3">
@@ -822,7 +822,7 @@
                         <div class="product-card-img position-relative overflow-hidden">
                             <img src="{!! asset('assets/images/productImage/300img/bebe-apple.png') !!}" alt="" />
                             <div class="product-badge d-flex flex-column align-items-start gap-1">
-                                <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
+                                <!-- <span class="featured-badge rounded-1 fs-small-heading">Featured</span> -->
                                 <span class="new-badge rounded-1 fs-small-heading">New</span>
                             </div>
                             <div class="card-btn-container w-100 px-3">
@@ -852,7 +852,7 @@
                             <img src="{!! asset('assets/images/category/beverages/beverages-square-bottle.png') !!}" alt="" />
                             <div class="product-badge d-flex flex-column align-items-start gap-1">
                                 <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
-                                <span class="new-badge rounded-1 fs-small-heading">New</span>
+                                <!-- <span class="new-badge rounded-1 fs-small-heading">New</span> -->
                             </div>
                             <div class="card-btn-container w-100 px-3">
                                 <a href="#"
@@ -886,7 +886,7 @@
                                         Logistics & Transportation Section - Start
                                         ================================================== -->
     <section id="dream-transport-section" style="background-color: #002f753f;"
-        class="logistics_transportation_section decoration_wrapper section_space_lg">
+        class="logistics_transportation_section decoration_wrapper section_space_xlg">
         <div class="container">
             <div class="row align-items-start">
                 <div class="col-lg-6">
@@ -928,7 +928,7 @@
     <!-- ==================================================
                                         Real Estate & Construction Section - Start
                                         ================================================== -->
-    <section class="logistics_transportation_section section_space_lg">
+    <section class="logistics_transportation_section section_space_xlg">
         <div class="container">
             <div class="row align-items-start">
                 <div class="col-lg-6">
@@ -1026,11 +1026,11 @@
         <div class="container">
             <div class="section_heading text-center">
             </div>
-            <h2 class="section_heading_text">What Clients Say</h2>
+            <h2 class="section_heading_text fw-bold text-center">What Clients Say</h2>
 
             <div class="testimonial_carousel">
                 <div class="carousel_2col row" data-slick='{"arrows":true}'>
-                    <div class="carousel_item col-2">
+                    <div class="carousel_item">
                         <div class="testimonial_item">
                             <div class="author_box">
                                 <div class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
@@ -1054,7 +1054,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="carousel_item col-2">
+                    <div class="carousel_item">
                         <div class="testimonial_item">
                             <div class="author_box">
                                 <div class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
@@ -1079,11 +1079,11 @@
                             </p>
                         </div>
                     </div>
-                    <div class="carousel_item col-2">
+                    <div class="carousel_item">
                         <div class="testimonial_item">
                             <div class="author_box">
                                 <div class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
-                                    <span class="m-0 b-0">A</span>
+                                    <span class="m-0 b-0">R</span>
                                 </div>
                                 <div class="author_box_content">
                                     <h3 class="author_box_name">Rohit Verma</h3>
@@ -1102,7 +1102,7 @@
                         </div>
                     </div>
 
-                    <div class="carousel_item col-2">
+                    <div class="carousel_item">
                         <div class="testimonial_item">
                             <div class="author_box">
                                 <div class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
@@ -1125,11 +1125,11 @@
                         </div>
                     </div>
 
-                    <div class="carousel_item col-2">
+                    <div class="carousel_item">
                         <div class="testimonial_item">
                             <div class="author_box">
                                 <div class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
-                                    <span class="m-0 b-0">R</span>
+                                    <span class="m-0 b-0">A</span>
                                 </div>
                                 <div class="author_box_content">
                                     <h3 class="author_box_name">Ahmed Khan</h3>
@@ -1148,11 +1148,11 @@
                         </div>
                     </div>
 
-                    <div class="carousel_item col-2">
+                    <div class="carousel_item">
                         <div class="testimonial_item">
                             <div class="author_box">
                                 <div class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
-                                    <span class="m-0 b-0">L</span>
+                                    <span class="m-0 b-0">A</span>
                                 </div>
                                 <div class="author_box_content">
                                     <h3 class="author_box_name">Alok Kumar</h3>
@@ -1545,7 +1545,7 @@
 
 
 @section('extrajs')
-    <script>
+    <!-- <script>
         $(document).ready(function () {
             $('#home-banner ').owlCarousel({
                 loop: true,
@@ -1729,8 +1729,8 @@
                 slidesToScroll: 2,
                 pauseOnHover: true,
                 autoplaySpeed: 5000,
-                prevArrow: ".c2c_arrow_left",
-                nextArrow: ".c2c_arrow_right",
+               // prevArrow: ".c2c_arrow_left",
+               // nextArrow: ".c2c_arrow_right",
                 responsive: [{
                     breakpoint: 992,
                     settings: {
@@ -1740,5 +1740,5 @@
                 }]
             });
         });
-    </script>
+    </script> -->
 @endsection

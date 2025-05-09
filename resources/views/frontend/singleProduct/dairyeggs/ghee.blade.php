@@ -41,7 +41,7 @@
 
     <div class="whole-body container ">
         <div>
-            <p class="mt-3">Home > Dairy & Eggs > Ghee</p>
+            <p class="mt-3">Home > Anaya Dairy > Ghee</p>
         </div>
 
 

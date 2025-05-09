@@ -41,7 +41,7 @@
 
     <div class="whole-body container ">
         <div>
-            <p class="mt-3">Home > Beverages > Apple Juice</p>
+            <p class="mt-3">Home > Apple Juice</p>
         </div>
 
 

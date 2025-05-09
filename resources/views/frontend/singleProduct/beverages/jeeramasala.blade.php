@@ -41,7 +41,7 @@
 
     <div class="whole-body container ">
         <div>
-            <p class="mt-3">Home > Beverages > Jeera Masala</p>
+            <p class="mt-3">Home > Jeera Masala</p>
         </div>
 
 

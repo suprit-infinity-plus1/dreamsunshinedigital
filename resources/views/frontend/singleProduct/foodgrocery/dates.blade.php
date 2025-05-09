@@ -41,7 +41,7 @@
 
     <div class="whole-body container ">
         <div>
-            <p class="mt-3">Home > Food & Grocery > Dates</p>
+            <p class="mt-3">Home > Iram Dates > Dates</p>
         </div>
 
 
