@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Pure Cooking Oil')
+@section('title','Pure Cooking Oil | DreamSunshine Digital')
 @section('extracss')
     <link rel="stylesheet" href="{{ asset('assets/css/product.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/category.css') }}">

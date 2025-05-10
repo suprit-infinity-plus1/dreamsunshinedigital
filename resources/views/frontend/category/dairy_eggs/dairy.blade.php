@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Anaya Dairy Products')
+@section('title','Anaya Dairy Products | DreamSunshine Digital')
 @section('extracss')
     <link rel="stylesheet" href="{{ asset('assets/css/product.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/category.css') }}">

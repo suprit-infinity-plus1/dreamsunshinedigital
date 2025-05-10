@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Food & Grocery | Oil Pouch')
+@section('title','Food & Grocery | Oil Pouch | DreamSunshine Digital')
 @section('extracss')
     <link rel="stylesheet" href="{{ asset('assets/css/product.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/category.css') }}">

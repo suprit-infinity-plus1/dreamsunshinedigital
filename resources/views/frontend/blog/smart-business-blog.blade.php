@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Blogs | Smart Business Move')
+@section('title','Blogs | Smart Business Move | DreamSunshine Digital')
 @section('extracss')
     <link rel="stylesheet" href="{{ asset('assets/css/blog-child.css') }}">
 @endsection

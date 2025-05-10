@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Real Oxy')
+@section('title','Real Oxy | DreamSunshine Digital')
 @section('extracss')
     <link rel="stylesheet" href="{{ asset('assets/css/product.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/category.css') }}">

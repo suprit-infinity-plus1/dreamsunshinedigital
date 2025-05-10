@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Home | Dream Sunshine Digital')
+@section('title','Home | DreamSunshine Digital')
 @section('content')
     <div class="banner-section">
 

@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Iram Dates | Dry Fruits')
+@section('title','Iram Dates | Dry Fruits | DreamSunshine Digital')
 @section('extracss')
     <link rel="stylesheet" href="{{ asset('assets/css/product.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/category.css') }}">

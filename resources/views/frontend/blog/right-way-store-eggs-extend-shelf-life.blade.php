@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Blogs | The Right Way to Store Eggs and Extend Shelf Life in Bulk')
+@section('title','Blogs | The Right Way to Store Eggs and Extend Shelf Life in Bulk | DreamSunshine Digital')
 
 @section('extracss')
     <link rel="stylesheet" href="{{ asset('assets/css/blog-child.css') }}">
