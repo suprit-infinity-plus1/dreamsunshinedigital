@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title',content: 'Blog | How to Identify High-Quality Basmati Rice: A Buyer’s Guide')
+@section('title',content: 'Blog | How to Identify High-Quality Basmati Rice: A Buyer’s Guide | DreamSunshine Digital')
 @section('extracss')
     <link rel="stylesheet" href="{{ asset('assets/css/blog-child.css') }}">
 @endsection

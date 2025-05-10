@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('extracss')
-@section('title','Anaya Dairy| Buffalo')
+@section('title','Anaya Dairy| Buffalo | DreamSunshine Digital')
     <link rel="stylesheet" href="{{ asset('assets/css/product.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/category.css') }}">
     <link rel="stylesheet" href="https://unpkg.com/xzoom/dist/xzoom.css">

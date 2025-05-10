@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Blogs | Smart Strategies for Managing Bulk Inventory')
+@section('title','Blogs | Smart Strategies for Managing Bulk Inventory | DreamSunshine Digital')
 @section('extracss')
     <link rel="stylesheet" href="{{ asset('assets/css/blog-child.css') }}">
 @endsection

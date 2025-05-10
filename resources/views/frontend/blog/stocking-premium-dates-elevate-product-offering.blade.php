@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Blogs | Stocking Premium Dates Can Elevate Your Product Offering')
+@section('title','Blogs | Stocking Premium Dates Can Elevate Your Product Offering | DreamSunshine Digital')
 @section('extracss')
     <link rel="stylesheet" href="{{ asset('assets/css/blog-child.css') }}">
 @endsection
