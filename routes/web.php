@@ -17,9 +17,9 @@ Route::get('/contact-us', [MainController::class, 'contact'])->name('contact');
 Route::get('/about-us', [MainController::class, 'about'])->name('about');
 
 //-------------------------------Blog --------------------------
-Route::get('/blog-main', [BlogController::class,'blogMain'])->name('blog');
 Route::prefix('blog')->group(function () {
     // Existing route
+    Route::get('/', [BlogController::class,'blogMain'])->name('blog');
     Route::get('/smart-business', [BlogController::class, 'smartBusiness'])->name('smart-business');
 
     // New routes for the blog cards
