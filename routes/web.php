@@ -29,6 +29,12 @@ Route::prefix('blog')->group(function () {
     Route::get('/identify-high-quality-basmati-rice-buyers-guide', [BlogController::class, 'identifyHighQualityBasmatiRice'])->name('identify-high-quality-basmati-rice-buyers-guide');
 });
 
+
+//-------------------------------Policies --------------------------
+Route::get('/privacy-policy', [MainController::class, 'privacyPolicy'])->name('privacypolicy');
+Route::get('/return-refund', [MainController::class, 'returnRefund'])->name('returnrefund');
+Route::get('/terms-conditions', [MainController::class, 'termsCondition'])->name('termscondition');
+
 // -------------------------------Dream Trnasport --------------------------
 
 Route::get('/dream-transport', [DreamTransportController::class,'dreamTransport'])->name('dream-transport');

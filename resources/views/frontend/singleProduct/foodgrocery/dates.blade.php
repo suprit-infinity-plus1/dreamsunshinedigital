@@ -196,22 +196,22 @@
                 </p> --}}
             </div>
             <div class="owl-carousel owl-theme product-carousel" id="dairyEggsSectionCarousel">
-                <div class="product_item border rounded-2">
+              <div class="product_item border rounded-2">
                     <div class="product-card">
                         <div class="product-card-img position-relative overflow-hidden">
-                            <img src="{!! asset('assets/images/productImage/300img/egg.png ') !!}" alt="" />
+                            <img src="{!! asset('assets/images/category/foodgrocery/rice/16.png ') !!}" alt="" />
                             <div class="product-badge d-flex flex-column align-items-start gap-1">
-                                <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
+                                <!-- <span class="featured-badge rounded-1 fs-small-heading">Featured</span> -->
                                 <span class="new-badge rounded-1 fs-small-heading">New</span>
                             </div>
                             <div class="card-btn-container w-100 px-3">
-                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
+                                <a href="{{ route("singleproduct.rice") }}" class="btn btn-primary w-100 view-product-btn">View Product</a>
                             </div>
                         </div>
                         <div class="card-body text-center border-top p-3">
                             <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                <a href="#" class="text-main-color">
-                                    Egg
+                                <a href="{{ route("singleproduct.rice") }}" class="text-main-color">
+                                    Anaya Rice
                                 </a>
                             </h5>
                             <ul class="rating_star d-flex align-items-center justify-content-center m-0">
@@ -227,19 +227,19 @@
                 <div class="product_item border rounded-2">
                     <div class="product-card">
                         <div class="product-card-img position-relative overflow-hidden">
-                            <img src="{!! asset('assets/images/productImage/300img/paneer.png') !!}" alt="" />
+                            <img src="{!! asset('assets/images/category/beverages/tealeaves/tea-leave-img.png') !!}" alt="" />
                             <div class="product-badge d-flex flex-column align-items-start gap-1">
                                 <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
-                                <span class="new-badge rounded-1 fs-small-heading">New</span>
+                                <!-- <span class="new-badge rounded-1 fs-small-heading">New</span> -->
                             </div>
                             <div class="card-btn-container w-100 px-3">
-                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
+                                <a href="{{ route("singleproduct.anayatealeave") }}" class="btn btn-primary w-100 view-product-btn">View Product</a>
                             </div>
                         </div>
                         <div class="card-body text-center border-top p-3">
                             <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                <a href="#">
-                                    Paneer
+                                <a href="{{ route("singleproduct.anayatealeave") }}">
+                                    Anaya Tea
                                 </a>
                             </h5>
                             <ul class="rating_star d-flex align-items-center justify-content-center m-0">
@@ -255,19 +255,19 @@
                 <div class="product_item border rounded-2">
                     <div class="product-card">
                         <div class="product-card-img position-relative overflow-hidden">
-                            <img src="{!! asset('assets/images/productImage/300img/milk-tetrapack.png') !!}" alt="" />
+                            <img src="{!! asset('assets/images/category/foodGroceryImages/sugar.png') !!}" alt="" />
                             <div class="product-badge d-flex flex-column align-items-start gap-1">
                                 <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
-                                <span class="new-badge rounded-1 fs-small-heading">New</span>
+                                <!-- <span class="new-badge rounded-1 fs-small-heading">New</span> -->
                             </div>
                             <div class="card-btn-container w-100 px-3">
-                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
+                                <a href="{{ route("singleproduct.dreamsugar") }}" class="btn btn-primary w-100 view-product-btn">View Product</a>
                             </div>
                         </div>
                         <div class="card-body text-center border-top p-3">
                             <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                <a href="#">
-                                    Tetrapack milk
+                                <a href="{{ route("singleproduct.dreamsugar") }}">
+                                    Dream Sugar
                                 </a>
                             </h5>
                             <ul class="rating_star d-flex align-items-center justify-content-center m-0">
@@ -283,19 +283,19 @@
                 <div class="product_item border rounded-2">
                     <div class="product-card">
                         <div class="product-card-img position-relative overflow-hidden">
-                            <img src="{!! asset('assets/images/productImage/300img/milk.png') !!}" alt="" />
+                            <img src="{!! asset('assets/images/category/pure cooking oil/Untitled-1.png') !!}" alt="" />
                             <div class="product-badge d-flex flex-column align-items-start gap-1">
                                 <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
-                                <span class="new-badge rounded-1 fs-small-heading">New</span>
+                                <!-- <span class="new-badge rounded-1 fs-small-heading">New</span> -->
                             </div>
                             <div class="card-btn-container w-100 px-3">
-                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
+                                <a href="{{ route("singleproduct.oil_bottle") }}" class="btn btn-primary w-100 view-product-btn">View Product</a>
                             </div>
                         </div>
                         <div class="card-body text-center border-top p-3">
                             <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                <a href="#">
-                                    Milk
+                                <a href="{{ route("singleproduct.oil_bottle") }}">
+                                    Cooking Oil
                                 </a>
                             </h5>
                             <ul class="rating_star d-flex align-items-center justify-content-center m-0">
@@ -308,34 +308,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="product_item border rounded-2">
-                    <div class="product-card">
-                        <div class="product-card-img position-relative overflow-hidden">
-                            <img src="{!! asset('assets/images/category/anaya-dairy-product/Untitled-4.png') !!}" alt="" />
-                            <div class="product-badge d-flex flex-column align-items-start gap-1">
-                                <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
-                                <span class="new-badge rounded-1 fs-small-heading">New</span>
-                            </div>
-                            <div class="card-btn-container w-100 px-3">
-                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
-                            </div>
-                        </div>
-                        <div class="card-body text-center border-top p-3">
-                            <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                <a href="#">
-                                    Yogurt
-                                </a>
-                            </h5>
-                            <ul class="rating_star d-flex align-items-center justify-content-center m-0">
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </section>

@@ -11,6 +11,17 @@ class MainController extends Controller
         return view('frontend.home.index');
     }
 
+    //-------------------------------Policies---------------------------
+    public function privacyPolicy(){
+        return view('frontend.policies.privacypolicy');
+    }
+    public function returnRefund(){
+        return view('frontend.policies.returnrefund');
+    }
+    public function termsCondition(){
+        return view('frontend.policies.termscondition');
+    }
+
     public function about(){
         return view('frontend.aboutus.about');
     }

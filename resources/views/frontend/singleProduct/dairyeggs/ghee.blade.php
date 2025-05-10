@@ -202,12 +202,12 @@
                                 <span class="new-badge rounded-1 fs-small-heading">New</span>
                             </div>
                             <div class="card-btn-container w-100 px-3">
-                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
+                                <a href="{{ route('singleproduct.milk_tetrapack') }}" class="btn btn-primary w-100 view-product-btn">View Product</a>
                             </div>
                         </div>
                         <div class="card-body text-center border-top p-3">
                             <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                <a href="#" class="text-main-color">
+                                <a href="{{ route('singleproduct.milk_tetrapack') }}" class="text-main-color">
                                     Tetrapack Milk
                                 </a>
                             </h5>
@@ -230,12 +230,12 @@
                                 <!-- <span class="new-badge rounded-1 fs-small-heading">New</span> -->
                             </div>
                             <div class="card-btn-container w-100 px-3">
-                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
+                                <a href="{{ route('singleproduct.milk') }}" class="btn btn-primary w-100 view-product-btn">View Product</a>
                             </div>
                         </div>
                         <div class="card-body text-center border-top p-3">
                             <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                <a href="#">
+                                <a href="{{ route('singleproduct.milk') }}">
                                     Milk
                                 </a>
                             </h5>
@@ -258,12 +258,12 @@
                                 <!-- <span class="new-badge rounded-1 fs-small-heading">New</span> -->
                             </div>
                             <div class="card-btn-container w-100 px-3">
-                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
+                                <a href="{{ route('singleproduct.milkbuffalo') }}" class="btn btn-primary w-100 view-product-btn">View Product</a>
                             </div>
                         </div>
                         <div class="card-body text-center border-top p-3">
                             <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                <a href="#">
+                                <a href="{{ route('singleproduct.milkbuffalo') }}">
                                     Buffallo Milk
                                 </a>
                             </h5>
@@ -286,12 +286,12 @@
                                 <!-- <span class="new-badge rounded-1 fs-small-heading">New</span> -->
                             </div>
                             <div class="card-btn-container w-100 px-3">
-                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
+                                <a href="{{ route('singleproduct.paneer') }}"></a>" class="btn btn-primary w-100 view-product-btn">View Product</a>
                             </div>
                         </div>
                         <div class="card-body text-center border-top p-3">
                             <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                <a href="#">
+                                <a href="{{ route('singleproduct.paneer') }}">
                                     Paneer
                                 </a>
                             </h5>
@@ -314,12 +314,12 @@
                                 <!-- <span class="new-badge rounded-1 fs-small-heading">New</span> -->
                             </div>
                             <div class="card-btn-container w-100 px-3">
-                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
+                                <a href="{{ route('singleproduct.yogurt') }}" class="btn btn-primary w-100 view-product-btn">View Product</a>
                             </div>
                         </div>
                         <div class="card-body text-center border-top p-3">
                             <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                <a href="#">
+                                <a href="{{ route('singleproduct.yogurt') }}">
                                     Yogurt
                                 </a>
                             </h5>

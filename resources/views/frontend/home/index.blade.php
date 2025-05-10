@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Home | DreamSunshine Digital')
+@section('title', 'Home | DreamSunshine Digital')
 @section('content')
     <div class="banner-section">
 
@@ -10,7 +10,7 @@
 
         </div>
 
-     {{--   <div>
+        {{-- <div>
             <img src="{{ asset('assets/images/home-banner/vegetable-oil-banner.png') }}"
                 class="home-banner-image d-none d-md-block" alt="oil-banner">
             <img src="{{ asset('assets/images/home-banner/mobile-vegetable-oil-banner.png') }}"
@@ -19,7 +19,7 @@
                 <h2 class="text-primary mb-3 fw-bold fs-1"> Dream Sunshine</h2>
                 <h3 class="text-white mb-0 fw-bold fs-2"> Low Fat Cooking Promise Of Quality</h3>
             </div>
-        </div> --}} 
+        </div> --}}
         <div>
             <img src="{{ asset('assets/images/home-banner/Dreamsunshinebanner-1.png') }}" class="home-banner-image"
                 alt="oil-banner">
@@ -47,8 +47,8 @@
     </div>
 
     <!-- ==================================================
-                                           About Us Section - Start
-                                        ================================================== -->
+                                               About Us Section - Start
+                                            ================================================== -->
     <section class="hero_section decoration_wrapper">
         <div class="container">
             <div class="row align-items-center">
@@ -143,12 +143,12 @@
         </div>
     </section>
     <!-- ==================================================
-                                           About Us Section - End
-                                          ================================================== -->
+                                               About Us Section - End
+                                              ================================================== -->
 
     <!-- ==================================================
-                                         CATEGORIES Section - Start
-                                        ================================================== -->
+                                             CATEGORIES Section - Start
+                                            ================================================== -->
     <section class="categories_section section_space_lg">
         <div class="container">
             <div class="row">
@@ -164,44 +164,47 @@
                 <div class="col-md-8">
                     <div class="owl-carousel owl-theme" id="categoriesSectionCarousel">
                         <!-- <div class="categories_item m-2">
-                            <div class="border rounded-2">
-                                <div>
-                                    <img src="{{ asset('assets/images/blog/food-grocery.png') }}" style="height: 191px;"
-                                        alt="">
-                                </div>
-                                <div class="categories_content py-2 px-3">
-                                    <div class="d-flex justify-content-between align-items-center overflow-hidden">
-                                        <div class="categories_details">
-                                            <div>
-                                                <a href="{{ route("category.foodgrocery") }}" class="fs-6 fw-bolder">Food &
-                                                    Grocery</a>
+                                <div class="border rounded-2">
+                                    <div>
+                                        <img src="{{ asset('assets/images/blog/food-grocery.png') }}" style="height: 191px;"
+                                            alt="">
+                                    </div>
+                                    <div class="categories_content py-2 px-3">
+                                        <div class="d-flex justify-content-between align-items-center overflow-hidden">
+                                            <div class="categories_details">
+                                                <div>
+                                                    <a href="{{ route("category.foodgrocery") }}" class="fs-6 fw-bolder">Food &
+                                                        Grocery</a>
+                                                </div>
+                                                <span class="mb-0">8 products</span>
                                             </div>
-                                            <span class="mb-0">8 products</span>
-                                        </div>
-                                        <div class="categories_btn_container ">
-                                            <a href="{{ route("category.foodgrocery") }}" class="categories_btn rounded-1">
-                                                <i class="fa-solid fa-arrow-right"></i>
-                                            </a>
+                                            <div class="categories_btn_container ">
+                                                <a href="{{ route("category.foodgrocery") }}" class="categories_btn rounded-1">
+                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div> -->
+                            </div> -->
                         <div class="categories_item m-2">
                             <div class="border rounded-2">
                                 <div>
-                                    <a href="{{ route("category.iramdatesmain") }}"><img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt=""></a>
+                                    <a href="{{ route("category.iramdatesmain") }}"><img
+                                            src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt=""></a>
                                 </div>
                                 <div class="categories_content py-2 px-3">
                                     <div class="d-flex justify-content-between align-items-center overflow-hidden">
                                         <div class="categories_details">
                                             <div>
-                                                <a href="{{ route("category.iramdatesmain") }}" class="fs-6 fw-bolder">Iram Dates</a>
+                                                <a href="{{ route("category.iramdatesmain") }}" class="fs-6 fw-bolder">Iram
+                                                    Dates</a>
                                             </div>
                                             <span class="mb-0">2 products</span>
                                         </div>
                                         <div class="categories_btn_container ">
-                                            <a href="{{ route("category.iramdatesmain") }}" class="categories_btn rounded-1">
+                                            <a href="{{ route("category.iramdatesmain") }}"
+                                                class="categories_btn rounded-1">
                                                 <i class="fa-solid fa-arrow-right"></i>
                                             </a>
                                         </div>
@@ -212,14 +215,15 @@
                         <div class="categories_item m-2">
                             <div class="border rounded-2">
                                 <div>
-                                    <a href="{{ route("category.beverages") }}"><img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt=""></a>
+                                    <a href="{{ route("category.beverages") }}"><img
+                                            src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt=""></a>
                                 </div>
                                 <div class="categories_content py-2 px-3">
                                     <div class="d-flex justify-content-between align-items-center overflow-hidden">
                                         <div class="categories_details">
                                             <div>
-                                                <a href="{{ route("category.beverages") }}"
-                                                    class="fs-6 fw-bolder">Real Oxy</a>
+                                                <a href="{{ route("category.beverages") }}" class="fs-6 fw-bolder">Real
+                                                    Oxy</a>
                                             </div>
                                             <span class="mb-0">5 products</span>
                                         </div>
@@ -235,14 +239,15 @@
                         <div class="categories_item m-2">
                             <div class="border rounded-2">
                                 <div>
-                                    <a href="{{ route("category.anaya-rice") }}"><img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt=""></a>
+                                    <a href="{{ route("category.anaya-rice") }}"><img
+                                            src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt=""></a>
                                 </div>
                                 <div class="categories_content py-2 px-3">
                                     <div class="d-flex justify-content-between align-items-center overflow-hidden">
                                         <div class="categories_details">
                                             <div>
-                                                <a href="{{ route("category.anaya-rice") }}"
-                                                    class="fs-6 fw-bolder">Anaya Rice</a>
+                                                <a href="{{ route("category.anaya-rice") }}" class="fs-6 fw-bolder">Anaya
+                                                    Rice</a>
                                             </div>
                                             <span class="mb-0">2 products</span>
                                         </div>
@@ -258,19 +263,21 @@
                         <div class="categories_item m-2">
                             <div class="border rounded-2">
                                 <div>
-                                    <a href="{{ route("category.anayatealeave") }}"><img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt=""></a>
+                                    <a href="{{ route("category.anayatealeave") }}"><img
+                                            src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt=""></a>
                                 </div>
                                 <div class="categories_content py-2 px-3">
                                     <div class="d-flex justify-content-between align-items-center overflow-hidden">
                                         <div class="categories_details">
                                             <div>
-                                                <a href="{{ route("category.anayatealeave") }}"
-                                                    class="fs-6 fw-bolder">Anaya Tea</a>
+                                                <a href="{{ route("category.anayatealeave") }}" class="fs-6 fw-bolder">Anaya
+                                                    Tea</a>
                                             </div>
                                             <span class="mb-0">1 product</span>
                                         </div>
                                         <div class="categories_btn_container">
-                                            <a href="{{ route("category.anayatealeave") }}" class="categories_btn rounded-1">
+                                            <a href="{{ route("category.anayatealeave") }}"
+                                                class="categories_btn rounded-1">
                                                 <i class="fa-solid fa-arrow-right"></i>
                                             </a>
                                         </div>
@@ -281,14 +288,15 @@
                         <div class="categories_item m-2">
                             <div class="border rounded-2">
                                 <div>
-                                    <a href="{{ route("category.sugar") }}"><img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt=""></a>
+                                    <a href="{{ route("category.sugar") }}"><img
+                                            src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt=""></a>
                                 </div>
                                 <div class="categories_content py-2 px-3">
                                     <div class="d-flex justify-content-between align-items-center overflow-hidden">
                                         <div class="categories_details">
                                             <div>
-                                                <a href="{{ route("category.sugar") }}"
-                                                    class="fs-6 fw-bolder">Dream Sugar</a>
+                                                <a href="{{ route("category.sugar") }}" class="fs-6 fw-bolder">Dream
+                                                    Sugar</a>
                                             </div>
                                             <span class="mb-0">1 product</span>
                                         </div>
@@ -304,14 +312,15 @@
                         <div class="categories_item m-2">
                             <div class="border rounded-2">
                                 <div>
-                                    <a href="{{ route("category.dairy") }}"><img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt=""></a>
+                                    <a href="{{ route("category.dairy") }}"><img
+                                            src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt=""></a>
                                 </div>
                                 <div class="categories_content py-2 px-3">
                                     <div class="d-flex justify-content-between align-items-center overflow-hidden">
                                         <div class="categories_details">
                                             <div>
-                                                <a href="{{ route("category.dairy") }}"
-                                                    class="fs-6 fw-bolder">Anaya Dairy</a>
+                                                <a href="{{ route("category.dairy") }}" class="fs-6 fw-bolder">Anaya
+                                                    Dairy</a>
                                             </div>
                                             <span class="mb-0">6 products</span>
                                         </div>
@@ -327,14 +336,15 @@
                         <div class="categories_item m-2">
                             <div class="border rounded-2">
                                 <div>
-                                   <a href="{{ route("category.realeggs") }}"> <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt=""></a>
+                                    <a href="{{ route("category.realeggs") }}"> <img
+                                            src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt=""></a>
                                 </div>
                                 <div class="categories_content py-2 px-3">
                                     <div class="d-flex justify-content-between align-items-center overflow-hidden">
                                         <div class="categories_details">
                                             <div>
-                                                <a href="{{ route("category.realeggs") }}"
-                                                    class="fs-6 fw-bolder">Real Eggs</a>
+                                                <a href="{{ route("category.realeggs") }}" class="fs-6 fw-bolder">Real
+                                                    Eggs</a>
                                             </div>
                                             <span class="mb-0">5 products</span>
                                         </div>
@@ -350,14 +360,14 @@
                         <div class="categories_item m-2">
                             <div class="border rounded-2">
                                 <div>
-                                    <a href="{{ route("category.oil") }}"><img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt=""></a>
+                                    <a href="{{ route("category.oil") }}"><img
+                                            src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt=""></a>
                                 </div>
                                 <div class="categories_content py-2 px-3">
                                     <div class="d-flex justify-content-between align-items-center overflow-hidden">
                                         <div class="categories_details">
                                             <div>
-                                                <a href="{{ route("category.oil") }}"
-                                                    class="fs-6 fw-bolder">Cooking Oil</a>
+                                                <a href="{{ route("category.oil") }}" class="fs-6 fw-bolder">Cooking Oil</a>
                                             </div>
                                             <span class="mb-0">3 products</span>
                                         </div>
@@ -376,8 +386,8 @@
         </div>
     </section>
     <!-- ==================================================
-                                         CATEGORIES Section - End
-                                        ================================================== -->
+                                             CATEGORIES Section - End
+                                            ================================================== -->
 
     <section class="dram-section">
         <div class="container position-relative overflow-hidden">
@@ -392,7 +402,7 @@
 
                 <div class="item">
                     {{-- <a href="{{ route('product', ['id' => $data->id, 'slug' => $data->slug_url]) }}"> --}}
-                        <a >
+                        <a>
                             <div class="product-card">
                                 <div class="product-card-img position-relative overflow-hidden">
                                     {{-- <img src="{!! asset('storage/images/products/' . $data->image_url) !!}"
@@ -534,7 +544,7 @@
                         <div class="product-card">
                             <div class="product-card-img position-relative overflow-hidden">
                                 <img src="{!! asset('assets/images/productImage/beverages/tealeaves/tea-leave-img.png
-                                        ') !!}" alt="" />
+                                            ') !!}" alt="" />
                                 <span class="new-badge fs-small-heading">New</span>
                             </div>
                             <div class="card-body text-center">
@@ -564,8 +574,8 @@
     </section>
 
     <!-- ==================================================
-                                         Food & Grocery Section - Start
-                                        ================================================== -->
+                                             Food & Grocery Section - Start
+                                            ================================================== -->
     {{-- <section class="food_grocery_section section_space_lg">
         <div class="container">
             <div class="section_heading text-center">
@@ -719,11 +729,11 @@
         </div>
     </section> --}}
     <!-- ==================================================
-                                         Food & Grocery Section - Start
-                                        ============================    ====================== -->
+                                             Food & Grocery Section - Start
+                                            ============================    ====================== -->
     <!-- ==================================================
-                                         Dairy & Eggs Section - Start
-                                        ================================================== -->
+                                             Dairy & Eggs Section - Start
+                                            ================================================== -->
     <section class="dairy_eggs_section section_space_lg">
         <div class="container">
             <div class="section_heading text-center">
@@ -882,12 +892,12 @@
         </div>
     </section>
     <!-- ==================================================
-                                         Dairy & Eggs Section - Start
-                                        ================================================== -->
+                                             Dairy & Eggs Section - Start
+                                            ================================================== -->
     <!-- ==================================================
-                                         Beverages Section - Start
-                                        ================================================== -->
-    <section class="beverages_section section_space_lg beverages_section_xlg">
+                                             Beverages Section - Start
+                                            ================================================== -->
+    <section class="beverages_section">
         <div class="container">
             <div class="section_heading text-center">
                 <h2 class="section_heading_text">Beverages</h2>
@@ -983,11 +993,12 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="product_item border rounded-2">
                     <div class="product-card">
                         <div class="product-card-img position-relative overflow-hidden">
-                            <img src="{!! asset('assets/images/category/beverages/beverages-round-bottle.png') !!}" alt="" />
+                            <img src="{!! asset('assets/images/category/beverages/beverages-round-bottle.png') !!}"
+                                alt="" />
                             <div class="product-badge d-flex flex-column align-items-start gap-1">
                                 <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
                                 <!-- <span class="new-badge rounded-1 fs-small-heading">New</span> -->
@@ -1016,7 +1027,8 @@
                 <div class="product_item border rounded-2">
                     <div class="product-card">
                         <div class="product-card-img position-relative overflow-hidden">
-                            <img src="{!! asset('assets/images/category/beverages/beverages-square-bottle.png') !!}" alt="" />
+                            <img src="{!! asset('assets/images/category/beverages/beverages-square-bottle.png') !!}"
+                                alt="" />
                             <div class="product-badge d-flex flex-column align-items-start gap-1">
                                 <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
                                 <!-- <span class="new-badge rounded-1 fs-small-heading">New</span> -->
@@ -1047,13 +1059,13 @@
         </div>
     </section>
     <!-- ==================================================
-                                         Beverages Section - End
-                                        ================================================== -->
+                                             Beverages Section - End
+                                            ================================================== -->
     <!-- ==================================================
-                                        Logistics & Transportation Section - Start
-                                        ================================================== -->
+                                            Logistics & Transportation Section - Start
+                                            ================================================== -->
     <section id="dream-transport-section" style="background-color: #002f753f;"
-        class="logistics_transportation_section decoration_wrapper section_space_xlg">
+        class="logistics_transportation_section decoration_wrapper section_space_lg">
         <div class="container">
             <div class="row align-items-start">
                 <div class="col-lg-6">
@@ -1070,14 +1082,14 @@
                             industry leaders to provide you with the best solutions available.
                         </p>
                         <!-- <a class="btn btn-primary rounded-1" href="contact.html">
-                                    <span class="btn_text" data-text="Get A Consultation">
-                                        Read More
-                                    </span>
-                                    <span class="btn_icon ps-2">
-                                        {{-- <i class="fa-solid fa-arrow-up-right"></i> --}}
-                                        <i class="fa-solid fa-arrow-right"></i>
-                                    </span>
-                                </a> -->
+                                        <span class="btn_text" data-text="Get A Consultation">
+                                            Read More
+                                        </span>
+                                        <span class="btn_icon ps-2">
+                                            {{-- <i class="fa-solid fa-arrow-up-right"></i> --}}
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </span>
+                                    </a> -->
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -1090,11 +1102,11 @@
         </div>
     </section>
     <!-- ==================================================
-                                        Logistics & Transportation Section - End
-                                        ================================================== -->
+                                            Logistics & Transportation Section - End
+                                            ================================================== -->
     <!-- ==================================================
-                                        Real Estate & Construction Section - Start
-                                        ================================================== -->
+                                            Real Estate & Construction Section - Start
+                                            ================================================== -->
     <section class="logistics_transportation_section section_space_xlg">
         <div class="container">
             <div class="row align-items-start">
@@ -1107,39 +1119,39 @@
                 <div class="col-lg-6">
                     <div class="section_heading">
                         <h2 class="section_heading_text"> Real Estate & Construction</h2>
-                        <p class="section_heading_description">
-                            Our Real Estate & Construction showcase highlights visionary design, quality
-                            craftsmanship, and innovative building solutions that shape the spaces we live and work
-                            in. From residential developments to commercial infrastructures, each project reflects a
-                            commitment to durability, functionality, and aesthetic excellence.
-                        </p>
-                        <p class="section_heading_description">
-                            Explore a curated selection of properties, architectural concepts, and construction
-                            innovations that set new standards in the industry. Whether it's modern urban housing,
-                            sustainable building practices, or large-scale infrastructure projects, our features
-                            demonstrate what’s possible when expertise meets ambition.
-                        </p>
-                        <!-- <a class="btn btn-primary rounded-1" href="contact.html">
-                                    <span class="btn_text" data-text="Get A Consultation">
-                                        Read More
-                                    </span>
-                                    <span class="btn_icon ps-2">
-                                        {{-- <i class="fa-solid fa-arrow-up-right"></i> --}}
-                                        <i class="fa-solid fa-arrow-right"></i>
-                                    </span>
-                                </a> -->
                     </div>
+                    <p class="section_heading_description">
+                        Our Real Estate & Construction showcase highlights visionary design, quality
+                        craftsmanship, and innovative building solutions that shape the spaces we live and work
+                        in. From residential developments to commercial infrastructures, each project reflects a
+                        commitment to durability, functionality, and aesthetic excellence.
+                    </p>
+                    <p class="section_heading_description mb-0">
+                        Explore a curated selection of properties, architectural concepts, and construction
+                        innovations that set new standards in the industry. Whether it's modern urban housing,
+                        sustainable building practices, or large-scale infrastructure projects, our features
+                        demonstrate what’s possible when expertise meets ambition.
+                    </p>
+                    <!-- <a class="btn btn-primary rounded-1" href="contact.html">
+                                        <span class="btn_text" data-text="Get A Consultation">
+                                            Read More
+                                        </span>
+                                        <span class="btn_icon ps-2">
+                                            {{-- <i class="fa-solid fa-arrow-up-right"></i> --}}
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </span>
+                                    </a> -->
                 </div>
             </div>
         </div>
     </section>
     <!-- ==================================================
-                                        Real Estate & Construction Section - End
-                                        ================================================== -->
+                                            Real Estate & Construction Section - End
+                                            ================================================== -->
 
     <!-- ==================================================
-                                        Achievements Section - Start
-                                        ================================================== -->
+                                            Achievements Section - Start
+                                            ================================================== -->
     <section class="achievements_section section_space_lg">
         <div class="section_heading text-center position-relative">
             <h2 class="section_heading_text text-white z-2">Our Achievements</h2>
@@ -1183,16 +1195,14 @@
         </div>
     </section>
     <!-- ==================================================
-                                        Achievements Section - End
-                                        ================================================== -->
+                                            Achievements Section - End
+                                            ================================================== -->
 
     <!-- ==================================================
-                                         Testimonial Section - Start
-                                        ================================================== -->
+                                             Testimonial Section - Start
+                                            ================================================== -->
     <section class="testimonial_section section_space_lg">
         <div class="container">
-            <div class="section_heading text-center">
-            </div>
             <h2 class="section_heading_text fw-bold text-center what_clients_say">What Clients Say</h2>
 
             <div class="testimonial_carousel">
@@ -1200,7 +1210,8 @@
                     <div class="carousel_item">
                         <div class="testimonial_item">
                             <div class="author_box">
-                                <div class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
+                                <div
+                                    class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
                                     <span class="m-0 b-0">N</span>
                                 </div>
                                 <div class="author_box_content">
@@ -1224,7 +1235,8 @@
                     <div class="carousel_item">
                         <div class="testimonial_item">
                             <div class="author_box">
-                                <div class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
+                                <div
+                                    class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
                                     <span class="m-0 b-0">A</span>
                                 </div>
                                 <div class="author_box_content">
@@ -1249,7 +1261,8 @@
                     <div class="carousel_item">
                         <div class="testimonial_item">
                             <div class="author_box">
-                                <div class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
+                                <div
+                                    class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
                                     <span class="m-0 b-0">R</span>
                                 </div>
                                 <div class="author_box_content">
@@ -1272,7 +1285,8 @@
                     <div class="carousel_item">
                         <div class="testimonial_item">
                             <div class="author_box">
-                                <div class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
+                                <div
+                                    class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
                                     <span class="m-0 b-0">S</span>
                                 </div>
                                 <div class="author_box_content">
@@ -1295,7 +1309,8 @@
                     <div class="carousel_item">
                         <div class="testimonial_item">
                             <div class="author_box">
-                                <div class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
+                                <div
+                                    class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
                                     <span class="m-0 b-0">A</span>
                                 </div>
                                 <div class="author_box_content">
@@ -1318,7 +1333,8 @@
                     <div class="carousel_item">
                         <div class="testimonial_item">
                             <div class="author_box">
-                                <div class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
+                                <div
+                                    class="author_box_image bg-primary text-white text-center d-flex align-items-center justify-content-center">
                                     <span class="m-0 b-0">A</span>
                                 </div>
                                 <div class="author_box_content">
@@ -1342,13 +1358,13 @@
         </div>
     </section>
     <!-- ==================================================
-                                        Testimonial Section - End
-                                        ================================================== -->
+                                            Testimonial Section - End
+                                            ================================================== -->
 
 
     <!-- ==================================================
-                                            FAQ Section - Start
-                                        ================================================== -->
+                                                FAQ Section - Start
+                                            ================================================== -->
     <section class="faq_section section_space_lg">
         <div class="container">
             <div class="row align-items-center">
@@ -1474,11 +1490,11 @@
         </div>
     </section>
     <!-- ==================================================
-                                          FAQ Section - End
-                                          ================================================== -->
+                                              FAQ Section - End
+                                              ================================================== -->
     <!-- ==================================================
-                                            Blog Section - Start
-                                        ================================================== -->
+                                                Blog Section - Start
+                                            ================================================== -->
     <section class="blog_section section_space_lg">
         <div class="container">
             <div class="section_heading text-center">
@@ -1503,7 +1519,8 @@
                             maximizing savings?
                         </p>
                         <hr class="mt-3 mb-4 border border-black border-top-0">
-                        <a class="btn btn-outline-primary text-decoration-none px-3 py-1" href="{{ route('smart-business') }}">
+                        <a class="btn btn-outline-primary text-decoration-none px-3 py-1"
+                            href="{{ route('smart-business') }}">
                             <span class="btn_text" data-text="Get A Consultation">
                                 Read More
                             </span>
@@ -1526,7 +1543,8 @@
 
                         </p>
                         <hr class="mt-3 mb-4 border border-black border-top-0">
-                        <a class="btn btn-outline-primary text-decoration-none px-3 py-1" href="{{ route('smart-strategies-managing-bulk-inventory') }}">
+                        <a class="btn btn-outline-primary text-decoration-none px-3 py-1"
+                            href="{{ route('smart-strategies-managing-bulk-inventory') }}">
                             <span class="btn_text" data-text="Get A Consultation">
                                 Read More
                             </span>
@@ -1549,7 +1567,8 @@
                             discover why adding dates to your
                             product lineup can attract more customers and boost brand value.</p>
                         <hr class="mt-3 mb-4 border border-black border-top-0">
-                        <a class="btn btn-outline-primary text-decoration-none px-3 py-1" href="{{ route('stocking-premium-dates-elevate-product-offering') }}">
+                        <a class="btn btn-outline-primary text-decoration-none px-3 py-1"
+                            href="{{ route('stocking-premium-dates-elevate-product-offering') }}">
                             <span class="btn_text" data-text="Get A Consultation">
                                 Read More
                             </span>
@@ -1571,7 +1590,8 @@
                         <p class="blog_item_description text-secondary"> Avoid spoilage and ensure safety with these
                             essential storage methods for handling eggs in commercial quantities. </p>
                         <hr class="mt-3 mb-4 border border-black border-top-0">
-                        <a class="btn btn-outline-primary text-decoration-none px-3 py-1" href="{{ route('right-way-store-eggs-extend-shelf-life') }}">
+                        <a class="btn btn-outline-primary text-decoration-none px-3 py-1"
+                            href="{{ route('right-way-store-eggs-extend-shelf-life') }}">
                             <span class="btn_text" data-text="Get A Consultation">
                                 Read More
                             </span>
@@ -1587,12 +1607,15 @@
                     </div>
                     <div class="blog_item_content">
                         <a href="{{ route('identify-high-quality-basmati-rice-buyers-guide') }}">
-                            <h3 class="blog_item_title text-black">How to Identify High-Quality Basmati Rice: A Buyer’s Guide</h3>
+                            <h3 class="blog_item_title text-black">How to Identify High-Quality Basmati Rice: A Buyer’s
+                                Guide</h3>
                         </a>
-                        <p class="blog_item_description text-secondary">Learn how grain length, aroma, and aging affect basmati rice quality — so you can make
-                        smarter bulk buying decisions for your food business.</p>
+                        <p class="blog_item_description text-secondary">Learn how grain length, aroma, and aging affect
+                            basmati rice quality — so you can make
+                            smarter bulk buying decisions for your food business.</p>
                         <hr class="mt-3 mb-4 border border-black border-top-0">
-                        <a class="btn btn-outline-primary text-decoration-none px-3 py-1" href="{{ route('identify-high-quality-basmati-rice-buyers-guide') }}">
+                        <a class="btn btn-outline-primary text-decoration-none px-3 py-1"
+                            href="{{ route('identify-high-quality-basmati-rice-buyers-guide') }}">
                             <span class="btn_text" data-text="Get A Consultation">
                                 Read More
                             </span>
@@ -1606,11 +1629,11 @@
         </div>
     </section>
     <!-- ==================================================
-                                            Blog Section - End
-                                        ================================================== -->
+                                                Blog Section - End
+                                            ================================================== -->
     <!-- ==================================================
-                                          Get in touch Section - Start
-                                          ================================================== -->
+                                              Get in touch Section - Start
+                                              ================================================== -->
     <section class="get_in_touch_section position-relative ">
         {{-- <div class="get_in_touch_wrapper">
             <img src="{{ asset('assets/images/') }}" alt="">
@@ -1706,206 +1729,206 @@
         </div>
     </section>
     <!-- ==================================================
-                                          Get in touch Section - End
-                                          ================================================== -->
+                                              Get in touch Section - End
+                                              ================================================== -->
 @endsection
 
 
 @section('extrajs')
     <!-- <script>
-        $(document).ready(function () {
-            $('#home-banner ').owlCarousel({
-                loop: true,
-                margin: 10,
-                nav: ture,
-                autoplay: false,
-                dots: true,
-                // animateOut: 'fadeOutRight',
-                animateOut: 'fadeOut',
-                items: 1,
-                margin: 30,
-                // stagePadding:30,
-                smartSpeed: 40
-            })
-            $("#productSectionCarousel3").owlCarousel({
-                items: 4,
-                loop: true,
-                margin: 20,
-                nav: true,
-                autoplay: false,
-                dots: false,
-                smartSpeed: 600, // Replaces slideSpeed
-                animateIn: "fadeIn",
-                animateOut: "fadeOut",
-                navText: [
-                    '<i class="fas fa-chevron-left"></i>',
-                    '<i class="fas fa-chevron-right"></i>',
-                ],
-                responsive: {
-                    0: {
-                        items: 2,
-                    },
-                    768: {
-                        items: 2,
-                    },
-                    992: {
-                        items: 4,
-                    },
-                }
-            });
-            $("#foodGrocerySectionCarousel").owlCarousel({
-                items: 4,
-                loop: true,
-                margin: 20,
-                nav: true,
-                autoplay: false,
-                dots: false,
-                smartSpeed: 600, // Replaces slideSpeed
-                animateIn: "fadeIn",
-                animateOut: "fadeOut",
-                navText: [
-                    '<i class="fas fa-chevron-left"></i>',
-                    '<i class="fas fa-chevron-right"></i>',
-                ],
-                responsive: {
-                    0: {
-                        items: 1,
-                    },
-                    768: {
-                        items: 2,
-                    },
-                    992: {
-                        items: 4,
-                    },
-                }
-            });
-            $("#dairyEggsSectionCarousel").owlCarousel({
-                items: 4,
-                loop: true,
-                margin: 20,
-                nav: true,
-                autoplay: false,
-                dots: false,
-                smartSpeed: 600, // Replaces slideSpeed
-                animateIn: "fadeIn",
-                animateOut: "fadeOut",
-                navText: [
-                    '<i class="fas fa-chevron-left"></i>',
-                    '<i class="fas fa-chevron-right"></i>',
-                ],
-                responsive: {
-                    0: {
-                        items: 2,
-                    },
-                    768: {
-                        items: 2,
-                    },
-                    992: {
-                        items: 4,
-                    },
-                }
-            });
-            $("#beveragesSectionCarousel").owlCarousel({
-                items: 4,
-                loop: true,
-                margin: 20,
-                nav: true,
-                autoplay: false,
-                dots: false,
-                smartSpeed: 600, // Replaces slideSpeed
-                animateIn: "fadeIn",
-                animateOut: "fadeOut",
-                navText: [
-                    '<i class="fas fa-chevron-left"></i>',
-                    '<i class="fas fa-chevron-right"></i>',
-                ],
-                responsive: {
-                    0: {
-                        items: 2,
-                    },
-                    768: {
-                        items: 2,
-                    },
-                    992: {
-                        items: 4,
-                    },
-                }
-            });
-            $("#blogSectionCarousel").owlCarousel({
-                items: 3,
-                loop: true,
-                // margin: 10,
-                nav: true,
-                autoplay: true,
-                dots: false,
-                smartSpeed: 600,
-                navText: [
-                    '<i class="fas fa-chevron-left"></i>',
-                    '<i class="fas fa-chevron-right"></i>',
-                ],
-                responsive: {
-                    0: {
-                        items: 1,
-                    },
-                    768: {
-                        items: 2,
-                    },
-                    992: {
-                        items: 3,
-                    },
-                }
-            });
-            $("#categoriesSectionCarousel").owlCarousel({
-                items: 3,
-                loop: true,
-                // margin: 10,
-                nav: true,
-                autoplay: false,
-                dots: false,
-                smartSpeed: 600,
-                navText: [
-                    '<i class="fas fa-chevron-left"></i>',
-                    '<i class="fas fa-chevron-right"></i>',
-                ],
-                responsive: {
-                    0: {
-                        items: 1,
-                        dots: true,
-                    },
-                    475: {
-                        items: 2,
-                        dots: true,
-                    },
-                    768: {
-                        items: 2,
-                        dots: true,
-                    },
-                    992: {
-                        items: 3,
-                    },
-                }
-            });
-
-            $('.carousel_2col').slick({
-                dots: true,
-                speed: 1000,
-                arrows: true,
-                infinite: true,
-                autoplay: false,
-                slidesToShow: 2,
-                slidesToScroll: 2,
-                pauseOnHover: true,
-                autoplaySpeed: 5000,
-               // prevArrow: ".c2c_arrow_left",
-               // nextArrow: ".c2c_arrow_right",
-                responsive: [{
-                    breakpoint: 992,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
+            $(document).ready(function () {
+                $('#home-banner ').owlCarousel({
+                    loop: true,
+                    margin: 10,
+                    nav: ture,
+                    autoplay: false,
+                    dots: true,
+                    // animateOut: 'fadeOutRight',
+                    animateOut: 'fadeOut',
+                    items: 1,
+                    margin: 30,
+                    // stagePadding:30,
+                    smartSpeed: 40
+                })
+                $("#productSectionCarousel3").owlCarousel({
+                    items: 4,
+                    loop: true,
+                    margin: 20,
+                    nav: true,
+                    autoplay: false,
+                    dots: false,
+                    smartSpeed: 600, // Replaces slideSpeed
+                    animateIn: "fadeIn",
+                    animateOut: "fadeOut",
+                    navText: [
+                        '<i class="fas fa-chevron-left"></i>',
+                        '<i class="fas fa-chevron-right"></i>',
+                    ],
+                    responsive: {
+                        0: {
+                            items: 2,
+                        },
+                        768: {
+                            items: 2,
+                        },
+                        992: {
+                            items: 4,
+                        },
                     }
-                }]
+                });
+                $("#foodGrocerySectionCarousel").owlCarousel({
+                    items: 4,
+                    loop: true,
+                    margin: 20,
+                    nav: true,
+                    autoplay: false,
+                    dots: false,
+                    smartSpeed: 600, // Replaces slideSpeed
+                    animateIn: "fadeIn",
+                    animateOut: "fadeOut",
+                    navText: [
+                        '<i class="fas fa-chevron-left"></i>',
+                        '<i class="fas fa-chevron-right"></i>',
+                    ],
+                    responsive: {
+                        0: {
+                            items: 1,
+                        },
+                        768: {
+                            items: 2,
+                        },
+                        992: {
+                            items: 4,
+                        },
+                    }
+                });
+                $("#dairyEggsSectionCarousel").owlCarousel({
+                    items: 4,
+                    loop: true,
+                    margin: 20,
+                    nav: true,
+                    autoplay: false,
+                    dots: false,
+                    smartSpeed: 600, // Replaces slideSpeed
+                    animateIn: "fadeIn",
+                    animateOut: "fadeOut",
+                    navText: [
+                        '<i class="fas fa-chevron-left"></i>',
+                        '<i class="fas fa-chevron-right"></i>',
+                    ],
+                    responsive: {
+                        0: {
+                            items: 2,
+                        },
+                        768: {
+                            items: 2,
+                        },
+                        992: {
+                            items: 4,
+                        },
+                    }
+                });
+                $("#beveragesSectionCarousel").owlCarousel({
+                    items: 4,
+                    loop: true,
+                    margin: 20,
+                    nav: true,
+                    autoplay: false,
+                    dots: false,
+                    smartSpeed: 600, // Replaces slideSpeed
+                    animateIn: "fadeIn",
+                    animateOut: "fadeOut",
+                    navText: [
+                        '<i class="fas fa-chevron-left"></i>',
+                        '<i class="fas fa-chevron-right"></i>',
+                    ],
+                    responsive: {
+                        0: {
+                            items: 2,
+                        },
+                        768: {
+                            items: 2,
+                        },
+                        992: {
+                            items: 4,
+                        },
+                    }
+                });
+                $("#blogSectionCarousel").owlCarousel({
+                    items: 3,
+                    loop: true,
+                    // margin: 10,
+                    nav: true,
+                    autoplay: true,
+                    dots: false,
+                    smartSpeed: 600,
+                    navText: [
+                        '<i class="fas fa-chevron-left"></i>',
+                        '<i class="fas fa-chevron-right"></i>',
+                    ],
+                    responsive: {
+                        0: {
+                            items: 1,
+                        },
+                        768: {
+                            items: 2,
+                        },
+                        992: {
+                            items: 3,
+                        },
+                    }
+                });
+                $("#categoriesSectionCarousel").owlCarousel({
+                    items: 3,
+                    loop: true,
+                    // margin: 10,
+                    nav: true,
+                    autoplay: false,
+                    dots: false,
+                    smartSpeed: 600,
+                    navText: [
+                        '<i class="fas fa-chevron-left"></i>',
+                        '<i class="fas fa-chevron-right"></i>',
+                    ],
+                    responsive: {
+                        0: {
+                            items: 1,
+                            dots: true,
+                        },
+                        475: {
+                            items: 2,
+                            dots: true,
+                        },
+                        768: {
+                            items: 2,
+                            dots: true,
+                        },
+                        992: {
+                            items: 3,
+                        },
+                    }
+                });
+
+                $('.carousel_2col').slick({
+                    dots: true,
+                    speed: 1000,
+                    arrows: true,
+                    infinite: true,
+                    autoplay: false,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    pauseOnHover: true,
+                    autoplaySpeed: 5000,
+                   // prevArrow: ".c2c_arrow_left",
+                   // nextArrow: ".c2c_arrow_right",
+                    responsive: [{
+                        breakpoint: 992,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }]
+                });
             });
-        });
-    </script> -->
+        </script> -->
 @endsection
