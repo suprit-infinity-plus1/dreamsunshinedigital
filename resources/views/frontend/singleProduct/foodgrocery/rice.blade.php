@@ -341,7 +341,7 @@
 
 @endsection
 @section(section: 'extrajs')
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    {{-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> --}}
     <!-- jQuery (Required for Owl Carousel) -->
     <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
 
@@ -382,7 +382,7 @@
         console.log($xzoomImage);
         $xzoomImage.one('load', function () {
             $xzoomImage.xzoom({
-                zoomWidth: 530,
+                zoomWidth: 650,
                 title: true,
                 tint: '#333',
                 Xoffset: 15

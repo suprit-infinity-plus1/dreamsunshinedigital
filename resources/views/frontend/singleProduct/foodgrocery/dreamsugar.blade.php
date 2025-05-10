@@ -386,7 +386,7 @@ A trusted everyday essential for those who enjoy just the right touch of sweetne
         console.log($xzoomImage);
         $xzoomImage.one('load', function () {
             $xzoomImage.xzoom({
-                zoomWidth: 530,
+                zoomWidth: 650,
                 title: true,
                 tint: '#333',
                 Xoffset: 15
