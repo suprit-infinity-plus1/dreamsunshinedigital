@@ -1751,7 +1751,7 @@ ul li {
     background-size: contain;
     background: RGB(196 0 36);
     background: linear-gradient(54deg, rgba(196, 0, 36, 1) 0%, rgba(0, 47, 117, 1) 25%, rgba(0, 47, 117, 1) 75%, rgba(196, 0, 36, 1) 100%);
-    padding: 180px 0;
+    padding: 60px 0;
 }
 
 .get_in_touch_section span.text-white.bg-danger {
@@ -1893,8 +1893,16 @@ ul li {
     .get_in_touch_section {
         padding: 60px 0;
     }
+    .what_clients_say{
+        font-size: 30px;
+    }
 }
-
+@media (max-width: 991px) {
+    .FAQ_heading_text{
+        margin-top: 10px;
+    }
+    
+}
 @media screen and (max-width: 1024px) {
     .images_group_widget {
         padding: 40px;

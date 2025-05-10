@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>  @yield(section: 'title')  </title>
+  <link rel="icon" type="image/x-icon" href="{{ asset('assets/images/logo/logo-removebg-preview.ico') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
   <link rel="stylesheet"
     href="https://www.jqueryscript.net/demo/Feature-rich-Product-Gallery-With-Image-Zoom-xZoom/css/xzoom.css" />
@@ -46,7 +47,7 @@
       <div class="container">
         <div class="d-flex justify-content-between align-items-center flex-column flex-sm-row gap-3">
           <div class="logo-container">
-            <a href="{{ route('index') }}"> <img src="{{ asset('assets/images/logo/text-logo-transperant.png') }}"
+            <a href="{{ route('index') }}"> <img src="{{ asset('assets/images/logo/text-logo-transperant2.png') }}"
                 alt="Logo"></a>
           </div>
           <form action="#" class="flex-fill">
@@ -1254,9 +1255,6 @@
                 <a href="{{ route("about") }}" class="text-decoration-none ">About Us</a>
               </li>
               <li class="mb-2">
-                <a href="#" class="text-decoration-none ">Shop</a>
-              </li>
-              <li class="mb-2">
                 <a href="{{ route('blog') }}" class="text-decoration-none ">Blogs</a>
               </li>
               <li class="mb-2">
@@ -1297,7 +1295,7 @@
             <div class="d-flex align-items-center justify-content-start gap-2 mb-3">
               <a href="tel:+" class="text-white social-media-icon call-icon-bg"><i
                   class="fa-solid fa-phone"></i></a>
-              <a href="mailto:info@dreamsunshinedigital.com" class="text-white social-media-icon mail-icon-bg"><i
+              <a href="mailto:contact@dreamsunshinedigital.in" class="text-white social-media-icon mail-icon-bg"><i
                   class="fa-regular fa-envelope"></i></a>
             </div>
             <h5 class="mb-3">Follow Us</h5>
@@ -1305,7 +1303,6 @@
               <a href="https://www.facebook.com/people/DreamSunshine-Digital-Private-Limited/61575942811577/ " class="text-white social-media-icon facebook-icon-bg"><i
                   class="fa-brands fa-facebook-f"></i></a>
               <a href="#" class="text-white social-media-icon linkedin-icon-bg"><i class="fa-brands fa-linkedin-in"></i></a>
-              <a href="#" class="text-white social-media-icon youtube-icon-bg"><i class="fa-brands fa-youtube"></i></a>
               <a href="https://www.instagram.com/dreamsunshine_digital_pvt.ltd/" class="text-white social-media-icon instagram-icon-bg"><i
                   class="fa-brands fa-instagram"></i></a>
             </div>

@@ -1163,7 +1163,7 @@
         <div class="container">
             <div class="section_heading text-center">
             </div>
-            <h2 class="section_heading_text fw-bold text-center">What Clients Say</h2>
+            <h2 class="section_heading_text fw-bold text-center what_clients_say">What Clients Say</h2>
 
             <div class="testimonial_carousel">
                 <div class="carousel_2col row" data-slick='{"arrows":true}'>
@@ -1343,7 +1343,7 @@
                 <div class="col-lg-6">
                     <div class="ps-lg-5">
                         <div class="section_heading mb-lg-4 mb-2">
-                            <h2 class="section_heading_text mb-0">
+                            <h2 class="section_heading_text mb-0 FAQ_heading_text">
                                 FAQs
                             </h2>
                         </div>
@@ -1628,10 +1628,10 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-6 ps-lg-5">
+                <div class="col-md-6 ps-lg-5 sm-mt-0 mt-3">
                     <form action="">
-                        <div class="row">
-                            <div class="col-lg-6">
+                        <div class="row ">
+                            <div class="col-lg-6 ">
                                 <label for="" class="text-white fw-bold">
                                     First Name
                                 </label>
