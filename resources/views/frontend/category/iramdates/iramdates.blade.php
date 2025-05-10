@@ -1,4 +1,5 @@
 @extends('layouts.master')
+@section('title','Iram Dates | Dates')
 @section('extracss')
     <link rel="stylesheet" href="{{ asset('assets/css/product.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/category.css') }}">
@@ -52,8 +53,8 @@
         <div class="category-container">
         <div class="category-card">
                 <div class="category-img-container">
-                    <img src="{{ asset('assets/images/category/iram dates/datesimage.jpg') }}" class="card-img-top"
-                        alt="Category Image">
+                    <a href="{{ route("singleproduct.dates") }}"  ><img src="{{ asset('assets/images/category/iram dates/datesimage.jpg') }}" class="card-img-top"
+                        alt="Category Image"></a>
                 </div>
 
                 <div class="category-card-body">

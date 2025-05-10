@@ -37,9 +37,9 @@ class CategoryController extends Controller
     {
         return view('frontend.category.food_grocery.sugar'); // This will return the category view
     }
-    public function dairyeggs()
+    public function iramDatesMain()
     {
-        return view('frontend.category.dairyeggs'); // This will return the category view
+        return view('frontend.category.iramdatesmain'); // This will return the category view
     }
     public function dairy()
     {

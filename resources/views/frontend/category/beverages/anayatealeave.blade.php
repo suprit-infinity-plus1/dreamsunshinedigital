@@ -1,4 +1,6 @@
 @extends('layouts.master')
+@section('title','Anayatea Leave')
+
 @section('extracss')
     <link rel="stylesheet" href="{{ asset('assets/css/product.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/category.css') }}">
@@ -53,8 +55,8 @@
             
         <div class="category-card">
                 <div class="category-img-container">
-                    <img src="{{ asset('assets/images/category/foodGroceryImages/tealeaves.png') }}" class="card-img-top"
-                        alt="Category Image">
+                    <a href="{{ route("singleproduct.anayatealeave") }}"><img src="{{ asset('assets/images/category/foodGroceryImages/tealeaves.png') }}" class="card-img-top"
+                        alt="Category Image" /></a>
                 </div>
 
                 <div class="category-card-body">

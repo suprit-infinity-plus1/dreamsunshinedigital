@@ -1,4 +1,5 @@
 @extends('layouts.master')
+@section('title','Contact Us')
 @section('extracss')
     <link rel="stylesheet" href="{{ asset('assets/css/contact.css') }}">
     <!-- <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}"> -->

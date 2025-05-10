@@ -163,7 +163,7 @@
                 </div>
                 <div class="col-md-8">
                     <div class="owl-carousel owl-theme" id="categoriesSectionCarousel">
-                        <div class="categories_item m-2">
+                        <!-- <div class="categories_item m-2">
                             <div class="border rounded-2">
                                 <div>
                                     <img src="{{ asset('assets/images/blog/food-grocery.png') }}" style="height: 191px;"
@@ -186,23 +186,22 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="categories_item m-2">
                             <div class="border rounded-2">
                                 <div>
-                                    <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+                                    <a href="{{ route("category.iramdatesmain") }}"><img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt=""></a>
                                 </div>
                                 <div class="categories_content py-2 px-3">
                                     <div class="d-flex justify-content-between align-items-center overflow-hidden">
                                         <div class="categories_details">
                                             <div>
-                                                <a href="{{ route("category.dairyeggs") }}" class="fs-6 fw-bolder">Dairy &
-                                                    Eggs</a>
+                                                <a href="{{ route("category.iramdatesmain") }}" class="fs-6 fw-bolder">Iram Dates</a>
                                             </div>
-                                            <span class="mb-0">10 products</span>
+                                            <span class="mb-0">2 products</span>
                                         </div>
                                         <div class="categories_btn_container ">
-                                            <a href="{{ route("category.dairyeggs") }}" class="categories_btn rounded-1">
+                                            <a href="{{ route("category.iramdatesmain") }}" class="categories_btn rounded-1">
                                                 <i class="fa-solid fa-arrow-right"></i>
                                             </a>
                                         </div>
@@ -213,19 +212,157 @@
                         <div class="categories_item m-2">
                             <div class="border rounded-2">
                                 <div>
-                                    <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt="">
+                                    <a href="{{ route("category.beverages") }}"><img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt=""></a>
                                 </div>
                                 <div class="categories_content py-2 px-3">
                                     <div class="d-flex justify-content-between align-items-center overflow-hidden">
                                         <div class="categories_details">
                                             <div>
                                                 <a href="{{ route("category.beverages") }}"
-                                                    class="fs-6 fw-bolder">Beverages</a>
+                                                    class="fs-6 fw-bolder">Real Oxy</a>
                                             </div>
-                                            <span class="mb-0">12 products</span>
+                                            <span class="mb-0">5 products</span>
                                         </div>
                                         <div class="categories_btn_container">
                                             <a href="{{ route("category.beverages") }}" class="categories_btn rounded-1">
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categories_item m-2">
+                            <div class="border rounded-2">
+                                <div>
+                                    <a href="{{ route("category.anaya-rice") }}"><img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt=""></a>
+                                </div>
+                                <div class="categories_content py-2 px-3">
+                                    <div class="d-flex justify-content-between align-items-center overflow-hidden">
+                                        <div class="categories_details">
+                                            <div>
+                                                <a href="{{ route("category.anaya-rice") }}"
+                                                    class="fs-6 fw-bolder">Anaya Rice</a>
+                                            </div>
+                                            <span class="mb-0">2 products</span>
+                                        </div>
+                                        <div class="categories_btn_container">
+                                            <a href="{{ route("category.anaya-rice") }}" class="categories_btn rounded-1">
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categories_item m-2">
+                            <div class="border rounded-2">
+                                <div>
+                                    <a href="{{ route("category.anayatealeave") }}"><img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt=""></a>
+                                </div>
+                                <div class="categories_content py-2 px-3">
+                                    <div class="d-flex justify-content-between align-items-center overflow-hidden">
+                                        <div class="categories_details">
+                                            <div>
+                                                <a href="{{ route("category.anayatealeave") }}"
+                                                    class="fs-6 fw-bolder">Anaya Tea</a>
+                                            </div>
+                                            <span class="mb-0">1 product</span>
+                                        </div>
+                                        <div class="categories_btn_container">
+                                            <a href="{{ route("category.anayatealeave") }}" class="categories_btn rounded-1">
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categories_item m-2">
+                            <div class="border rounded-2">
+                                <div>
+                                    <a href="{{ route("category.sugar") }}"><img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt=""></a>
+                                </div>
+                                <div class="categories_content py-2 px-3">
+                                    <div class="d-flex justify-content-between align-items-center overflow-hidden">
+                                        <div class="categories_details">
+                                            <div>
+                                                <a href="{{ route("category.sugar") }}"
+                                                    class="fs-6 fw-bolder">Dream Sugar</a>
+                                            </div>
+                                            <span class="mb-0">1 product</span>
+                                        </div>
+                                        <div class="categories_btn_container">
+                                            <a href="{{ route("category.sugar") }}" class="categories_btn rounded-1">
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categories_item m-2">
+                            <div class="border rounded-2">
+                                <div>
+                                    <a href="{{ route("category.dairy") }}"><img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt=""></a>
+                                </div>
+                                <div class="categories_content py-2 px-3">
+                                    <div class="d-flex justify-content-between align-items-center overflow-hidden">
+                                        <div class="categories_details">
+                                            <div>
+                                                <a href="{{ route("category.dairy") }}"
+                                                    class="fs-6 fw-bolder">Anaya Dairy</a>
+                                            </div>
+                                            <span class="mb-0">6 products</span>
+                                        </div>
+                                        <div class="categories_btn_container">
+                                            <a href="{{ route("category.dairy") }}" class="categories_btn rounded-1">
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categories_item m-2">
+                            <div class="border rounded-2">
+                                <div>
+                                   <a href="{{ route("category.realeggs") }}"> <img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt=""></a>
+                                </div>
+                                <div class="categories_content py-2 px-3">
+                                    <div class="d-flex justify-content-between align-items-center overflow-hidden">
+                                        <div class="categories_details">
+                                            <div>
+                                                <a href="{{ route("category.realeggs") }}"
+                                                    class="fs-6 fw-bolder">Real Eggs</a>
+                                            </div>
+                                            <span class="mb-0">5 products</span>
+                                        </div>
+                                        <div class="categories_btn_container">
+                                            <a href="{{ route("category.realeggs") }}" class="categories_btn rounded-1">
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categories_item m-2">
+                            <div class="border rounded-2">
+                                <div>
+                                    <a href="{{ route("category.oil") }}"><img src="{{ asset('assets/images/blog/dairy-product-1.png') }}" alt=""></a>
+                                </div>
+                                <div class="categories_content py-2 px-3">
+                                    <div class="d-flex justify-content-between align-items-center overflow-hidden">
+                                        <div class="categories_details">
+                                            <div>
+                                                <a href="{{ route("category.oil") }}"
+                                                    class="fs-6 fw-bolder">Cooking Oil</a>
+                                            </div>
+                                            <span class="mb-0">3 products</span>
+                                        </div>
+                                        <div class="categories_btn_container">
+                                            <a href="{{ route("category.oil") }}" class="categories_btn rounded-1">
                                                 <i class="fa-solid fa-arrow-right"></i>
                                             </a>
                                         </div>

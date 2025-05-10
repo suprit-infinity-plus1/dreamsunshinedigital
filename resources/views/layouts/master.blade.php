@@ -1039,10 +1039,10 @@
                         class="pop-up-categogy-img">
                     </div>
                     <div class="pop-up-category-info-container">
-                      <a href="{{ route("category.iramdates") }}"><h5 class="pop-up-category-name">iram dates</h5></a>
+                      <a href="{{ route("category.iramdatesmain") }}"><h5 class="pop-up-category-name">iram dates</h5></a>
                       {{-- <p class="pop-up-category-description mb-0">Lorem ipsum dolor sit amet,
                         consectetur adipisicing elit. Quisquam, voluptatibus.</p> --}}
-                      <a href="{{ route("category.iramdates") }}" class="btn btn-outline-primary text-decoration-none px-3 py-1">View
+                      <a href="{{ route("category.iramdatesmain") }}" class="btn btn-outline-primary text-decoration-none px-3 py-1">View
                         Products <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                   </div>
@@ -1183,7 +1183,7 @@
               </li>
               
               <li class="mb-2">
-                <a href="{{ route("category.iramdates") }}" class="text-decoration-none  text-capitalize">iram dates</a>
+                <a href="{{ route("category.iramdatesmain") }}" class="text-decoration-none  text-capitalize">iram dates</a>
               </li>
               <li class="mb-2">
                 <a href="{{ route("category.sugar") }}" class="text-decoration-none  text-capitalize">pure and hygienic
@@ -1222,7 +1222,7 @@
                 <a href="{{ route("category.soft-drinks") }}" class="text-decoration-none  text-capitalize">Cold Drinks</a>
               </li>
               <li class="mb-2">
-                <a href="{{ route("category.iramdates") }}" class="text-decoration-none  text-capitalize">dry fruit & iram
+                <a href="{{ route("category.iramdatesmain") }}" class="text-decoration-none  text-capitalize">dry fruit & iram
                   dates</a>
               </li>
               <li class="mb-2">

@@ -1,4 +1,5 @@
 @extends('layouts.master')
+@section('title','Food & Grocery')
 @section('extracss')
     <link rel="stylesheet" href="{{ asset('assets/css/product.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/category.css') }}">
@@ -52,8 +53,8 @@
         <div class="category-container">
             <div class="category-card">
                 <div class="category-img-container">
-                    <img src="{{ asset('assets/images/category/foodGroceryImages/rice-pouch.png') }}" class="card-img-top"
-                        alt="Category Image">
+                                        <a href="{{ route("singleproduct.rice") }}"><img src="{{ asset('assets/images/category/foodGroceryImages/rice-pouch.png') }}" class="card-img-top"
+                        alt="Category Image"></a>
                 </div>
 
                 <div class="category-card-body">
