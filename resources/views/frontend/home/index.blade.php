@@ -983,6 +983,36 @@
                         </div>
                     </div>
                 </div>
+                
+                <div class="product_item border rounded-2">
+                    <div class="product-card">
+                        <div class="product-card-img position-relative overflow-hidden">
+                            <img src="{!! asset('assets/images/category/beverages/beverages-round-bottle.png') !!}" alt="" />
+                            <div class="product-badge d-flex flex-column align-items-start gap-1">
+                                <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
+                                <!-- <span class="new-badge rounded-1 fs-small-heading">New</span> -->
+                            </div>
+                            <div class="card-btn-container w-100 px-3">
+                                <a href="{{ route("singleproduct.realoxy2") }}"
+                                    class="btn btn-primary w-100 view-product-btn">View Product</a>
+                            </div>
+                        </div>
+                        <div class="card-body text-center border-top p-3">
+                            <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
+                                <a href="{{ route("singleproduct.realoxy2") }}" class="truncate-text">
+                                    Real Oxy
+                                </a>
+                            </h5>
+                            <ul class="rating_star d-flex align-items-center justify-content-center m-0">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 <div class="product_item border rounded-2">
                     <div class="product-card">
                         <div class="product-card-img position-relative overflow-hidden">
@@ -992,7 +1022,7 @@
                                 <!-- <span class="new-badge rounded-1 fs-small-heading">New</span> -->
                             </div>
                             <div class="card-btn-container w-100 px-3">
-                                <a href="#"
+                                <a href="{{ route("singleproduct.realoxy1") }}"
                                     class="btn btn-primary w-100 view-product-btn">View Product</a>
                             </div>
                         </div>

@@ -108,7 +108,8 @@
                         </span>
                         <span>|</span>
                         <span class="share-icons">
-                            <i class="fa-brands fa-facebook-f facebook-icon"></i>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u={{ urlencode(request()->fullUrl()) }}" 
+   target="_blank" ><i class="fa-brands fa-facebook-f facebook-icon"></i> </a>
                             <i class="fa-brands fa-instagram instagram-icon"></i>
                             <i class="fa-brands fa-x-twitter twitter-icon"></i>
                         </span>
@@ -195,9 +196,9 @@
                 <div class="product_item border rounded-2">
                     <div class="product-card">
                         <div class="product-card-img position-relative overflow-hidden">
-                            <img src="{!! asset('assets/images/productImage/300img/egg.png ') !!}" alt="" />
+                            <img src="{!! asset('assets/images/category/anaya-dairy-product/ghee/7.png ') !!}" alt="" />
                             <div class="product-badge d-flex flex-column align-items-start gap-1">
-                                <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
+                                <!-- <span class="featured-badge rounded-1 fs-small-heading">Featured</span> -->
                                 <span class="new-badge rounded-1 fs-small-heading">New</span>
                             </div>
                             <div class="card-btn-container w-100 px-3">
@@ -207,7 +208,7 @@
                         <div class="card-body text-center border-top p-3">
                             <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
                                 <a href="#" class="text-main-color">
-                                    Egg
+                                    Ghee
                                 </a>
                             </h5>
                             <ul class="rating_star d-flex align-items-center justify-content-center m-0">
@@ -223,66 +224,10 @@
                 <div class="product_item border rounded-2">
                     <div class="product-card">
                         <div class="product-card-img position-relative overflow-hidden">
-                            <img src="{!! asset('assets/images/productImage/300img/paneer.png') !!}" alt="" />
+                            <img src="{!! asset('assets/images/category/anaya-dairy-product/milk/12.png') !!}" alt="" />
                             <div class="product-badge d-flex flex-column align-items-start gap-1">
                                 <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
-                                <span class="new-badge rounded-1 fs-small-heading">New</span>
-                            </div>
-                            <div class="card-btn-container w-100 px-3">
-                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
-                            </div>
-                        </div>
-                        <div class="card-body text-center border-top p-3">
-                            <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                <a href="#">
-                                    Paneer
-                                </a>
-                            </h5>
-                            <ul class="rating_star d-flex align-items-center justify-content-center m-0">
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="product_item border rounded-2">
-                    <div class="product-card">
-                        <div class="product-card-img position-relative overflow-hidden">
-                            <img src="{!! asset('assets/images/productImage/300img/milk-tetrapack.png') !!}" alt="" />
-                            <div class="product-badge d-flex flex-column align-items-start gap-1">
-                                <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
-                                <span class="new-badge rounded-1 fs-small-heading">New</span>
-                            </div>
-                            <div class="card-btn-container w-100 px-3">
-                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
-                            </div>
-                        </div>
-                        <div class="card-body text-center border-top p-3">
-                            <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
-                                <a href="#">
-                                    Tetrapack milk
-                                </a>
-                            </h5>
-                            <ul class="rating_star d-flex align-items-center justify-content-center m-0">
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                                <li><i class="fa-solid fa-star"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="product_item border rounded-2">
-                    <div class="product-card">
-                        <div class="product-card-img position-relative overflow-hidden">
-                            <img src="{!! asset('assets/images/productImage/300img/milk.png') !!}" alt="" />
-                            <div class="product-badge d-flex flex-column align-items-start gap-1">
-                                <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
-                                <span class="new-badge rounded-1 fs-small-heading">New</span>
+                                <!-- <span class="new-badge rounded-1 fs-small-heading">New</span> -->
                             </div>
                             <div class="card-btn-container w-100 px-3">
                                 <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
@@ -307,10 +252,66 @@
                 <div class="product_item border rounded-2">
                     <div class="product-card">
                         <div class="product-card-img position-relative overflow-hidden">
-                            <img src="{!! asset('assets/images/category/anaya-dairy-product/Untitled-4.png') !!}" alt="" />
+                            <img src="{!! asset('assets/images/category/anaya-dairy-product/milk/6.png') !!}" alt="" />
                             <div class="product-badge d-flex flex-column align-items-start gap-1">
                                 <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
-                                <span class="new-badge rounded-1 fs-small-heading">New</span>
+                                <!-- <span class="new-badge rounded-1 fs-small-heading">New</span> -->
+                            </div>
+                            <div class="card-btn-container w-100 px-3">
+                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
+                            </div>
+                        </div>
+                        <div class="card-body text-center border-top p-3">
+                            <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
+                                <a href="#">
+                                    Buffallo Milk
+                                </a>
+                            </h5>
+                            <ul class="rating_star d-flex align-items-center justify-content-center m-0">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_item border rounded-2">
+                    <div class="product-card">
+                        <div class="product-card-img position-relative overflow-hidden">
+                            <img src="{!! asset('assets/images/category/anaya-dairy-product/paneer/10.png') !!}" alt="" />
+                            <div class="product-badge d-flex flex-column align-items-start gap-1">
+                                <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
+                                <!-- <span class="new-badge rounded-1 fs-small-heading">New</span> -->
+                            </div>
+                            <div class="card-btn-container w-100 px-3">
+                                <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
+                            </div>
+                        </div>
+                        <div class="card-body text-center border-top p-3">
+                            <h5 class="card-title fxsm-heading fw-bolder mt-1 mb-1">
+                                <a href="#">
+                                    Paneer
+                                </a>
+                            </h5>
+                            <ul class="rating_star d-flex align-items-center justify-content-center m-0">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_item border rounded-2">
+                    <div class="product-card">
+                        <div class="product-card-img position-relative overflow-hidden">
+                            <img src="{!! asset('assets/images/category/anaya-dairy-product/yogurt/9.png') !!}" alt="" />
+                            <div class="product-badge d-flex flex-column align-items-start gap-1">
+                                <span class="featured-badge rounded-1 fs-small-heading">Featured</span>
+                                <!-- <span class="new-badge rounded-1 fs-small-heading">New</span> -->
                             </div>
                             <div class="card-btn-container w-100 px-3">
                                 <a href="#" class="btn btn-primary w-100 view-product-btn">View Product</a>
