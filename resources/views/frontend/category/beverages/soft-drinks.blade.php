@@ -1,4 +1,5 @@
 @extends('layouts.master')
+@section('title','Soft Drinks')
 @section('extracss')
     <link rel="stylesheet" href="{{ asset('assets/css/product.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/category.css') }}">
@@ -52,8 +53,8 @@
         <div class="category-container">
             <div class="category-card">
                 <div class="category-img-container">
-                    <img src="{{ asset('assets/images/category/beverages/bebe-apple.png') }}" class="card-img-top"
-                        alt="Category Image">
+                    <a href="{{ route("singleproduct.applejuice") }}"><img src="{{ asset('assets/images/category/beverages/bebe-apple.png') }}" class="card-img-top"
+                        alt="Category Image"></a>
                 </div>
 
                 <div class="category-card-body">
@@ -76,8 +77,8 @@
             </div>
             <div class="category-card">
                 <div class="category-img-container">
-                    <img class="category-card-image" src="{{ asset('assets/images/category/beverages/bebe-orange.png') }}"
-                        class="card-img-top" alt="Category Image" />
+                    <a href="{{ route("singleproduct.orangejuice") }}"><img class="category-card-image" src="{{ asset('assets/images/category/beverages/bebe-orange.png') }}"
+                        class="card-img-top" alt="Category Image" /></a>
                 </div>
 
                 <div class="category-card-body">
@@ -100,8 +101,8 @@
             </div>
             <div class="category-card">
                 <div class="category-img-container">
-                    <img class="category-card-image" src="{{ asset('assets/images/category/beverages/zhakas-jeera.png') }}"
-                        class="card-img-top" alt="Category Image" />
+                   <a href="{{ route("singleproduct.jeeramasala") }}"> <img class="category-card-image" src="{{ asset('assets/images/category/beverages/zhakas-jeera.png') }}"
+                        class="card-img-top" alt="Category Image" /></a>
                 </div>
 
                 <div class="category-card-body">

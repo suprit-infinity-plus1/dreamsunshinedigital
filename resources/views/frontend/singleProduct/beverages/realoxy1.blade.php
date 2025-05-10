@@ -1,4 +1,5 @@
 @extends('layouts.master')
+@section('title','RealOxy | Real Oxy Mineral Water')
 @section('extracss')
     <link rel="stylesheet" href="{{ asset('assets/css/product.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/category.css') }}">

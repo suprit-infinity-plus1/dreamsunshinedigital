@@ -1,4 +1,5 @@
 @extends('layouts.master')
+@section('title',content: 'Blog | How to Identify High-Quality Basmati Rice: A Buyer’s Guide')
 @section('extracss')
     <link rel="stylesheet" href="{{ asset('assets/css/blog-child.css') }}">
 @endsection
@@ -70,7 +71,7 @@
 
         <!-- ------------------Related Blogs----------------- -->
         <div class="related-blogs mt-0">
-            <h2 class="related-title mb-2 mt-2 ">Related Blog</h2>
+            <h2 class="related-title mb-2 mt-2 ">More for you to Read</h2>
             <div class="row row-cols-1 row-cols-md-2 g-4 ">
 
                 <!-- Blog Card 1 -->

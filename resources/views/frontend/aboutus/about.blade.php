@@ -1,4 +1,6 @@
 @extends('layouts.master')
+@section('title','About Us')
+
 @section('extracss')
     <link rel="stylesheet" href="{{ asset('assets/css/product.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/about.css') }}">

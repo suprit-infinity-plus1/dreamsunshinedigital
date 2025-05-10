@@ -1,4 +1,5 @@
 @extends('layouts.master')
+@section('title','Pure Cooking Oil')
 @section('extracss')
     <link rel="stylesheet" href="{{ asset('assets/css/product.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/category.css') }}">
@@ -53,8 +54,8 @@
             
             <div class="category-card">
                 <div class="category-img-container">
-                    <img src="{{ asset('assets/images/category/foodGroceryImages/oil-bottles.png') }}" class="card-img-top"
-                        alt="Category Image">
+                   <a href="{{ route("singleproduct.oil_bottle") }}"> <img src="{{ asset('assets/images/category/foodGroceryImages/oil-bottles.png') }}" class="card-img-top"
+                        alt="Category Image"></a>
                 </div>
 
                 <div class="category-card-body">
@@ -75,8 +76,8 @@
             </div>
             <div class="category-card">
                 <div class="category-img-container">
-                    <img src="{{ asset('assets/images/category/foodGroceryImages/oil-tin-container.png') }}" class="card-img-top"
-                        alt="Category Image">
+                    <a href="{{ route("singleproduct.oil_container") }}"><img src="{{ asset('assets/images/category/foodGroceryImages/oil-tin-container.png') }}" class="card-img-top"
+                        alt="Category Image"></a>
                 </div>
 
                 <div class="category-card-body">
@@ -96,12 +97,12 @@
             </div>
             <div class="category-card">
                 <div class="category-img-container">
-                    <img src="{{ asset('assets/images/category/foodGroceryImages/oil-pouch.png') }}" class="card-img-top"
-                        alt="Category Image">
+                    <a href="{{ route("singleproduct.oil_pouch") }}" ><img src="{{ asset('assets/images/category/foodGroceryImages/oil-pouch.png') }}" class="card-img-top"
+                        alt="Category Image"></a>
                 </div>
 
                 <div class="category-card-body">
-                    <a href="{{ route("singleproduct.oil_pouch") }}" ><h5 class="category-card-title fw-bolder">Oil Pouch</h5></a>
+                    <a href="{{ route("singleproduct.oil_pouch") }}" > <h5 class="category-card-title fw-bolder">Oil Pouch</h5></a>
                     <span>
                         <i class="fa-solid fa-star" style="color: #FFD700; font-size: 16px;"></i>
                         <i class="fa-solid fa-star" style="color: #FFD700; font-size: 16px;"></i>

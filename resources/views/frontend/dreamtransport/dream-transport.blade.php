@@ -1,4 +1,5 @@
 @extends('layouts.master')
+@section('title', 'Dream Transport')
 @section('extracss')
     <link rel="stylesheet" href="{{ asset('assets/css/dreamtansport.css') }}">
     <!-- <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}"> -->

@@ -1,4 +1,5 @@
 @extends('layouts.master')
+@section('title','Anayatea Leaves')
 @section('extracss')
     <link rel="stylesheet" href="{{ asset('assets/css/product.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/category.css') }}">

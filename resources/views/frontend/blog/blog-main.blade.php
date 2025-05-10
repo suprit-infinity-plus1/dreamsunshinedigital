@@ -1,4 +1,5 @@
 @extends('layouts.master')
+@section('title','Blogs')
 @section('extracss')
     <link rel="stylesheet" href="{{ asset('assets/css/blog-main.css') }}">
 

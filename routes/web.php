@@ -46,19 +46,19 @@ Route::get('/single-product', action: [MainController::class, 'singleproduct'])-
 Route::get('/category/food-grocery', [CategoryController::class, 'foodgrocery'])->name('category.foodgrocery');
 // Route::get('/category/anaya-rice', [CategoryController::class, 'anaya-rice'])->name('category.anaya-rice');
 
-Route::get('/category/iram-dates', [CategoryController::class, 'iramDates'])->name('category.iramdates');
-Route::get('/category/dates', [CategoryController::class, 'dates'])->name('category.dates');
-Route::get('/category/anaya-rice', [CategoryController::class, 'anayaRice'])->name('category.anaya-rice');
-Route::get('/category/dry-fruits', [CategoryController::class, 'dryFruits'])->name('category.dry-fruits');
+Route::get('/category/iram-dates', [CategoryController::class, 'iramDates'])->name('category.iram-dates');
+Route::get('/category/iram-dates/dates', [CategoryController::class, 'dates'])->name('category.dates');
+Route::get('/anaya-rice', [CategoryController::class, 'anayaRice'])->name('category.anaya-rice');
+Route::get('/category/iram-dates/dry-fruits', [CategoryController::class, 'dryFruits'])->name('category.dry-fruits');
 Route::get('/category/pure-cooking-oil', [CategoryController::class, 'oil'])->name('category.oil');
-Route::get('/category/dream-sugar', [CategoryController::class, 'sugar'])->name('category.sugar');
-Route::get('/category/dairy-eggs', [CategoryController::class, 'dairyeggs'])->name('category.dairyeggs');
-Route::get('/category/anaya-dairy', [CategoryController::class, 'dairy'])->name('category.dairy');
-Route::get('/category/real-eggs', [CategoryController::class, 'realeggs'])->name('category.realeggs');
-Route::get('/category/beverages', [CategoryController::class, 'beverages'])->name('category.beverages');
+Route::get('/dream-sugar', [CategoryController::class, 'sugar'])->name('category.sugar');
+Route::get('/category/iram-dates-main', [CategoryController::class, 'iramDatesMain'])->name('category.iramdatesmain');
+Route::get('/anaya-dairy', [CategoryController::class, 'dairy'])->name('category.dairy');
+Route::get('/real-eggs', [CategoryController::class, 'realeggs'])->name('category.realeggs');
+Route::get('/category/real-oxy', [CategoryController::class, 'beverages'])->name('category.beverages');
 Route::get('/category/soft-drinks', [CategoryController::class, 'softDrinks'])->name('category.soft-drinks');
-Route::get('/category/realoxy', [CategoryController::class, 'realoxy'])->name('category.realoxy');
-Route::get('/category/anaya-tea-leave', [CategoryController::class, 'anayatealeave'])->name('category.anayatealeave');
+Route::get('/category/real-oxy-mineralwater', [CategoryController::class, 'realoxy'])->name('category.realoxy');
+Route::get('/anaya-tea-leave', [CategoryController::class, 'anayatealeave'])->name('category.anayatealeave');
 
 Route::prefix('products')->group(function () {
 Route::get(uri: '/rice', action: [MainController::class, 'rice'])->name('singleproduct.rice');

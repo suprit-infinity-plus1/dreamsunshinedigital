@@ -1,4 +1,5 @@
 @extends('layouts.master')
+@section('title','Real Oxy')
 @section('extracss')
     <link rel="stylesheet" href="{{ asset('assets/css/product.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/category.css') }}">
@@ -44,7 +45,7 @@
         <!-- Page Title -->
         <div class="category-banner">
             <img src="{{ asset('assets/images/categoryImages/Category-sample.jpg') }}" alt="">
-            <h4 class="category-banner-title">Home > Beverages</h4>
+            <h4 class="category-banner-title">Home > Real Oxy</h4>
 
         </div>
 
@@ -73,8 +74,8 @@
             </div>
             <div class="category-card">
                 <div class="category-img-container">
-                    <img class="category-card-image" src="{{ asset('assets/images/category/beverages/bebe-orange.png') }}" class="card-img-top"
-                        alt="Category Image" />
+                    <a href="{{ route("singleproduct.orangejuice") }}"><img class="category-card-image" src="{{ asset('assets/images/category/beverages/bebe-orange.png') }}" class="card-img-top"
+                        alt="Category Image" /></a>
                 </div>
 
                 <div class="category-card-body">
@@ -94,8 +95,8 @@
             </div>
             <div class="category-card">
                 <div class="category-img-container">
-                    <img class="category-card-image" src="{{ asset('assets/images/category/beverages/zhakas-jeera.png') }}" class="card-img-top"
-                        alt="Category Image" />
+                   <a href="{{ route("singleproduct.jeeramasala") }}"> <img class="category-card-image" src="{{ asset('assets/images/category/beverages/zhakas-jeera.png') }}" class="card-img-top"
+                        alt="Category Image" /></a>
                 </div>
 
                 <div class="category-card-body">
@@ -116,8 +117,8 @@
        
             <div class="category-card">
                 <div class="category-img-container">
-                    <img class="category-card-image" src="{{ asset('assets/images/category/beverages/beverages-square-bottle.png') }}" class="card-img-top"
-                        alt="Category Image" />
+                                      <a href="{{ route("singleproduct.realoxy1") }}"><img class="category-card-image" src="{{ asset('assets/images/category/beverages/beverages-square-bottle.png') }}" class="card-img-top"
+                        alt="Category Image" /></a>
                 </div>
 
                 <div class="category-card-body">
@@ -137,8 +138,8 @@
             </div>
             <div class="category-card">
                 <div class="category-img-container">
-                    <img class="category-card-image" src="{{ asset('assets/images/category/beverages/beverages-round-bottle.png') }}" class="card-img-top"
-                        alt="Category Image" />
+                   <a href="{{ route("singleproduct.realoxy2") }}"> <img class="category-card-image" src="{{ asset('assets/images/category/beverages/beverages-round-bottle.png') }}" class="card-img-top"
+                        alt="Category Image" /></a>
                 </div>
 
                 <div class="category-card-body">

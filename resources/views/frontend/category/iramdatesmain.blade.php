@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Iram Dates | Dry Fruits')
+@section('title','Iram Dates')
 @section('extracss')
     <link rel="stylesheet" href="{{ asset('assets/css/product.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/category.css') }}">
@@ -45,20 +45,16 @@
         <!-- Page Title -->
         <div class="category-banner">
             <img src="{{ asset('assets/images/categoryImages/Category-sample.jpg') }}" alt="">
-            <h4 class="category-banner-title">Home > Dry Fruits</h4>
+            <h4 class="category-banner-title">Home > Iram Dates</h4>
 
         </div>
 
-
-
-        <h1 class="text-center fw-semibold ">Coming Soon</h1>
         <!-- Category Cards Grid -->
-        <!-- <div class="category-container">
-            
-            <div class="category-card">
+        <div class="category-container">
+             <div class="category-card">
                 <div class="category-img-container">
-                    <img src="{{ asset('assets/images/category/iram dates/datesimage.jpg') }}" class="card-img-top"
-                        alt="Category Image">
+                                       <a href="{{ route("singleproduct.dates") }}"  > <img src="{{ asset('assets/images/category/iram dates/datesimage.jpg') }}" class="card-img-top"
+                        alt="Category Image"></a>
                 </div>
 
                 <div class="category-card-body">
@@ -76,9 +72,6 @@
                     </div>
                 </div>
             </div>
-
-            
-
-        </div> -->
+        </div>
     </div>
 @endsection

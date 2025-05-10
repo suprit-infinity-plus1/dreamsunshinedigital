@@ -1,4 +1,5 @@
 @extends('layouts.master')
+@section('title','Anaya Dairy Products')
 @section('extracss')
     <link rel="stylesheet" href="{{ asset('assets/css/product.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/category.css') }}">
@@ -52,8 +53,8 @@
         <div class="category-container">
             <div class="category-card">
                 <div class="category-img-container">
-                    <img src="{{ asset('assets/images/category/anaya-dairy-product/milk/12.png') }}" class="card-img-top"
-                        alt="Category Image">
+                   <a href="{{ route("singleproduct.milk") }}"> <img src="{{ asset('assets/images/category/anaya-dairy-product/milk/12.png') }}" class="card-img-top"
+                        alt="Category Image"></a>
                 </div>
 
                 <div class="category-card-body">
@@ -73,8 +74,8 @@
             </div>
             <div class="category-card">
                 <div class="category-img-container">
-                    <img class="category-card-image" src="{{ asset('assets/images/category/anaya-dairy-product/milk/6.png') }}" class="card-img-top"
-                        alt="Category Image" />
+                   <a href="{{ route("singleproduct.milkbuffalo") }}"> <img class="category-card-image" src="{{ asset('assets/images/category/anaya-dairy-product/milk/6.png') }}" class="card-img-top"
+                        alt="Category Image" /></a>
                 </div>
 
                 <div class="category-card-body">
@@ -94,8 +95,8 @@
             </div>
             <div class="category-card">
                 <div class="category-img-container">
-                    <img src="{{ asset('assets/images/category/anaya-dairy-product/milk/11.png') }}" class="card-img-top"
-                        alt="Category Image">
+                   <a href="{{ route("singleproduct.milk_tetrapack") }}"> <img src="{{ asset('assets/images/category/anaya-dairy-product/milk/11.png') }}" class="card-img-top"
+                        alt="Category Image"></a>
                 </div>
 
                 <div class="category-card-body">
@@ -115,8 +116,8 @@
             </div>
             <div class="category-card">
                 <div class="category-img-container">
-                    <img src="{{ asset('assets/images/category/anaya-dairy-product/paneer/10.png') }}" class="card-img-top"
-                        alt="Category Image">
+                   <a href="{{ route("singleproduct.paneer") }}"> <img src="{{ asset('assets/images/category/anaya-dairy-product/paneer/10.png') }}" class="card-img-top"
+                        alt="Category Image"></a>
                 </div>
 
                 <div class="category-card-body">
@@ -136,8 +137,8 @@
             </div>
             <div class="category-card">
                 <div class="category-img-container">
-                    <img src="{{ asset('assets/images/category/anaya-dairy-product/ghee/7.png') }}" class="card-img-top"
-                        alt="Category Image">
+                    <a href="{{ route("singleproduct.ghee") }}"><img src="{{ asset('assets/images/category/anaya-dairy-product/ghee/7.png') }}" class="card-img-top"
+                        alt="Category Image"></a>
                 </div>
 
                 <div class="category-card-body">
